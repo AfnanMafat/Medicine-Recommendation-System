@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Recommendation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            padding-top: 80px;
+        }
+
+        .navbar {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 15px 0;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+        }
+
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(15px);
+            padding: 40px;
+            width: 90%;
+            max-width: 800px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        label, select, button {
+            font-size: 1.1em;
+        }
+
+        select {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 1.1em;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .loader {
+            display: none;
+            margin: 20px auto;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #007bff;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .recommendations {
+            display: none;
+            margin-top: 20px;
+            text-align: left;
+        }
+    </style>
+    <script>
+        function getRecommendation() {
+            var symptomId = document.getElementById("symptom").value;
+            if (!symptomId) {
+                alert("Please select a symptom.");
+                return;
+            }
+            
+            document.getElementById("loader").style.display = "block";
+            document.getElementById("recommendations").style.display = "none";
+
+            fetch('/recommendation/get?symptomId=' + symptomId)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("loader").style.display = "none";
+                    let recDiv = document.getElementById("recommendations");
+                    recDiv.innerHTML = "<h2>Recommended Medicines:</h2><ul>" +
+                        data.medicines.map(med => `<li>${med}</li>`).join('') + "</ul>";
+                    recDiv.style.display = "block";
+                })
+                .catch(error => {
+                    document.getElementById("loader").style.display = "none";
+                    alert("Error fetching recommendations.");
+                });
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="/homePage">Home</a></li>
+            <li><a href="/profile">Profile</a></li>
+            <li><a href="/medical-history">Medical History</a></li>
+            <li><a href="/recommendation">New Recommendation</a></li>
+            <li><a href="/diet-recommendation">Diet Recommendations</a></li>
+            <li><a href="/logout">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="welcome-message">
+            <h1>Get a New Recommendation</h1>
+            <p>Select your symptoms to get the best medicine recommendations.</p>
+        </div>
+
+        <div class="recommendation-form">
+            <label for="symptom">Select Symptom:</label>
+            <select id="symptom" name="symptomId" required>
+                <option disabled selected>--Select Symptoms--</option>
+                <option th:each="symptom : ${symptoms}" th:value="${symptom.symptomId}" th:text="${symptom.name}"></option>
+            </select>
+            <button type="button" onclick="getRecommendation()">Get Recommendation</button>
+        </div>
+
+        <div class="loader" id="loader"></div>
+        <div class="recommendations" id="recommendations"></div>
+    </div>
+</body>
+</html>

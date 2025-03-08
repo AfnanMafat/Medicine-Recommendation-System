@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Sign Up</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(15px);
+            padding: 30px;
+            width: 90%;
+            max-width: 400px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #fff;
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background: rgba(255, 255, 255, 0.3);
+            color: #fff;
+        }
+
+        input:focus {
+            border-color: #ff7e5f;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ff7e5f;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #ff4b2b;
+        }
+
+        .error-message {
+            color: #ff4b2b;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form th:action="@{/signup}" th:object="${user}" method="post">
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username" th:field="*{username}" required aria-required="true" aria-label="Username">
+            </div>
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" th:field="*{firstName}" required aria-required="true" aria-label="First Name">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" th:field="*{lastName}" required aria-required="true" aria-label="Last Name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" th:field="*{email}" required aria-required="true" aria-label="Email">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" th:field="*{password}" required aria-required="true" aria-label="Password">
+            </div>
+            <div>
+                <button type="submit">Sign Up</button>
+            </div>
+            <div class="error-message" th:if="${param.error}">
+                An error occurred during sign-up. Please try again.
+            </div>
+        </form>
+    </div>
+</body>
+</html>

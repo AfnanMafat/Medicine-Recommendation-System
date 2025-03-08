@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medical History</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(to right, #1e3c72, #2a5298);
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        padding-top: 80px; /* Adjusted for fixed navbar */
+    }
+
+    .navbar {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        padding: 15px 0;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .navbar ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 0;
+    }
+
+    .navbar ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 10px 15px;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+
+    .navbar ul li a:hover {
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    .container {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(15px);
+        padding: 40px;
+        width: 90%;
+        max-width: 800px;
+        border-radius: 12px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+
+    h1, h2 {
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    .history-item {
+        background: rgba(255, 255, 255, 0.3);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    .history-item p {
+        font-size: 1.1em;
+        color: #fff;
+    }
+
+    .history-item p strong {
+        color: #ff7e5f;
+    }
+
+    .no-history-message {
+        color: #ffcccb;
+        font-style: italic;
+        font-size: 1.2em;
+    }
+</style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="/homePage">Home</a></li>
+            <li><a href="/profile">Profile</a></li>
+            <li><a href="/medical-history">Medical History</a></li>
+            <li><a href="/recommendation">New Recommendation</a></li>
+            <li><a href="/diet-recommendation">Diet Recommendations</a></li>
+            <li><a href="/logout">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="welcome-message">
+            <h1>Your Medical History</h1>
+            <p>Below are your past symptoms and medicines.</p>
+        </div>
+
+        <div class="medical-history-list">
+            <h2>Previous Symptoms and Medicines</h2>
+            <div class="history-item" th:each="history : ${userMedicalHistory}">
+                <p>
+                    <strong>Symptom:</strong> <span th:text="${history.symptom.name}"></span>
+                </p>
+                <p>
+                    <strong>Treatment:</strong> <span th:text="${history.medicine.name}"></span>
+                </p>
+                <p>
+                    <strong>Date Taken:</strong> <span th:text="${history.dateTaken}"></span>
+                </p>
+            </div>
+
+            <p th:if="${#lists.isEmpty(userMedicalHistory)}" class="no-history-message">No medical history available.</p>
+        </div>
+    </div>
+</body>
+</html>
