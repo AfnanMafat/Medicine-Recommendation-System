@@ -47,11 +47,12 @@ public class User_Controller {
 		User FindUser = service.FindUserByUserName(username);
 
 		if ((FindUser == null) == true) {
-			return "redirect:/signup";
+//			return "redirect:/signup";
+			return "loginPage";
 		}
 
 		if (FindUser.getPassword().equals(password) == false) {
-			return "redirect:/loginPage";
+			return "loginPage";
 		}
 
 		model.addAttribute("user", FindUser);
@@ -119,13 +120,13 @@ public class User_Controller {
 //		model.addAttribute("user", user);
 //		return "recommendation";
 //	}
-	
-	@GetMapping("/diet-recommendation")
-	public String diet_recommendations(@ModelAttribute User user, Model model) {
-
-		model.addAttribute("user", user);
-		return "diet-recommendation";
-	}
+//	
+//	@GetMapping("/diet-recommendation")
+//	public String diet_recommendations(@ModelAttribute User user, Model model) {
+//
+//		model.addAttribute("user", user);
+//		return "diet-recommendation";
+//	}
 
 	@GetMapping("/logout")
 	public String logout() {

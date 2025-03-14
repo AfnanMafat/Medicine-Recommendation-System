@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diet Recommendations</title>
+    <title>Diet Recommendation</title>
     <style>
         * {
             margin: 0;
@@ -76,12 +76,33 @@
             font-size: 1.1em;
         }
 
-        select {
+        input[type="text"] {
+            width: 100%;
             padding: 10px;
+            margin-bottom: 10px;
             border-radius: 5px;
             border: none;
-            width: 100%;
-            margin-bottom: 20px;
+            font-size: 1em;
+        }
+
+        .symptom-list {
+            max-height: 200px;
+            overflow-y: auto;
+            text-align: left;
+            padding: 10px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .symptom-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 5px;
+        }
+
+        .symptom-item input[type="checkbox"] {
+            transform: scale(1.2);
         }
 
         button {
@@ -93,6 +114,7 @@
             cursor: pointer;
             width: 100%;
             font-size: 1.1em;
+            margin-top: 10px;
         }
 
         button:hover {
@@ -115,36 +137,55 @@
             100% { transform: rotate(360deg); }
         }
 
-        .diet-recommendations {
+        .recommendations {
             display: none;
             margin-top: 20px;
             text-align: left;
         }
     </style>
+
     <script>
-        function getDietRecommendation() {
-            var symptomId = document.getElementById("symptom").value;
-            if (!symptomId) {
-                alert("Please select a symptom.");
+        function getRecommendation() {
+            var selectedSymptoms = [];
+            document.querySelectorAll('.symptom-checkbox:checked').forEach(checkbox => {
+                selectedSymptoms.push(checkbox.value);
+            });
+
+            if (selectedSymptoms.length === 0) {
+                alert("Please select at least one symptom.");
                 return;
             }
-            
-            document.getElementById("loader").style.display = "block";
-            document.getElementById("diet-recommendations").style.display = "none";
 
-            fetch('/diet-recommendation/get?symptomId=' + symptomId)
+            document.getElementById("loader").style.display = "block";
+            document.getElementById("recommendations").style.display = "none";
+
+            fetch('/recommendation/get?symptomIds=' + selectedSymptoms.join(","))
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById("loader").style.display = "none";
-                    let dietDiv = document.getElementById("diet-recommendations");
-                    dietDiv.innerHTML = "<h2>Recommended Diet Plans:</h2><ul>" +
-                        data.diets.map(diet => `<li>${diet}</li>`).join('') + "</ul>";
-                    dietDiv.style.display = "block";
+                    let recDiv = document.getElementById("recommendations");
+                    recDiv.innerHTML = "<h2>Recommended Medicines:</h2><ul>" +
+                        data.medicines.map(med => `<li>${med}</li>`).join('') + "</ul>";
+                    recDiv.style.display = "block";
                 })
                 .catch(error => {
                     document.getElementById("loader").style.display = "none";
-                    alert("Error fetching diet recommendations.");
+                    alert("Error fetching recommendations.");
                 });
+        }
+
+        function filterSymptoms() {
+            var searchInput = document.getElementById("search").value.toLowerCase();
+            var checkboxes = document.querySelectorAll(".symptom-item");
+
+            checkboxes.forEach(div => {
+                var label = div.querySelector("label").innerText.toLowerCase();
+                if (label.includes(searchInput)) {
+                    div.style.display = "";
+                } else {
+                    div.style.display = "none";
+                }
+            });
         }
     </script>
 </head>
@@ -161,18 +202,26 @@
     </nav>
 
     <div class="container">
-        <h1>Get a Diet Recommendation</h1>
-        <p>Select your symptoms to get the best diet recommendations.</p>
+        <div class="welcome-message">
+            <h1>Get a New Recommendation</h1>
+            <p>Select your symptoms to get the best medicine recommendations.</p>
+        </div>
 
-        <label for="symptom">Select Symptom:</label>
-        <select id="symptom" name="symptomId" required>
-            <option disabled selected>--Select Symptoms--</option>
-            <option th:each="symptom : ${symptoms}" th:value="${symptom.symptomId}" th:text="${symptom.name}"></option>
-        </select>
-        <button type="button" onclick="getDietRecommendation()">Get Diet Recommendation</button>
+        <div class="recommendation-form">
+            <label>Select Symptoms:</label>
+            <input type="text" id="search" placeholder="Search symptoms..." onkeyup="filterSymptoms()">
+
+            <div class="symptom-list" id="symptom-list">
+                <div class="symptom-item" th:each="symptom : ${symptoms}">
+                    <input type="checkbox" th:value="${symptom.symptomId}" name="symptoms" class="symptom-checkbox">
+                    <label th:text="${symptom.name}"></label>
+                </div>
+            </div>
+            <button type="button" onclick="getRecommendation()">Get Recommendation</button>
+        </div>
 
         <div class="loader" id="loader"></div>
-        <div class="diet-recommendations" id="diet-recommendations"></div>
+        <div class="recommendations" id="recommendations"></div>
     </div>
 </body>
 </html>

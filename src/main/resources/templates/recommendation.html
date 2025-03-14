@@ -76,12 +76,37 @@
             font-size: 1.1em;
         }
 
-        select {
+        input[type="text"] {
+            width: 100%;
             padding: 10px;
+            margin-bottom: 10px;
             border-radius: 5px;
             border: none;
-            width: 100%;
-            margin-bottom: 20px;
+            font-size: 1em;
+        }
+        
+		.symptom-checkbox{
+			width: 14px;
+			height :14px;
+		}
+
+        .symptom-list {
+            max-height: 200px;
+            overflow-y: auto;
+            text-align: left;
+            padding: 10px;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .symptom-item {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .symptom-item label {
+            margin-left: 10px;
         }
 
         button {
@@ -93,6 +118,7 @@
             cursor: pointer;
             width: 100%;
             font-size: 1.1em;
+            margin-top: 10px;
         }
 
         button:hover {
@@ -123,16 +149,20 @@
     </style>
     <script>
         function getRecommendation() {
-            var symptomId = document.getElementById("symptom").value;
-            if (!symptomId) {
-                alert("Please select a symptom.");
+            var selectedSymptoms = [];
+            document.querySelectorAll('.symptom-checkbox:checked').forEach(checkbox => {
+                selectedSymptoms.push(checkbox.value);
+            });
+
+            if (selectedSymptoms.length === 0) {
+                alert("Please select at least one symptom.");
                 return;
             }
-            
+
             document.getElementById("loader").style.display = "block";
             document.getElementById("recommendations").style.display = "none";
 
-            fetch('/recommendation/get?symptomId=' + symptomId)
+            fetch('/recommendation/get?symptomIds=' + selectedSymptoms.join(","))
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById("loader").style.display = "none";
@@ -145,6 +175,20 @@
                     document.getElementById("loader").style.display = "none";
                     alert("Error fetching recommendations.");
                 });
+        }
+
+        function filterSymptoms() {
+            var searchInput = document.getElementById("search").value.toLowerCase();
+            var checkboxes = document.querySelectorAll(".symptom-item");
+
+            checkboxes.forEach(div => {
+                var label = div.querySelector("label").innerText.toLowerCase();
+                if (label.includes(searchInput)) {
+                    div.style.display = "";
+                } else {
+                    div.style.display = "none";
+                }
+            });
         }
     </script>
 </head>
@@ -167,11 +211,15 @@
         </div>
 
         <div class="recommendation-form">
-            <label for="symptom">Select Symptom:</label>
-            <select id="symptom" name="symptomId" required>
-                <option disabled selected>--Select Symptoms--</option>
-                <option th:each="symptom : ${symptoms}" th:value="${symptom.symptomId}" th:text="${symptom.name}"></option>
-            </select>
+            <label>Select Symptoms:</label>
+            <input type="text" id="search" placeholder="Search symptoms..." onkeyup="filterSymptoms()">
+
+            <div class="symptom-list" id="symptom-list">
+                <div class="symptom-item" th:each="symptom : ${symptoms}">
+                    <input type="checkbox" th:value="${symptom.symptomId}" name="symptoms" class="symptom-checkbox">
+                    <label th:text="${symptom.name}"></label>
+                </div>
+            </div>
             <button type="button" onclick="getRecommendation()">Get Recommendation</button>
         </div>
 
