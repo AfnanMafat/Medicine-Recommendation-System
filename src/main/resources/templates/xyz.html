@@ -1,12 +1,157 @@
 <!DOCTYPE html>
-<html xmlns:th="www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+    <title>Manual Disease Predictions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        p {
+            margin: 6px 0;
+        }
+    </style>
 </head>
 <body>
 
-	<h1>Hello World <span th:text="${user.firstName}"></span></h1>
-	
+<!-- 1. Acidity -->
+<div class="card">
+    <h2>Disease: Acidity</h2>
+    <p><strong>Description:</strong> Excess acid production in the stomach causing heartburn and discomfort.</p>
+    <p><strong>Symptoms:</strong></p>
+    <ul>
+        <li>Heartburn</li>
+        <li>Indigestion</li>
+        <li>Chest pain</li>
+    </ul>
+    <p><strong>Medications:</strong></p>
+    <ul>
+        <li>Antacids</li>
+        <li>Omeprazole</li>
+        <li>Ranitidine</li>
+    </ul>
+    <p><strong>Precautions:</strong></p>
+    <ul>
+        <li>Avoid spicy food</li>
+        <li>Eat small frequent meals</li>
+        <li>Don’t lie down immediately after eating</li>
+    </ul>
+    <p><strong>Diet:</strong></p>
+    <ul>
+        <li>Bananas</li>
+        <li>Oatmeal</li>
+        <li>Leafy greens</li>
+    </ul>
+    <p><strong>Workout:</strong> Light walking, yoga, avoid heavy lifting.</p>
+</div>
+
+<!-- 2. Acute Liver Failure -->
+<div class="card">
+    <h2>Disease: Acute Liver Failure</h2>
+    <p><strong>Description:</strong> Rapid loss of liver function, often in people without pre-existing liver disease.</p>
+    <p><strong>Symptoms:</strong></p>
+    <ul>
+        <li>Jaundice</li>
+        <li>Fatigue</li>
+        <li>Abdominal swelling</li>
+    </ul>
+    <p><strong>Medications:</strong></p>
+    <ul>
+        <li>Acetylcysteine</li>
+        <li>Liver protectants</li>
+        <li>Antibiotics</li>
+    </ul>
+    <p><strong>Precautions:</strong></p>
+    <ul>
+        <li>Avoid alcohol</li>
+        <li>Regular liver function tests</li>
+        <li>Consult a hepatologist</li>
+    </ul>
+    <p><strong>Diet:</strong></p>
+    <ul>
+        <li>High-protein diet</li>
+        <li>Green vegetables</li>
+        <li>Low sodium food</li>
+    </ul>
+    <p><strong>Workout:</strong> Rest and mild stretching, no intense exercise.</p>
+</div>
+
+<!-- 3. Altered Sensorium -->
+<div class="card">
+    <h2>Disease: Altered Sensorium</h2>
+    <p><strong>Description:</strong> A state of confusion, drowsiness, or unconsciousness due to neurological issues.</p>
+    <p><strong>Symptoms:</strong></p>
+    <ul>
+        <li>Confusion</li>
+        <li>Loss of alertness</li>
+        <li>Disorientation</li>
+    </ul>
+    <p><strong>Medications:</strong></p>
+    <ul>
+        <li>Depends on cause (e.g., antibiotics, anticonvulsants)</li>
+        <li>IV fluids</li>
+        <li>Oxygen support</li>
+    </ul>
+    <p><strong>Precautions:</strong></p>
+    <ul>
+        <li>Monitor vitals</li>
+        <li>Avoid driving or hazardous tasks</li>
+        <li>Seek immediate medical attention</li>
+    </ul>
+    <p><strong>Diet:</strong></p>
+    <ul>
+        <li>Nutritious, balanced food</li>
+        <li>Stay hydrated</li>
+        <li>Low sugar and salt</li>
+    </ul>
+    <p><strong>Workout:</strong> Rest, avoid overexertion, focus on recovery.</p>
+</div>
+
+<!-- 4. Anxiety -->
+<div class="card">
+    <h2>Disease: Anxiety</h2>
+    <p><strong>Description:</strong> A mental health condition marked by feelings of worry, fear, or nervousness.</p>
+    <p><strong>Symptoms:</strong></p>
+    <ul>
+        <li>Excessive worry</li>
+        <li>Increased heart rate</li>
+        <li>Trouble sleeping</li>
+    </ul>
+    <p><strong>Medications:</strong></p>
+    <ul>
+        <li>SSRIs (e.g., Sertraline)</li>
+        <li>Benzodiazepines (short-term)</li>
+        <li>Beta-blockers</li>
+    </ul>
+    <p><strong>Precautions:</strong></p>
+    <ul>
+        <li>Avoid caffeine</li>
+        <li>Practice mindfulness</li>
+        <li>Talk to a counselor</li>
+    </ul>
+    <p><strong>Diet:</strong></p>
+    <ul>
+        <li>Omega-3 fatty acids</li>
+        <li>Green tea</li>
+        <li>Whole grains</li>
+    </ul>
+    <p><strong>Workout:</strong> Deep breathing, meditation, regular light exercises.</p>
+</div>
+
 </body>
 </html>

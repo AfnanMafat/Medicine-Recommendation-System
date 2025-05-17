@@ -1,0 +1,193 @@
+Symptoms,Recommended Medicine,Diet Recommendation
+Symptoms","""Recommended Medicine""","""Diet Recommendation"
+"Fever, cough, runny nose, sore throat""","""Acetaminophen (paracetamol)""","""Plenty of fluids, warm soup, soft bland foods"
+,,
+"Cough, sneezing, nasal congestion, mild fever""","""Antihistamine (loratadine)""","Warm liquids (like tea), soup, honey for throat"
+,,
+"High fever, body aches, chills, fatigue, cough""","""Acetaminophen (paracetamol)"" ","Fluid intake, nutritious soup, soft foods"
+,,
+"Fever, headache, muscle aches, exhaustion""","""Ibuprofen (NSAID)""","""Hydration,high-protein diet, lots of fruits"
+,,
+"Sneezing, itchy eyes, runny nose, scratchy throat""","""Cetirizine (antihistamine)""","Avoid allergens, drink herbal tea, light balanced meals"
+,,
+"Itchy eyes, nasal congestion, sneezing, headache""","""Loratadine (antihistamine)""","Avoid dairy and allergens, plenty of water and fresh fruits"
+,,
+"Wheezing, shortness of breath, chest tightness, cough""","""Inhaler (albuterol)""","Avoid cold air and allergens, well-balanced diet"
+,,
+"Persistent cough, mucus production, fever, fatigue""","""Cough expectorant (guaifenesin)""","Warm fluids, avoid dairy, nutritious soft foods"
+,,
+"Facial pain, nasal congestion, headache, thick nasal discharge""","""Nasal decongestant spray""","Warm fluids, steam inhalation, soft bland diet"
+,,
+"Severe sore throat, fever, swollen glands, headache""","""Antibiotic (amoxicillin)""","Warm liquids, soft foods, avoid spicy or acidic foods"
+,,
+"Ear pain, fever, headache, muffled hearing""","""Antibiotic (amoxicillin)""","""Warm fluids, rest, avoid water in ear"
+,,
+"Runny nose, headache, facial pressure, cough""","""Acetaminophen (paracetamol)""","""Steam inhalation, plenty of fluids, light meals"
+,,
+"Hoarseness, sore throat, cough, difficulty speaking""","""Throat lozenges""","""Warm  tea with honey, soft diet, avoid cold drinks"
+,,
+"Sore throat, mild fever, cough, fatigue""","""Acetaminophen (paracetamol)""","""Warm broths, soft bland foods, honey"
+,,
+"Itchy skin rash, hives, sneezing, watery eyes""","""Antihistamine (diphenhydramine)""","Avoid allergens, cool compress on rash, light diet"
+,,
+"Nausea, vomiting, diarrhea, stomach cramps""","""Oral rehydration solution (ORS)""","Bland diet (bananas, rice, applesauce, toast)"
+,,
+"Abdominal pain, bloating, constipation, gas""","""Fiber supplement (psyllium)""","High-fiber diet (fruits, vegetables, whole grains) with plenty of water"
+,,
+,,
+"Acid reflux, heartburn, regurgitation, belching""","""Proton pump inhibitor (omeprazole)""","""Avoid spicy/fatty foods, small frequent meals, stay upright after eating"
+,,
+,,
+"Diarrhea, dehydration, weakness, thirst""","""Oral rehydration solution (ORS)""","""Clear fluids, electrolytes, bland foods like broth and toast"
+,,
+"Indigestion, bloating, gas, mild abdominal pain""","""Antacid (calcium carbonate)""","""Eat smaller meals, avoid gas-producing foods, chew food slowly"
+,,
+"Constipation, straining, bloating, discomfort""","""Laxative (polyethylene glycol)""","High-fiber diet, prune juice, lots of water"
+,,
+,,
+,,
+,,
+1,,
+,,
+"Nausea after eating, fullness, gas, mild pain""","""Antacid (ranitidine)""","""Avoid spicy/greasy food, eat small frequent meals"
+,,
+"Stomach cramps, fever, chills, dehydration""","""Antibiotic (ciprofloxacin)""","""Hydration, electrolyte drinks, bland diet"
+,,
+"Burning stomach pain after meals, belching, chest discomfort""","""Proton pump inhibitor (esomeprazole)""","""Avoid trigger foods (citrus, coffee), small frequent meals"
+,,
+,,
+"Frequent urination, thirst, tingling in hands, fatigue""","""Metformin (for diabetes)""","""Low-sugar, high-fiber diet, balanced meals"
+,,
+"Blurred vision, frequent urination, fatigue, thirst""","""Metformin (for diabetes)""","""Low-carb diet, consistent meal timing, plenty of water"
+,,
+"Headache, dizziness, vision changes, occasional nosebleeds""","""Lisinopril (for hypertension)""","Low-sodium diet, leafy greens, low-fat dairy"
+,,
+"Headache, nosebleeds, fatigue, vision blurring""","""Amlodipine (for hypertension)""","""Low-salt diet, fruits and vegetables, limit caffeine"
+,,
+"Fatigue, weakness, dizziness, pale skin""","""Iron supplements (ferrous sulfate)""","""Iron-rich foods (spinach, red meat, legumes) and vitamin C"
+,,
+"Joint pain, stiffness, especially in morning, fatigue""","""Ibuprofen (NSAID)""","""Anti-inflammatory diet (fish, nuts, olive oil), avoid processed foods"
+,,
+"Lower back pain, leg numbness, difficulty walking""","""Ibuprofen (pain relief)""","Stay active, maintain good posture, balanced nutrition"
+,,
+"Heel pain, especially in morning, foot arch pain""","""Ibuprofen (NSAID)""","""Ensure supportive footwear, maintain healthy weight, balanced diet"
+,,
+"Itchy eyes, sneezing, congestion, runny nose""","""Cetirizine (antihistamine)""","""Saline nasal spray, avoid pollen, clean bedding regularly"
+,,
+"Hives, itchy skin, swelling of lips, throat irritation""","""Diphenhydramine (antihistamine)""","Avoid trigger foods, cool compress, emergency plan if needed"
+,,
+"Watery diarrhea after eating dairy, bloating, gas""","""Lactase enzyme supplement""","""Avoid lactose foods, use lactose-free products, probiotics"
+,,
+"Diarrhea, cramping, urgency after meals""","""Antispasmodic (dicyclomine)""","""Low-FODMAP diet, small frequent meals, probiotics"
+,,
+"Burning urination, frequent urination, lower abdominal pain""","""Antibiotic (trimethoprim)""","Cranberry juice, hydrate well, avoid irritants (caffeine,alcohol)"
+,,
+,,
+"Back pain, fever, nausea, frequent urination""","""Antibiotic (ciprofloxacin)""","""Hydration, rest, balanced diet"
+,,
+"Red eyes, discharge, itchiness, sensitivity to light""","""Antibiotic eye drops""","Avoid rubbing eyes, practice good hygiene"
+,,
+"Ear fullness, popping, hearing loss, mild pain""","""Decongestant (pseudoephedrine)""","Yawning, chewing gum, avoid sudden pressure changes"
+,,
+"Severe headache, nausea, light sensitivity""","""Sumatriptan (triptan)""","""Rest in a dark room, stay hydrated"
+,,
+"Throbbing headache, nausea, visual aura""","""Rizatriptan (triptan)""","""Avoid trigger foods (aged cheese, red wine), regular meals"
+,,
+"Lower abdominal cramps, back pain, bloating""","""Ibuprofen (NSAID)""","""Avoid caffeine and salty foods, light exercise"
+,,
+"Muscle aches, mild fever, fatigue after travel""","""Ibuprofen (NSAID)""","""Hydration, light nutritious meals, gentle stretches"
+,,
+,,
+,,
+2,,
+,,
+"Nausea, headache, sensitivity to light after drinking alcohol""","""Acetaminophen (paracetamol)""","""Electrolyte drinks, light protein-rich foods"
+,,
+"Extreme thirst, dry mouth, confusion, low urination""","""Oral rehydration solution (ORS)""","Hydrate with water and electrolytes, avoid diuretics"
+,,
+"Sweating, trembling, anxiety, rapid heartbeat""","""Fast-acting carbohydrate (juice)""","""Regular meals, keep snacks (nuts) handy, balanced diet"
+,,
+"Chest tightness, wheezing after exercise, shortness of breath""","""Inhaler (albuterol)""","""Regular moderate exercise, avoid cold environment"
+,,
+"Pressure in forehead, nasal congestion, post-nasal drip""","""Nasal steroid spray""","""Steam inhalation, saline rinse, hydration"
+,,
+"General fatigue, muscle weakness, bone pain, dry skin""","""Vitamin D supplement""","""Calcium-rich foods, sunlight exposure, balanced diet"
+,,
+"Joint pain, swelling, warm joints, fever""","""Ibuprofen (NSAID)""","""Omega-3 rich foods (fish, flaxseed), avoid alcohol"
+,,
+"Chest discomfort after spicy meal, acid regurgitation""","""Antacid (calcium carbonate)""","""Avoid spicy foods, small meals, avoid late-night snacks"
+,,
+"Dry cough, sore throat, mild fever at night""","""Dextromethorphan (cough suppressant)""","""Warm tea with ginger, soft diet, humidifier"
+,,
+"Racing heartbeat, sweating, anxiety, palpitations""","""Diazepam (benzodiazepine)""","""Limit caffeine, hydration, stress management"
+,,
+"Severe joint pain, redness, especially in big toe""","""Colchicine (gout medication)""","""Low-purine diet (avoid red meat, seafood), hydrate well"
+,,
+"Nausea, thirst, dark urine, muscle cramps""","""Oral rehydration solution (ORS)""","""Balanced diet with fruits, limit caffeine and alcohol"
+,,
+"Persistent heartburn, difficulty swallowing, weight loss""","""Pantoprazole (PPI)""","""Small frequent meals, avoid irritants (citrus, coffee)"
+,,
+"Chest pain, nausea after meals, tenderness""","""Acetaminophen (paracetamol)""","""Nutritious high-calorie diet, hydration"
+,,
+"Chronic fatigue, muscle weakness, weight gain""","""Levothyroxine (thyroid hormone)""","""Whole grains, lean protein, fruits, avoid goitrogenic foods"
+,,
+"Excessive daytime sleepiness, loud snoring""","""Evaluate sleep apnea (CPAP)""","""Weight management, avoid alcohol before bed, healthy diet"
+,,
+"Shaking after caffeine, headache, anxiety""","""Avoid caffeine""","""Hydration, magnesium-rich foods, small frequent meals"
+,,
+"Cracked lips, mouth ulcers, sore tongue""","""Vitamin B complex supplement""","""Whole grains, lean proteins, fruits high in B vitamins"
+,,
+"Itchy palms, red eyes, sneezing in spring""","""Cetirizine (antihistamine)""","""Local honey, wash pollen off clothes, vitamin C"
+,,
+"Joint pain after drinking red wine, flushing, headache""","""Ibuprofen (NSAID)""","""Avoid triggers (red wine, cheese), stay hydrated"
+,,
+"Headache, visual aura, numbness on one side of body""","""Sumatriptan (triptan)""","""Rest in a dark room, regular sleep schedule"
+,,
+"Burning feet at night, muscle cramps, numbness""","""Vitamin B12 supplement""","""Balanced diet, magnesium-rich foods, avoid alcohol"
+,,
+"Frequent infections, loss of appetite, fatigue""","""Consult doctor for evaluation""","""Nutritious diet, plenty of protein, hydration"
+,,
+"Loss of appetite, weight loss, fatigue, bruising easily""","""Blood tests and iron supplements""","""Protein-rich diet, fruits and vegetables, iron supplements"
+,,
+,,
+,,
+3,,
+,,
+"Dry, itchy scalp, flaky skin, itchy eyes""","""Ketoconazole shampoo""","""Omega-3 rich diet, avoid harsh hair products"
+,,
+"Gum bleeding, joint pain, fatigue, pale gums""","""Vitamin C and iron supplements""","""Citrus fruits, leafy greens, lean meats"
+,,
+"Fatigue, irritability, tremors, weight loss""","""Levothyroxine (thyroid hormone)""","""High-calorie foods, avoid caffeine, balanced diet"
+,,
+"Snoring, daytime sleepiness, morning headache""","""Sleep study and CPAP if needed""","""Weight loss, avoid alcohol before bed, healthy diet"
+,,
+Temporary palpitations after caffeine","""Reduce caffeine intake""","""Hydration, magnesium-rich foods, small frequent meals"
+,,
+"Bloody diarrhea, fever, abdominal pain""","""Antibiotic (ciprofloxacin)""","""Hydration, electrolyte drinks, bland diet"
+,,
+"Burning in joints, redness, especially great toe""","""Colchicine (gout medication)""","""Low-purine diet, plenty of water"
+,,
+"Numbness, tingling, muscle weakness, weight gain""","""Levothyroxine (thyroid hormone)""","""Iodine-rich foods, whole grains, protein"
+,,
+"Shoulder stiffness, pain, especially in morning""","""NSAIDs (ibuprofen)""","""Maintain healthy posture, balance diet, vitamin D"
+,,
+"Frequent headaches, irregular vision, facial pain""","""Sinus decongestant and antihistamine""","""Hydration, avoid allergen exposure"
+,,
+"Numbness in fingers, weakness, tingling""","""Vitamin B12 supplement""","""B12-rich foods (meat, eggs, dairy), whole grains"
+,,
+"Severe fatigue, sore throat, swollen lymph nodes""","""Acetaminophen (paracetamol)""","""Plenty of fluids, protein-rich soft foods"
+,,
+"Vertigo, nausea, ear pressure""","""Meclizine (antihistamine)""","""Low-sodium diet, hydration, avoid bright lights"
+,,
+"Flushed skin, heavy sweating, headache, muscle cramps""","""Oral rehydration (electrolytes)""","""Electrolyte drinks, cool fluids, light meals"
+,,
+"Dull mid-back pain, worse in morning""","""Ibuprofen (NSAID)""","""Maintain good posture, balanced diet, vitamin D"
+,,
+"Facial redness, sensitivity to sunlight, rash""","""Topical corticosteroid or sunblock""","""Anti-inflammatory foods, avoid sun exposure"
+,,
+,,
+,,
+,,
+,,
+4,,
+,,

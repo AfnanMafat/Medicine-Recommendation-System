@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Recommendation Results</title>
+</head>
+<body>
+    <div th:if="${error}">
+        <p style="color: red;" th:text="${error}"></p>
+    </div>
+    
+    <div th:if="${data}">
+    <h1>Recommendations</h1>
+    <div class="recommendation-box">
+        <h2>Recommended Medicine:</h2>
+        <p th:text="${data.medicine}"></p>
+    </div>
+    <div class="recommendation-box">
+        <h2>Diet Recommendation:</h2>
+        <p th:text="${data.diet}"></p>
+    </div>
+</div>
+
+    <a href="/recommendation">Back to Symptoms Selection</a>
+</body>
+</html>

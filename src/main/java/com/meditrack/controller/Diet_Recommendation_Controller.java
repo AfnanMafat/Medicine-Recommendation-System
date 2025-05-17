@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
 import java.util.List;
@@ -28,5 +29,16 @@ public class Diet_Recommendation_Controller {
 		model.addAttribute("user", user);
 		model.addAttribute("symptoms",list);
 		return "diet-recommendation";
+	}
+	
+	
+	@GetMapping("/diet-chart")
+	public String suggested_diet() {
+		return "diet-chart";
+	}
+	
+	@PostMapping("/diet-chart")
+	public String suggested_diet(Model model) {
+		return "diet-chart";
 	}
 }

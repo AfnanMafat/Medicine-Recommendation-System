@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Sign Up</title>
-    <style>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <style>
         * {
             margin: 0;
             padding: 0;
@@ -13,8 +15,9 @@
         }
 
         body {
-            background: linear-gradient(to right, #1e3c72, #2a5298);
-            color: #fff;
+            background: linear-gradient(rgba(15, 32, 39, 0.85), rgba(15, 32, 39, 0.85)), url('https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
             min-height: 100vh;
             display: flex;
             justify-content: center;
@@ -23,64 +26,95 @@
         }
 
         .container {
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(15px);
+            background: rgba(255, 255, 255, 0.95);
             padding: 30px;
             width: 90%;
             max-width: 400px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            animation: cardEntrance 0.8s ease-out;
+        }
+
+        @keyframes cardEntrance {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         h2 {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            color: #2A5C82; /* Professional Blue */
+            font-size: 2em;
+            text-align: center;
         }
 
         label {
             display: block;
-            margin-bottom: 5px;
-            color: #fff;
+            margin-bottom: 8px;
+            color: #2A5C82; /* Matching Blue */
             text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 500;
         }
 
         input[type="text"],
         input[type="email"],
         input[type="password"] {
             width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-            background: rgba(255, 255, 255, 0.3);
-            color: #fff;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            border: 2px solid #E0F2FE;
+            border-radius: 6px;
+            background: #F7FAFC;
+            color: #2D3748;
+            transition: all 0.3s ease;
+            font-size: 15px;
         }
 
-        input:focus {
-            border-color: #ff7e5f;
-            outline: none;
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus {
+            border-color: #2A5C82;
+            background: #FFFFFF;
+            box-shadow: 0 0 10px rgba(42, 92, 130, 0.1);
         }
 
         button {
             width: 100%;
-            padding: 10px;
-            background-color: #ff7e5f;
-            color: white;
+            padding: 14px;
+            background: linear-gradient(135deg, #2A5C82 0%, #3B82F6 100%);
+            color: #FFFFFF;
             border: none;
-            border-radius: 4px;
+            border-radius: 6px;
             cursor: pointer;
             font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: 15px;
+            letter-spacing: 0.5px;
         }
 
         button:hover {
-            background-color: #ff4b2b;
+            background: linear-gradient(135deg, #1E4A6E 0%, #2563EB 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(42, 92, 130, 0.3);
         }
 
         .error-message {
-            color: #ff4b2b;
-            text-align: center;
-            margin-top: 10px;
+            color: #E53E3E;
+            background: #FED7D7;
+            padding: 12px;
+            border-radius: 6px;
+            margin: 15px 0;
+            font-size: 14px;
+            border: 1px solid #FC8181;
+        }
+
+        .fas {
+            color: #2A5C82;
+            font-size: 18px;
+            min-width: 25px;
         }
     </style>
 </head>
@@ -89,27 +123,27 @@
         <h2>Sign Up</h2>
         <form th:action="@{/signup}" th:object="${user}" method="post">
             <div>
-                <label for="username">Username</label>
+                <label for="username"><i class="fas fa-user"></i> Username</label>
                 <input type="text" id="username" th:field="*{username}" required aria-required="true" aria-label="Username">
             </div>
             <div>
-                <label for="firstName">First Name</label>
+                <label for="firstName"><i class="fas fa-user"></i> First Name</label>
                 <input type="text" id="firstName" th:field="*{firstName}" required aria-required="true" aria-label="First Name">
             </div>
             <div>
-                <label for="lastName">Last Name</label>
+                <label for="lastName"><i class="fas fa-user"></i> Last Name</label>
                 <input type="text" id="lastName" th:field="*{lastName}" required aria-required="true" aria-label="Last Name">
             </div>
             <div>
-                <label for="email">Email</label>
+                <label for="email"><i class="fas fa-envelope"></i> Email</label>
                 <input type="email" id="email" th:field="*{email}" required aria-required="true" aria-label="Email">
             </div>
             <div>
-                <label for="password">Password</label>
+                <label for="password"><i class="fas fa-lock"></i> Password</label>
                 <input type="password" id="password" th:field="*{password}" required aria-required="true" aria-label="Password">
             </div>
             <div>
-                <button type="submit">Sign Up</button>
+                <button type="submit"><i class="fas fa-user-plus"></i> Sign Up</button>
             </div>
             <div class="error-message" th:if="${param.error}">
                 An error occurred during sign-up. Please try again.

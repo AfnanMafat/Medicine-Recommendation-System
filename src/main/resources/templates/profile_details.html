@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Details</title>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         /* General Styling */
         * {
@@ -14,7 +16,9 @@
         }
 
         body {
-            background: linear-gradient(to right, #1e3c72, #2a5298);
+            background: linear-gradient(-45deg, #0a192f, #172a45, #1c3a5f, #2a4a6e); /* Navy Blue Gradient */
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
             color: #fff;
             min-height: 100vh;
             display: flex;
@@ -22,6 +26,12 @@
             align-items: center;
             justify-content: center;
             padding: 20px;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
 
         /* Navbar Styling */
@@ -36,6 +46,7 @@
             display: flex;
             justify-content: center;
             border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            z-index: 1000;
         }
 
         .navbar ul {
@@ -45,21 +56,25 @@
         }
 
         .navbar ul li a {
-            color: white;
+            color: #ffd700; /* Gold */
             text-decoration: none;
             font-size: 1.1em;
             padding: 10px 15px;
             border-radius: 8px;
             transition: 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
 
         .navbar ul li a:hover {
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 215, 0, 0.1); /* Light gold background */
+            transform: translateY(-2px);
         }
 
         /* Glassmorphism Container */
         .container {
-            background: rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(15px);
             padding: 30px;
             width: 90%;
@@ -67,11 +82,19 @@
             border-radius: 12px;
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
             text-align: center;
+            margin-top: 60px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         h1 {
             font-size: 2.2em;
             margin-bottom: 10px;
+            color: #ffd700; /* Gold */
         }
 
         p {
@@ -88,6 +111,16 @@
             border-radius: 8px;
         }
 
+        .profile-info p {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .profile-info strong {
+            color: #ffd700; /* Gold */
+        }
+
         /* Button Styling */
         .btn {
             padding: 12px;
@@ -96,16 +129,19 @@
             border-radius: 8px;
             cursor: pointer;
             font-weight: bold;
-            background: linear-gradient(to right, #ff7e5f, #feb47b);
-            color: white;
+            background: linear-gradient(to right, #ffd700, #ffb700); /* Gold Gradient */
+            color: #0a192f; /* Navy Blue */
             transition: 0.3s;
             text-decoration: none;
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
             margin-top: 15px;
         }
 
         .btn:hover {
-            background: linear-gradient(to right, #ff416c, #ff4b2b);
+            background: linear-gradient(to right, #ffb700, #ff9500); /* Darker Gold Gradient */
             transform: scale(1.05);
         }
 
@@ -122,33 +158,29 @@
     </style>
 </head>
 <body>
-
-    <!-- Navbar -->
     <nav class="navbar">
         <ul>
-            <li><a href="/homePage">Home</a></li>
-            <li><a href="/profile">Profile</a></li>
-            <li><a href="/medical-history">Medical History</a></li>
-            <li><a href="/recommendation">New Recommendation</a></li>
-            <li><a href="/diet-recommendation">Diet Recommendations</a></li>
-            <li><a href="/logout">Logout</a></li>
+            <li><a href="/homePage"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="/profile"><i class="fas fa-user"></i> Profile</a></li>
+            <li><a href="/medical-history"><i class="fas fa-file-medical"></i> Medical History</a></li>
+            <li><a href="/recommendation"><i class="fas fa-pills"></i> New Recommendation</a></li>
+            <!--  <li><a href="/diet-recommendation"><i class="fas fa-utensils"></i> Diet Recommendations</a></li> -->
+            <li><a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
         </ul>
     </nav>
 
-    <!-- Profile Details Container -->
     <div class="container">
         <h1>Profile Details</h1>
         <p>Here are your updated profile details:</p>
 
         <div class="profile-info">
-            <p><strong>First Name:</strong> <span th:text="${user.firstName}"></span></p>
-            <p><strong>Last Name:</strong> <span th:text="${user.lastName}"></span></p>
-            <p><strong>Email:</strong> <span th:text="${user.email}"></span></p>
-            <p><strong>Password:</strong> <span th:text="${user.password}"></span></p>
+            <p><i class="fas fa-user"></i> <strong>First Name:</strong> <span th:text="${user.firstName}"></span></p>
+            <p><i class="fas fa-user"></i> <strong>Last Name:</strong> <span th:text="${user.lastName}"></span></p>
+            <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <span th:text="${user.email}"></span></p>
+            <p><i class="fas fa-lock"></i> <strong>Password:</strong> <span th:text="${user.password}"></span></p>
         </div>
 
-        <a href="/profile" class="btn">Edit Profile</a>
+        <a href="/profile" class="btn"><i class="fas fa-edit"></i> Edit Profile</a>
     </div>
-
 </body>
 </html>

@@ -38,7 +38,7 @@ public class User_Controller {
 
 	@GetMapping("/login")
 	public String home() {
-		return "homePage";
+		return "login";
 	}
 
 	@PostMapping("/login")

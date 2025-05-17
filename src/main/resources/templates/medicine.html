@@ -1,0 +1,696 @@
+<!--  
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthSync - Recommendations</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
+                  url('https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      padding-top: 80px;
+      color: #2D3748;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.97);
+      padding: 30px;
+      width: 90%;
+      max-width: 800px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      animation: cardEntrance 0.8s ease-out;
+    }
+
+    @keyframes cardEntrance {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      color: #2A5C82;
+      font-size: 1.8em;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      background: #F7FAFC;
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #E0F2FE;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #FFFFFF;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #E0F2FE;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.3s ease;
+    }
+
+    li:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(42, 92, 130, 0.1);
+    }
+
+    .buy-button {
+      background: linear-gradient(135deg, #2A5C82 0%, #3B82F6 100%);
+      color: #FFFFFF;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+    }
+
+    .buy-button:hover {
+      background: linear-gradient(135deg, #1E4A6E 0%, #2563EB 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(42, 92, 130, 0.2);
+    }
+
+    .highlight {
+      color: #2A5C82;
+      font-weight: 600;
+      margin-right: 8px;
+    }
+
+    .predicted-disease {
+      background: #2A5C82;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+    }
+
+    .fas {
+      font-size: 1.2em;
+    }
+
+    .error-message {
+      background: #FEE2E2;
+      color: #B91C1C;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .empty-placeholder {
+      text-align: center;
+      color: #4B5563;
+      font-style: italic;
+      font-size: 16px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        width: 95%;
+        padding: 20px;
+      }
+
+      li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="error-message" th:if="${error}">
+      <i class="fas fa-exclamation-triangle"></i>
+      <span th:text="${error}"></span>
+    </div>
+
+    <div class="predicted-disease" th:if="${predictedDisease}">
+      <h2><i class="fas fa-diagnoses"></i> Diagnosis Result</h2>
+      <p><span class="highlight">Condition:</span> 
+         <span th:text="${predictedDisease} ?: 'Unknown condition'"></span>
+      </p>
+      <p><span class="highlight">Description:</span> 
+         <span th:text="${description} ?: 'Description not available'"></span>
+      </p>
+    </div>
+
+    <div class="section" th:if="${not #lists.isEmpty(symptomNames)}">
+      <h2><i class="fas fa-notes-medical"></i> Selected Symptoms</h2>
+      <ul>
+        <li th:each="symptom : ${symptomNames}">
+          <span th:text="${symptom}"></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section" th:if="${not #lists.isEmpty(medications)}">
+      <h2><i class="fas fa-prescription-bottle-alt"></i> Recommended Medications</h2>
+      <ul>
+        <li th:each="med : ${medications}">
+          <span th:text="${med}"></span>
+          <form th:action="@{/buyMedicine}" method="post">
+            <input type="hidden" name="medicineName" th:value="${med}">
+            <button type="submit" class="buy-button">
+              <i class="fas fa-shopping-cart"></i> Purchase
+            </button>
+          </form>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section" th:if="${not #lists.isEmpty(precautions)}">
+      <h2><i class="fas fa-shield-alt"></i> Health Precautions</h2>
+      <ul>
+        <li th:each="pre : ${precautions}" th:text="${pre}"></li>
+      </ul>
+    </div>
+
+    <div class="section" th:if="${not #lists.isEmpty(diet)}">
+      <h2><i class="fas fa-utensils"></i> Nutrition Plan</h2>
+      <ul>
+        <li th:each="d : ${diet}" th:text="${d}"></li>
+      </ul>
+    </div>
+
+    <div class="section" th:if="${workout != 'Exercise recommendations not available'}">
+      <h2><i class="fas fa-running"></i> Exercise Guidance</h2>
+      <p th:text="${workout}"></p>
+    </div>
+
+    <div class="section" th:if="${#lists.isEmpty(medications) and #lists.isEmpty(diet)}">
+      <div class="empty-placeholder">
+        <i class="fas fa-info-circle"></i>
+        No recommendations available for the selected symptoms.
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+-->
+
+<!--  
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthSync - Recommendations</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
+                  url('https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      padding-top: 80px;
+      color: #2D3748;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.97);
+      padding: 30px;
+      width: 90%;
+      max-width: 800px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      animation: cardEntrance 0.8s ease-out;
+    }
+
+    @keyframes cardEntrance {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      color: #2A5C82;
+      font-size: 1.8em;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      background: #F7FAFC;
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #E0F2FE;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #FFFFFF;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #E0F2FE;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.3s ease;
+    }
+
+    li:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(42, 92, 130, 0.1);
+    }
+
+    .buy-button {
+      background: linear-gradient(135deg, #2A5C82 0%, #3B82F6 100%);
+      color: #FFFFFF;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+    }
+
+    .buy-button:hover {
+      background: linear-gradient(135deg, #1E4A6E 0%, #2563EB 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(42, 92, 130, 0.2);
+    }
+
+    .highlight {
+      color: #2A5C82;
+      font-weight: 600;
+      margin-right: 8px;
+    }
+
+    .predicted-disease {
+      background: #2A5C82;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+    }
+
+    .fas {
+      font-size: 1.2em;
+    }
+
+    .error-message {
+      background: #FEE2E2;
+      color: #B91C1C;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .empty-placeholder {
+      text-align: center;
+      color: #4B5563;
+      font-style: italic;
+      font-size: 16px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        width: 95%;
+        padding: 20px;
+      }
+
+      li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="error-message" th:if="${error}">
+      <i class="fas fa-exclamation-triangle"></i>
+      <span th:text="${error}"></span>
+    </div>
+
+    <div class="predicted-disease" th:if="${predictedDisease}">
+      <h2><i class="fas fa-diagnoses"></i> Diagnosis Result</h2>
+      <p><span class="highlight">Condition:</span> 
+         <span th:text="${predictedDisease} ?: 'Unknown condition'"></span>
+      </p>
+      <p><span class="highlight">Description:</span> 
+         <span th:text="${description} ?: 'Description not available'"></span>
+      </p>
+    </div>
+
+    <div class="section" th:if="${not #lists.isEmpty(symptomNames)}">
+      <h2><i class="fas fa-notes-medical"></i> Selected Symptoms</h2>
+      <ul>
+        <li th:each="symptom : ${symptomNames}">
+          <span th:text="${symptom}"></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section" th:if="${not #lists.isEmpty(medications)}">
+      <h2><i class="fas fa-prescription-bottle-alt"></i> Recommended Medications</h2>
+      <ul>
+        <li th:each="med : ${medications}">
+          <span th:text="${med}"></span>
+          <form th:action="@{/buyMedicine}" method="post">
+            <input type="hidden" name="medicineName" th:value="${med}">
+            <button type="submit" class="buy-button">
+              <i class="fas fa-shopping-cart"></i> Purchase
+            </button>
+          </form>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section" th:if="${not #lists.isEmpty(precautions)}">
+      <h2><i class="fas fa-shield-alt"></i> Health Precautions</h2>
+      <ul>
+        <li th:each="pre : ${precautions}" th:text="${pre}"></li>
+      </ul>
+    </div>
+
+    <div class="section" th:if="${not #lists.isEmpty(diet)}">
+      <h2><i class="fas fa-utensils"></i> Nutrition Plan</h2>
+      <ul>
+        <li th:each="d : ${diet}" th:text="${d}"></li>
+      </ul>
+    </div>
+
+    <div class="section" th:if="${not #lists.isEmpty(workout)}">
+      <h2><i class="fas fa-running"></i> Exercise Guidance</h2>
+      <ul>
+        <li th:each="work : ${workout}" th:text="${work}"></li>
+      </ul>
+    </div>
+
+    <div class="section" th:if="${#lists.isEmpty(medications) and #lists.isEmpty(diet) and #lists.isEmpty(precautions) and #lists.isEmpty(workout)}">
+      <div class="empty-placeholder">
+        <i class="fas fa-info-circle"></i>
+        No recommendations available for the selected symptoms.
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+
+-->
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthSync - Recommendations</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),
+                  url('https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80');
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      padding-top: 80px;
+      color: #2D3748;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.97);
+      padding: 30px;
+      width: 90%;
+      max-width: 800px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+      animation: cardEntrance 0.8s ease-out;
+    }
+
+    @keyframes cardEntrance {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      color: #2A5C82;
+      font-size: 1.8em;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+      background: #F7FAFC;
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #E0F2FE;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #FFFFFF;
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #E0F2FE;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.3s ease;
+    }
+
+    li:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(42, 92, 130, 0.1);
+    }
+
+    .buy-button {
+      background: linear-gradient(135deg, #2A5C82 0%, #3B82F6 100%);
+      color: #FFFFFF;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+    }
+
+    .buy-button:hover {
+      background: linear-gradient(135deg, #1E4A6E 0%, #2563EB 100%);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(42, 92, 130, 0.2);
+    }
+
+    .highlight {
+      color: #2A5C82;
+      font-weight: 600;
+      margin-right: 8px;
+    }
+
+    .predicted-disease {
+      background: #2A5C82;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+    }
+
+    .fas {
+      font-size: 1.2em;
+    }
+
+    .error-message {
+      background: #FEE2E2;
+      color: #B91C1C;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .empty-placeholder {
+      text-align: center;
+      color: #4B5563;
+      font-style: italic;
+      font-size: 16px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        width: 95%;
+        padding: 20px;
+      }
+
+      li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Error Display -->
+    <div class="error-message" th:if="${error}">
+      <i class="fas fa-exclamation-triangle"></i>
+      <span th:text="${error}"></span>
+    </div>
+
+    <!-- Predicted Disease -->
+    <div class="predicted-disease" th:if="${predictedDisease}">
+      <h2><i class="fas fa-diagnoses"></i> Diagnosis Result</h2>
+      <p><span class="highlight">Condition:</span> 
+         <span th:text="${predictedDisease} ?: 'Unknown condition'"></span>
+      </p>
+      <p><span class="highlight">Description:</span> 
+         <span th:text="${description} ?: 'Description not available'"></span>
+      </p>
+    </div>
+
+    <!-- Symptoms -->
+    <div class="section" th:if="${not #lists.isEmpty(symptomNames)}">
+      <h2><i class="fas fa-notes-medical"></i> Selected Symptoms</h2>
+      <ul>
+        <li th:each="symptom : ${symptomNames}">
+          <span th:text="${symptom}"></span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Medications -->
+    <div class="section" th:if="${not #lists.isEmpty(medications)}">
+      <h2><i class="fas fa-prescription-bottle-alt"></i> Recommended Medications</h2>
+      <ul>
+        <li th:each="med : ${medications}">
+          <span th:text="${med}"></span>
+          <form th:action="@{/buyMedicine}" method="post">
+            <input type="hidden" name="medicineName" th:value="${med}">
+            <button type="submit" class="buy-button">
+              <i class="fas fa-shopping-cart"></i> Purchase
+            </button>
+          </form>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Precautions -->
+    <div class="section" th:if="${not #lists.isEmpty(precautions)}">
+      <h2><i class="fas fa-shield-alt"></i> Health Precautions</h2>
+      <ul>
+        <li th:each="pre : ${precautions}" th:text="${pre}"></li>
+      </ul>
+    </div>
+
+    <!-- Diet Plan -->
+    <div class="section" th:if="${not #lists.isEmpty(diet)}">
+      <h2><i class="fas fa-utensils"></i> Nutrition Plan</h2>
+      <ul>
+        <li th:each="d : ${diet}" th:text="${d}"></li>
+      </ul>
+    </div>
+
+    <!-- Exercise Plan -->
+    <div class="section" th:if="${workout != 'Exercise recommendations not available'}">
+      <h2><i class="fas fa-running"></i> Exercise Guidance</h2>
+      <p th:text="${workout}"></p>
+    </div>
+
+    <!-- Fallback -->
+    <div class="section" th:if="${#lists.isEmpty(medications) and #lists.isEmpty(diet)}">
+      <div class="empty-placeholder">
+        <i class="fas fa-info-circle"></i>
+        No recommendations available for the selected symptoms.
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+

@@ -11,5 +11,11 @@ public class Recommendation_Service {
 	@Autowired
 	Recommendation_Repository recommendation_Repository;
 	
+//	public List<Medicine> MedicinesList(){
+//		
+//		List<Medicine> list = new ArrayList<Medicine>();
+//		return null;
+//		
+//	}
 	
 }
