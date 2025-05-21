@@ -94,11 +94,12 @@ public class User_Controller {
 		return "loginPage";
 	}
 
-	@GetMapping("/homePage")
-	public String homePage() {
-
-		return "homePage";
-	}
+//	@GetMapping("/homePage")
+//	public String homePage(@ModelAttribute("response") respons,Model model) {
+//
+//		model.addAllAttributes(response);
+//		return "homePage";
+//	}
 
 	@GetMapping("/profile")
 	public String profile(@ModelAttribute User user, Model model) {

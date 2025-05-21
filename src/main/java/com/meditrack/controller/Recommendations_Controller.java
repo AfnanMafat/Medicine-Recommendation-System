@@ -21,7 +21,7 @@ import com.meditrack.service.Medicine_Service;
 import com.meditrack.service.Symptoms_Service;
 
 @Controller
-@SessionAttributes({ "user", "Names", "symptoms" })
+@SessionAttributes({ "user", "Names", "symptoms" ,"response"})
 public class Recommendations_Controller {
 
 	@Autowired
@@ -53,17 +53,18 @@ public class Recommendations_Controller {
 		return "show_medicine";
 
 	}
+	
+	Map<String, String> response;
 
 	@PostMapping("/show_medicine")
 	public String getRecommendations(@RequestParam List<String> symptoms, Model model) {
 	    String pythonApiUrl = "http://localhost:5000/predict";
 	    
-	    // Create request body with symptoms list
 	    Map<String, Object> requestBody = new HashMap<>();
 	    requestBody.put("symptoms", symptoms);
 
 	    try {
-	        Map<String, String> response = restTemplate.postForObject(
+	        response = restTemplate.postForObject(
 	            pythonApiUrl, 
 	            requestBody, 
 	            Map.class
@@ -74,6 +75,13 @@ public class Recommendations_Controller {
 	    }
 	    
 	    return "ShowResult";
+	}
+	
+	@GetMapping("/homePage")
+	public String homePage(Model model) {
+
+		model.addAttribute("data", response);
+		return "homePage";
 	}
 
 	@GetMapping("/buyMedicine")

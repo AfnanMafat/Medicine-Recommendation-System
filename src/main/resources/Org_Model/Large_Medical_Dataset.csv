@@ -1,0 +1,5001 @@
+Disease,Symptom,Medicine
+Heart Disease,Muscle Weakness,Isoniazid
+Bronchitis,Joint Pain,Adalimumab
+Eczema,Night Sweats,Budesonide
+Sinusitis,Diarrhea,Terbinafine
+Osteoporosis,Shortness of breath,Ciprofloxacin
+Acne,Fever,Prednisone
+Malaria,High Blood Pressure,Ibuprofen
+Chronic Kidney Disease,Night Sweats,Ciprofloxacin
+Migraine,Joint Pain,Aspirin
+Bronchitis,Chest Pain,Metformin
+Influenza,Diarrhea,Loratadine
+Pneumonia,Headache,Aspirin
+Acne,Loss of Appetite,Levothyroxine
+COVID-19,Abdominal Pain,Budesonide
+Lung Cancer,Red Eyes,Paracetamol
+Chronic Kidney Disease,Weight Loss,Sildenafil
+Heart Disease,Blurred Vision,Levothyroxine
+Typhoid,High Blood Pressure,Metformin
+Epilepsy,Headache,Metformin
+Hypertension,Back Pain,Ondansetron
+Hepatitis,Tremors,Omeprazole
+Chickenpox,Back Pain,Azithromycin
+Pneumonia,Nausea,Calamine Lotion
+Tuberculosis,Muscle Weakness,Sildenafil
+Glaucoma,Dizziness,Propranolol
+Jaundice,Shortness of breath,Terbinafine
+Asthma,Itching,Levothyroxine
+Dengue,Swelling,Ciprofloxacin
+Vertigo,Muscle Weakness,Propranolol
+Osteoporosis,Abdominal Pain,Adalimumab
+Arthritis,Diarrhea,Ondansetron
+Multiple Sclerosis,Abdominal Pain,Ciprofloxacin
+Fungal Infection,Swelling,Omeprazole
+Epilepsy,Shortness of breath,Ranitidine
+Allergy,Rapid Heartbeat,Budesonide
+Psoriasis,Skin Rash,Prednisone
+Gastroenteritis,Back Pain,Calamine Lotion
+Acne,Swollen Lymph Nodes,Omeprazole
+Multiple Sclerosis,Loss of Appetite,Propranolol
+Sinusitis,Skin Rash,Azithromycin
+Chronic Kidney Disease,Joint Pain,Budesonide
+Bronchitis,Cough,Chloroquine
+Heart Disease,Nausea,Metformin
+Lung Cancer,Loss of Appetite,Amoxicillin
+Dengue,Sore Throat,Omeprazole
+Psoriasis,Chest Pain,Sildenafil
+Peptic Ulcer,Red Eyes,Amoxicillin
+Common Cold,Numbness,Prednisone
+Heart Disease,Runny Nose,Glibenclamide
+Migraine,Weight Loss,Losartan
+Urinary Tract Infection,Nausea,Rifampin
+Zika Virus,Blurred Vision,Azithromycin
+Malaria,Swollen Lymph Nodes,Levothyroxine
+Sinusitis,High Blood Pressure,Budesonide
+Chronic Kidney Disease,Joint Pain,Doxycycline
+Glaucoma,Blurred Vision,Topiramate
+Typhoid,Tremors,Isoniazid
+Psoriasis,Swelling,Terbinafine
+Whooping Cough,Blurred Vision,Loratadine
+Typhoid,Weight Loss,Metformin
+Lung Cancer,Tremors,Terbinafine
+Gastroenteritis,Chest Pain,Amoxicillin
+Heart Disease,Skin Rash,Propranolol
+Tuberculosis,Diarrhea,Sildenafil
+Hypertension,Weight Loss,Glibenclamide
+Peptic Ulcer,Swollen Lymph Nodes,Loperamide
+Glaucoma,Joint Pain,Budesonide
+Sinusitis,Fever,Doxycycline
+Hypertension,Itching,Budesonide
+Asthma,Diarrhea,Chloroquine
+Whooping Cough,Swollen Lymph Nodes,Sildenafil
+COVID-19,High Blood Pressure,Loratadine
+Common Cold,Headache,Omeprazole
+Fungal Infection,Dizziness,Loratadine
+Heart Disease,Joint Pain,Loratadine
+Hepatitis,Skin Rash,Terbinafine
+Glaucoma,Cough,Budesonide
+Multiple Sclerosis,Runny Nose,Ondansetron
+Ulcerative Colitis,High Blood Pressure,Ibuprofen
+Dengue,Chest Pain,Omeprazole
+Vertigo,Itching,Chloroquine
+Tuberculosis,Fatigue,Paracetamol
+Arthritis,Cough,Sumatriptan
+Epilepsy,Back Pain,Losartan
+Eczema,Muscle Weakness,Sildenafil
+Hypertension,Night Sweats,Adalimumab
+Chronic Kidney Disease,Tremors,Azithromycin
+Glaucoma,High Blood Pressure,Losartan
+Osteoporosis,Abdominal Pain,Terbinafine
+Allergy,Itching,Paracetamol
+Eczema,Muscle Weakness,Hydrocortisone
+Sinusitis,Blurred Vision,Levothyroxine
+Heart Disease,Loss of Appetite,Amoxicillin
+Dengue,Vomiting,Levothyroxine
+Typhoid,Skin Rash,Isoniazid
+Diabetes,Night Sweats,Topiramate
+Arthritis,Tremors,Doxycycline
+Dengue,Dizziness,Propranolol
+Asthma,Weight Loss,Omeprazole
+Sinusitis,Fatigue,Metformin
+Hepatitis,Blurred Vision,Losartan
+Diabetes,Back Pain,Chloroquine
+Jaundice,Back Pain,Metformin
+Hypertension,Fatigue,Ondansetron
+Eczema,Red Eyes,Rifampin
+Whooping Cough,Back Pain,Paracetamol
+Chickenpox,Ear Pain,Ranitidine
+Vertigo,Dizziness,Paracetamol
+Zika Virus,Chest Pain,Hydrocortisone
+Influenza,Back Pain,Sumatriptan
+Malaria,Sore Throat,Hydrocortisone
+Jaundice,Diarrhea,Calamine Lotion
+Eczema,Cough,Cetirizine
+Influenza,Joint Pain,Topiramate
+Hypertension,Weight Loss,Budesonide
+Osteoporosis,Numbness,Loratadine
+Hepatitis,Diarrhea,Glibenclamide
+Gastroenteritis,Rapid Heartbeat,Metformin
+Arthritis,Skin Rash,Propranolol
+Typhoid,Swollen Lymph Nodes,Prednisone
+Jaundice,Abdominal Pain,Budesonide
+Heart Disease,Vomiting,Sildenafil
+Fungal Infection,Chest Pain,Omeprazole
+Gastroenteritis,Tremors,Glibenclamide
+Lung Cancer,Weight Loss,Loperamide
+Pneumonia,Chest Pain,Propranolol
+Gastroenteritis,Joint Pain,Adalimumab
+Urinary Tract Infection,Headache,Topiramate
+Multiple Sclerosis,Skin Rash,Budesonide
+Allergy,Rapid Heartbeat,Losartan
+Arthritis,Weight Loss,Budesonide
+Lung Cancer,Red Eyes,Ranitidine
+Zika Virus,Fatigue,Loperamide
+Asthma,Vomiting,Hydrocortisone
+Urinary Tract Infection,Red Eyes,Ranitidine
+Psoriasis,Dizziness,Hydrocortisone
+Chronic Kidney Disease,Skin Rash,Cetirizine
+Influenza,Rapid Heartbeat,Hydrocortisone
+Chickenpox,Vomiting,Adalimumab
+Eczema,Numbness,Losartan
+Arthritis,Headache,Adalimumab
+Eczema,Headache,Propranolol
+Tuberculosis,Fatigue,Hydrocortisone
+Chickenpox,High Blood Pressure,Isoniazid
+Heart Disease,Runny Nose,Doxycycline
+Sinusitis,Red Eyes,Azithromycin
+Zika Virus,Loss of Appetite,Budesonide
+Osteoporosis,Swollen Lymph Nodes,Metformin
+Sinusitis,Chest Pain,Propranolol
+Epilepsy,Fatigue,Ibuprofen
+Arthritis,Runny Nose,Ciprofloxacin
+Diabetes,Swelling,Propranolol
+Pneumonia,Runny Nose,Azithromycin
+Bronchitis,Runny Nose,Loratadine
+Typhoid,High Blood Pressure,Topiramate
+Dengue,Blurred Vision,Paracetamol
+Fungal Infection,Dizziness,Paracetamol
+Zika Virus,Itching,Rifampin
+Typhoid,Swollen Lymph Nodes,Sumatriptan
+Eczema,Red Eyes,Prednisone
+Allergy,Night Sweats,Rifampin
+Whooping Cough,Blurred Vision,Azithromycin
+Migraine,Fever,Doxycycline
+Jaundice,Tremors,Metformin
+Diabetes,Night Sweats,Hydrocortisone
+Bronchitis,Vomiting,Isoniazid
+Bronchitis,Loss of Appetite,Sumatriptan
+Sinusitis,Dizziness,Propranolol
+COVID-19,Blurred Vision,Chloroquine
+Lung Cancer,Diarrhea,Sumatriptan
+Vertigo,Red Eyes,Amoxicillin
+Typhoid,Swelling,Ibuprofen
+Whooping Cough,Abdominal Pain,Hydrocortisone
+Lung Cancer,Shortness of breath,Losartan
+Tuberculosis,Abdominal Pain,Topiramate
+Eczema,Shortness of breath,Ciprofloxacin
+Fungal Infection,Fever,Sumatriptan
+Allergy,Vomiting,Metformin
+Common Cold,Loss of Appetite,Ciprofloxacin
+Arthritis,Skin Rash,Paracetamol
+COVID-19,Loss of Appetite,Rifampin
+Sinusitis,Loss of Appetite,Isoniazid
+Hypertension,Loss of Appetite,Topiramate
+Hepatitis,Muscle Weakness,Levothyroxine
+Bronchitis,High Blood Pressure,Adalimumab
+Migraine,Numbness,Cetirizine
+Common Cold,Shortness of breath,Doxycycline
+COVID-19,Rapid Heartbeat,Topiramate
+Hypertension,Loss of Appetite,Adalimumab
+Chickenpox,High Blood Pressure,Sumatriptan
+Hypertension,Cough,Azithromycin
+Multiple Sclerosis,Tremors,Ranitidine
+Whooping Cough,Abdominal Pain,Isoniazid
+Zika Virus,Rapid Heartbeat,Cetirizine
+Hepatitis,Muscle Weakness,Isoniazid
+Allergy,Blurred Vision,Amoxicillin
+Glaucoma,Red Eyes,Cetirizine
+Gastroenteritis,Numbness,Cetirizine
+Fungal Infection,Itching,Isoniazid
+Acne,Fever,Ibuprofen
+Multiple Sclerosis,Loss of Appetite,Cetirizine
+Tuberculosis,Loss of Appetite,Topiramate
+Gastroenteritis,Back Pain,Omeprazole
+Lung Cancer,Blurred Vision,Amoxicillin
+Allergy,Shortness of breath,Omeprazole
+Jaundice,Loss of Appetite,Levothyroxine
+Hypertension,High Blood Pressure,Ibuprofen
+Tuberculosis,Loss of Appetite,Ondansetron
+Tuberculosis,Red Eyes,Terbinafine
+Diabetes,Nausea,Amoxicillin
+Acne,Blurred Vision,Ranitidine
+Glaucoma,Tremors,Chloroquine
+Malaria,Back Pain,Sildenafil
+Bronchitis,Runny Nose,Cetirizine
+Pneumonia,Weight Loss,Hydrocortisone
+Asthma,Red Eyes,Doxycycline
+Dengue,Loss of Appetite,Loperamide
+Influenza,Headache,Ciprofloxacin
+Asthma,Diarrhea,Levothyroxine
+Peptic Ulcer,Loss of Appetite,Ibuprofen
+Vertigo,Cough,Hydrocortisone
+Tuberculosis,Tremors,Ranitidine
+Common Cold,Swollen Lymph Nodes,Glibenclamide
+Arthritis,Vomiting,Hydrocortisone
+Hepatitis,Dizziness,Ondansetron
+Malaria,Rapid Heartbeat,Azithromycin
+Lung Cancer,Chest Pain,Aspirin
+Glaucoma,Blurred Vision,Propranolol
+Diabetes,Cough,Terbinafine
+COVID-19,Tremors,Rifampin
+Vertigo,Dizziness,Levothyroxine
+Epilepsy,Runny Nose,Hydrocortisone
+Typhoid,Vomiting,Prednisone
+Arthritis,Loss of Appetite,Rifampin
+Peptic Ulcer,Runny Nose,Azithromycin
+Osteoporosis,Diarrhea,Adalimumab
+Migraine,Loss of Appetite,Topiramate
+Hepatitis,Shortness of breath,Loperamide
+Multiple Sclerosis,Chest Pain,Rifampin
+Bronchitis,Rapid Heartbeat,Prednisone
+Jaundice,Headache,Prednisone
+Malaria,Red Eyes,Ondansetron
+Chickenpox,High Blood Pressure,Prednisone
+Arthritis,Joint Pain,Azithromycin
+Common Cold,Skin Rash,Adalimumab
+Glaucoma,Vomiting,Rifampin
+Arthritis,Joint Pain,Ibuprofen
+Zika Virus,Night Sweats,Ranitidine
+Common Cold,Tremors,Levothyroxine
+Eczema,Itching,Azithromycin
+Ulcerative Colitis,Muscle Weakness,Terbinafine
+Osteoporosis,Abdominal Pain,Doxycycline
+Zika Virus,Fatigue,Topiramate
+Urinary Tract Infection,Weight Loss,Ranitidine
+Arthritis,Loss of Appetite,Aspirin
+Psoriasis,Nausea,Azithromycin
+Asthma,Red Eyes,Calamine Lotion
+Epilepsy,Rapid Heartbeat,Calamine Lotion
+Fungal Infection,Rapid Heartbeat,Metformin
+Psoriasis,Dizziness,Propranolol
+Chickenpox,Sore Throat,Isoniazid
+Fungal Infection,Ear Pain,Amoxicillin
+Peptic Ulcer,Tremors,Doxycycline
+Chickenpox,Loss of Appetite,Terbinafine
+Common Cold,Chest Pain,Glibenclamide
+Migraine,Diarrhea,Ciprofloxacin
+Sinusitis,Dizziness,Omeprazole
+Hypertension,Loss of Appetite,Ciprofloxacin
+Asthma,Diarrhea,Aspirin
+Hepatitis,Swelling,Levothyroxine
+Diabetes,Tremors,Paracetamol
+Pneumonia,Numbness,Paracetamol
+Eczema,Red Eyes,Isoniazid
+Gastroenteritis,Dizziness,Terbinafine
+Zika Virus,Night Sweats,Glibenclamide
+Diabetes,Fatigue,Loratadine
+Sinusitis,Skin Rash,Prednisone
+Acne,Fatigue,Terbinafine
+COVID-19,Shortness of breath,Amoxicillin
+Hepatitis,Numbness,Ciprofloxacin
+Psoriasis,Fatigue,Sumatriptan
+Whooping Cough,Dizziness,Chloroquine
+Influenza,Numbness,Sumatriptan
+Osteoporosis,Back Pain,Calamine Lotion
+Hepatitis,Tremors,Losartan
+Hepatitis,Runny Nose,Calamine Lotion
+Psoriasis,Back Pain,Ondansetron
+Influenza,Shortness of breath,Doxycycline
+Eczema,Numbness,Terbinafine
+Acne,Red Eyes,Ibuprofen
+Diabetes,Shortness of breath,Rifampin
+Peptic Ulcer,Red Eyes,Doxycycline
+Lung Cancer,Back Pain,Propranolol
+Dengue,Fatigue,Rifampin
+Lung Cancer,Red Eyes,Aspirin
+Lung Cancer,Cough,Terbinafine
+Asthma,Blurred Vision,Hydrocortisone
+Vertigo,Muscle Weakness,Loratadine
+Epilepsy,Red Eyes,Ciprofloxacin
+Fungal Infection,Chest Pain,Omeprazole
+Chickenpox,Headache,Isoniazid
+Vertigo,Tremors,Aspirin
+Multiple Sclerosis,Diarrhea,Metformin
+Osteoporosis,Blurred Vision,Ondansetron
+Glaucoma,Fever,Sumatriptan
+Common Cold,Sore Throat,Sumatriptan
+Malaria,Loss of Appetite,Loratadine
+Fungal Infection,Red Eyes,Ciprofloxacin
+COVID-19,Skin Rash,Glibenclamide
+Allergy,Chest Pain,Aspirin
+Gastroenteritis,Numbness,Hydrocortisone
+COVID-19,Headache,Cetirizine
+Peptic Ulcer,Weight Loss,Aspirin
+Arthritis,Tremors,Ciprofloxacin
+Migraine,Back Pain,Ibuprofen
+Vertigo,Back Pain,Aspirin
+Whooping Cough,Tremors,Losartan
+Eczema,Itching,Sumatriptan
+Tuberculosis,Fever,Adalimumab
+Multiple Sclerosis,Cough,Isoniazid
+Eczema,Back Pain,Ondansetron
+Bronchitis,Tremors,Glibenclamide
+Dengue,Sore Throat,Amoxicillin
+Osteoporosis,Dizziness,Ondansetron
+Sinusitis,Chest Pain,Ibuprofen
+Multiple Sclerosis,Vomiting,Ibuprofen
+Multiple Sclerosis,Swollen Lymph Nodes,Ciprofloxacin
+Chickenpox,Headache,Glibenclamide
+Dengue,Tremors,Propranolol
+Jaundice,Joint Pain,Glibenclamide
+Ulcerative Colitis,Muscle Weakness,Prednisone
+Acne,Fever,Propranolol
+Peptic Ulcer,Abdominal Pain,Terbinafine
+Ulcerative Colitis,Diarrhea,Loratadine
+Migraine,Weight Loss,Ondansetron
+Jaundice,Swollen Lymph Nodes,Loperamide
+Urinary Tract Infection,Abdominal Pain,Topiramate
+Chickenpox,Night Sweats,Ciprofloxacin
+Vertigo,Itching,Cetirizine
+Psoriasis,Itching,Topiramate
+Multiple Sclerosis,Abdominal Pain,Loratadine
+Heart Disease,Night Sweats,Calamine Lotion
+Gastroenteritis,Ear Pain,Hydrocortisone
+Asthma,Shortness of breath,Azithromycin
+Arthritis,Itching,Calamine Lotion
+Epilepsy,Runny Nose,Azithromycin
+Malaria,Blurred Vision,Adalimumab
+Eczema,High Blood Pressure,Hydrocortisone
+Tuberculosis,Back Pain,Paracetamol
+Acne,Muscle Weakness,Chloroquine
+Fungal Infection,Ear Pain,Terbinafine
+Tuberculosis,Itching,Aspirin
+Arthritis,Rapid Heartbeat,Isoniazid
+Influenza,Headache,Amoxicillin
+COVID-19,Back Pain,Ciprofloxacin
+Vertigo,Rapid Heartbeat,Adalimumab
+Pneumonia,Headache,Levothyroxine
+Typhoid,Weight Loss,Ranitidine
+Zika Virus,Blurred Vision,Loratadine
+Ulcerative Colitis,Chest Pain,Rifampin
+Jaundice,Joint Pain,Loratadine
+Peptic Ulcer,Ear Pain,Chloroquine
+Epilepsy,Back Pain,Amoxicillin
+Jaundice,Night Sweats,Metformin
+Gastroenteritis,Blurred Vision,Omeprazole
+Urinary Tract Infection,Dizziness,Sumatriptan
+Gastroenteritis,Itching,Amoxicillin
+Osteoporosis,Cough,Paracetamol
+Asthma,Loss of Appetite,Ranitidine
+Zika Virus,Vomiting,Loratadine
+Dengue,Loss of Appetite,Omeprazole
+Dengue,Night Sweats,Levothyroxine
+Peptic Ulcer,Red Eyes,Paracetamol
+Fungal Infection,Rapid Heartbeat,Ondansetron
+Ulcerative Colitis,Itching,Rifampin
+COVID-19,Skin Rash,Terbinafine
+Multiple Sclerosis,Rapid Heartbeat,Cetirizine
+Psoriasis,Itching,Prednisone
+Hypertension,Abdominal Pain,Metformin
+Jaundice,Tremors,Glibenclamide
+Malaria,Runny Nose,Prednisone
+Fungal Infection,Numbness,Aspirin
+Chickenpox,High Blood Pressure,Budesonide
+Lung Cancer,High Blood Pressure,Doxycycline
+Sinusitis,Joint Pain,Chloroquine
+Jaundice,Skin Rash,Isoniazid
+Tuberculosis,Night Sweats,Ondansetron
+Psoriasis,Fever,Isoniazid
+Eczema,High Blood Pressure,Azithromycin
+Whooping Cough,Loss of Appetite,Sumatriptan
+Gastroenteritis,Vomiting,Loratadine
+Jaundice,Swelling,Amoxicillin
+Osteoporosis,Chest Pain,Loratadine
+Heart Disease,High Blood Pressure,Azithromycin
+Fungal Infection,Sore Throat,Loperamide
+Influenza,Itching,Ibuprofen
+Multiple Sclerosis,Diarrhea,Hydrocortisone
+Sinusitis,Loss of Appetite,Propranolol
+Migraine,High Blood Pressure,Terbinafine
+COVID-19,Fever,Loratadine
+Hypertension,Muscle Weakness,Propranolol
+Gastroenteritis,Vomiting,Adalimumab
+Bronchitis,Tremors,Hydrocortisone
+Peptic Ulcer,Diarrhea,Isoniazid
+Ulcerative Colitis,Weight Loss,Cetirizine
+Hypertension,Blurred Vision,Budesonide
+Acne,Night Sweats,Sumatriptan
+COVID-19,Numbness,Paracetamol
+Migraine,Tremors,Calamine Lotion
+Lung Cancer,Headache,Budesonide
+Tuberculosis,Night Sweats,Aspirin
+Psoriasis,Diarrhea,Levothyroxine
+Bronchitis,Abdominal Pain,Azithromycin
+Diabetes,Headache,Levothyroxine
+Fungal Infection,Abdominal Pain,Adalimumab
+Fungal Infection,High Blood Pressure,Chloroquine
+COVID-19,Rapid Heartbeat,Isoniazid
+Vertigo,Blurred Vision,Propranolol
+Hypertension,Cough,Doxycycline
+Peptic Ulcer,Runny Nose,Sildenafil
+Vertigo,Nausea,Topiramate
+Asthma,Skin Rash,Prednisone
+Allergy,Runny Nose,Rifampin
+Epilepsy,Night Sweats,Amoxicillin
+Eczema,Skin Rash,Omeprazole
+Gastroenteritis,Cough,Paracetamol
+Arthritis,High Blood Pressure,Ondansetron
+Eczema,Runny Nose,Adalimumab
+Osteoporosis,Dizziness,Aspirin
+Pneumonia,Sore Throat,Azithromycin
+Psoriasis,Cough,Terbinafine
+Ulcerative Colitis,Fatigue,Ciprofloxacin
+Ulcerative Colitis,Abdominal Pain,Doxycycline
+Influenza,Rapid Heartbeat,Ondansetron
+Psoriasis,Fever,Sumatriptan
+COVID-19,Joint Pain,Levothyroxine
+Jaundice,Weight Loss,Loratadine
+Whooping Cough,Muscle Weakness,Terbinafine
+Psoriasis,Sore Throat,Doxycycline
+Jaundice,Abdominal Pain,Hydrocortisone
+Common Cold,Swollen Lymph Nodes,Omeprazole
+Vertigo,Itching,Amoxicillin
+Arthritis,Dizziness,Levothyroxine
+Lung Cancer,Tremors,Amoxicillin
+Urinary Tract Infection,Nausea,Doxycycline
+Chronic Kidney Disease,Ear Pain,Adalimumab
+Multiple Sclerosis,Red Eyes,Terbinafine
+Allergy,Chest Pain,Paracetamol
+Tuberculosis,Fatigue,Losartan
+Chickenpox,Itching,Loratadine
+Osteoporosis,Joint Pain,Levothyroxine
+Allergy,Night Sweats,Glibenclamide
+Migraine,Swelling,Sildenafil
+Jaundice,Headache,Prednisone
+Asthma,Chest Pain,Amoxicillin
+Whooping Cough,Loss of Appetite,Doxycycline
+Arthritis,Shortness of breath,Sildenafil
+Fungal Infection,Skin Rash,Glibenclamide
+Osteoporosis,Vomiting,Ciprofloxacin
+Gastroenteritis,Chest Pain,Topiramate
+Hypertension,Swelling,Cetirizine
+Bronchitis,Cough,Adalimumab
+Acne,Vomiting,Topiramate
+Jaundice,Sore Throat,Omeprazole
+Fungal Infection,Blurred Vision,Ibuprofen
+Vertigo,Muscle Weakness,Propranolol
+Epilepsy,Ear Pain,Topiramate
+Jaundice,Muscle Weakness,Calamine Lotion
+Bronchitis,Sore Throat,Losartan
+Typhoid,Itching,Chloroquine
+Dengue,Back Pain,Doxycycline
+Glaucoma,Joint Pain,Isoniazid
+Glaucoma,Blurred Vision,Losartan
+Asthma,Night Sweats,Doxycycline
+Diabetes,Headache,Loratadine
+Hepatitis,Tremors,Sumatriptan
+Heart Disease,Joint Pain,Ciprofloxacin
+Lung Cancer,Tremors,Sumatriptan
+Hepatitis,Fever,Hydrocortisone
+Arthritis,Runny Nose,Ondansetron
+Diabetes,Rapid Heartbeat,Budesonide
+Psoriasis,Runny Nose,Propranolol
+COVID-19,Sore Throat,Losartan
+COVID-19,Fatigue,Terbinafine
+Chickenpox,Cough,Paracetamol
+Diabetes,Night Sweats,Azithromycin
+Epilepsy,Skin Rash,Glibenclamide
+Migraine,Chest Pain,Amoxicillin
+Psoriasis,Joint Pain,Cetirizine
+Ulcerative Colitis,Cough,Cetirizine
+Pneumonia,Weight Loss,Budesonide
+Hypertension,Weight Loss,Isoniazid
+COVID-19,Abdominal Pain,Rifampin
+Diabetes,Tremors,Hydrocortisone
+Psoriasis,Night Sweats,Azithromycin
+Arthritis,Night Sweats,Levothyroxine
+Hepatitis,Numbness,Glibenclamide
+Typhoid,Dizziness,Loratadine
+Whooping Cough,Swelling,Sumatriptan
+Multiple Sclerosis,Tremors,Omeprazole
+Multiple Sclerosis,Night Sweats,Loperamide
+Bronchitis,Headache,Rifampin
+Jaundice,Headache,Chloroquine
+Peptic Ulcer,Night Sweats,Levothyroxine
+Sinusitis,Blurred Vision,Ranitidine
+COVID-19,Ear Pain,Terbinafine
+Common Cold,Loss of Appetite,Losartan
+Epilepsy,Joint Pain,Azithromycin
+Acne,Tremors,Propranolol
+Pneumonia,Tremors,Omeprazole
+Vertigo,Loss of Appetite,Glibenclamide
+Whooping Cough,Cough,Losartan
+Vertigo,Swollen Lymph Nodes,Losartan
+Influenza,Skin Rash,Ranitidine
+Osteoporosis,Blurred Vision,Ondansetron
+Malaria,Shortness of breath,Paracetamol
+Tuberculosis,Tremors,Rifampin
+Common Cold,Loss of Appetite,Ondansetron
+Tuberculosis,Fever,Sumatriptan
+Ulcerative Colitis,Ear Pain,Aspirin
+Allergy,Swelling,Losartan
+Dengue,Dizziness,Ibuprofen
+Peptic Ulcer,Swelling,Azithromycin
+Migraine,High Blood Pressure,Ondansetron
+Hepatitis,Muscle Weakness,Hydrocortisone
+Vertigo,Skin Rash,Amoxicillin
+Glaucoma,Tremors,Metformin
+Ulcerative Colitis,Night Sweats,Doxycycline
+Hypertension,Runny Nose,Aspirin
+COVID-19,Shortness of breath,Ranitidine
+Migraine,Loss of Appetite,Rifampin
+Heart Disease,Diarrhea,Adalimumab
+Glaucoma,Tremors,Isoniazid
+Arthritis,Back Pain,Glibenclamide
+Arthritis,Night Sweats,Azithromycin
+Arthritis,Night Sweats,Doxycycline
+Fungal Infection,Itching,Prednisone
+Chickenpox,Cough,Ciprofloxacin
+Asthma,Back Pain,Chloroquine
+Fungal Infection,Diarrhea,Sildenafil
+Chronic Kidney Disease,Chest Pain,Ibuprofen
+Tuberculosis,Dizziness,Loratadine
+Dengue,Joint Pain,Metformin
+Tuberculosis,Dizziness,Azithromycin
+Lung Cancer,Loss of Appetite,Rifampin
+COVID-19,Weight Loss,Ondansetron
+Pneumonia,Loss of Appetite,Loperamide
+Osteoporosis,Fatigue,Chloroquine
+Bronchitis,Tremors,Ibuprofen
+Peptic Ulcer,Dizziness,Ciprofloxacin
+Tuberculosis,Runny Nose,Topiramate
+Urinary Tract Infection,Numbness,Loratadine
+Chronic Kidney Disease,Muscle Weakness,Topiramate
+Typhoid,Headache,Ondansetron
+Malaria,High Blood Pressure,Metformin
+Eczema,Fever,Ciprofloxacin
+Sinusitis,Abdominal Pain,Prednisone
+Influenza,High Blood Pressure,Chloroquine
+Vertigo,Back Pain,Isoniazid
+Hepatitis,Swollen Lymph Nodes,Amoxicillin
+Gastroenteritis,Blurred Vision,Glibenclamide
+Sinusitis,Red Eyes,Terbinafine
+Psoriasis,Diarrhea,Paracetamol
+Hypertension,High Blood Pressure,Budesonide
+Sinusitis,Sore Throat,Terbinafine
+Eczema,Red Eyes,Adalimumab
+Migraine,Red Eyes,Budesonide
+Asthma,Loss of Appetite,Isoniazid
+Asthma,Blurred Vision,Sildenafil
+Zika Virus,Loss of Appetite,Glibenclamide
+Vertigo,Fever,Metformin
+Chickenpox,Headache,Glibenclamide
+Jaundice,Cough,Levothyroxine
+Psoriasis,Numbness,Sildenafil
+Eczema,Fever,Terbinafine
+Peptic Ulcer,Numbness,Calamine Lotion
+Dengue,Sore Throat,Cetirizine
+Fungal Infection,High Blood Pressure,Loratadine
+Osteoporosis,Ear Pain,Paracetamol
+Zika Virus,Swollen Lymph Nodes,Prednisone
+Psoriasis,Shortness of breath,Paracetamol
+Dengue,Weight Loss,Glibenclamide
+Zika Virus,Vomiting,Isoniazid
+Vertigo,High Blood Pressure,Glibenclamide
+Gastroenteritis,Red Eyes,Isoniazid
+Malaria,Swollen Lymph Nodes,Loperamide
+Influenza,Ear Pain,Rifampin
+Hepatitis,Numbness,Loratadine
+Fungal Infection,Shortness of breath,Hydrocortisone
+Heart Disease,Weight Loss,Ciprofloxacin
+Zika Virus,Fatigue,Calamine Lotion
+Urinary Tract Infection,Diarrhea,Ondansetron
+Migraine,Weight Loss,Paracetamol
+Gastroenteritis,Muscle Weakness,Aspirin
+Malaria,Joint Pain,Propranolol
+Glaucoma,Shortness of breath,Losartan
+Multiple Sclerosis,Muscle Weakness,Paracetamol
+Osteoporosis,Fever,Prednisone
+Ulcerative Colitis,Rapid Heartbeat,Loratadine
+Influenza,Numbness,Ranitidine
+Pneumonia,Back Pain,Ranitidine
+Hepatitis,Muscle Weakness,Sumatriptan
+Allergy,Cough,Cetirizine
+Zika Virus,Numbness,Rifampin
+Typhoid,Night Sweats,Budesonide
+Allergy,Fever,Sildenafil
+Hypertension,Sore Throat,Propranolol
+Psoriasis,Back Pain,Loratadine
+Peptic Ulcer,Ear Pain,Rifampin
+Zika Virus,Night Sweats,Chloroquine
+Eczema,Dizziness,Rifampin
+Typhoid,Skin Rash,Omeprazole
+Migraine,Night Sweats,Loratadine
+Influenza,Ear Pain,Ondansetron
+Psoriasis,Chest Pain,Prednisone
+Influenza,Back Pain,Calamine Lotion
+Common Cold,Nausea,Isoniazid
+Dengue,Dizziness,Ranitidine
+Chickenpox,Swelling,Levothyroxine
+Fungal Infection,Muscle Weakness,Calamine Lotion
+Epilepsy,Rapid Heartbeat,Budesonide
+Ulcerative Colitis,Back Pain,Adalimumab
+Psoriasis,Fever,Chloroquine
+Peptic Ulcer,Diarrhea,Chloroquine
+Peptic Ulcer,Skin Rash,Chloroquine
+Hypertension,Shortness of breath,Doxycycline
+Migraine,Loss of Appetite,Rifampin
+Pneumonia,Swelling,Cetirizine
+Lung Cancer,Fatigue,Ciprofloxacin
+Epilepsy,Loss of Appetite,Isoniazid
+Allergy,Nausea,Adalimumab
+Hepatitis,Shortness of breath,Losartan
+Whooping Cough,Cough,Ranitidine
+Malaria,Headache,Ibuprofen
+Migraine,Skin Rash,Ondansetron
+Psoriasis,Dizziness,Ibuprofen
+Hepatitis,Ear Pain,Calamine Lotion
+Eczema,Headache,Rifampin
+Urinary Tract Infection,Swelling,Sildenafil
+Psoriasis,Headache,Aspirin
+Bronchitis,Muscle Weakness,Loperamide
+Typhoid,Skin Rash,Metformin
+Whooping Cough,Tremors,Propranolol
+Arthritis,Fever,Omeprazole
+Allergy,Muscle Weakness,Omeprazole
+Common Cold,Chest Pain,Ciprofloxacin
+Asthma,Loss of Appetite,Losartan
+Hypertension,Chest Pain,Prednisone
+Gastroenteritis,Swollen Lymph Nodes,Levothyroxine
+Peptic Ulcer,Red Eyes,Calamine Lotion
+Asthma,Fatigue,Calamine Lotion
+Malaria,Fatigue,Ciprofloxacin
+Eczema,Runny Nose,Omeprazole
+Peptic Ulcer,Ear Pain,Glibenclamide
+Whooping Cough,Back Pain,Ciprofloxacin
+Chronic Kidney Disease,Rapid Heartbeat,Calamine Lotion
+Osteoporosis,High Blood Pressure,Doxycycline
+Tuberculosis,Shortness of breath,Levothyroxine
+Ulcerative Colitis,Numbness,Isoniazid
+Gastroenteritis,Joint Pain,Isoniazid
+Acne,Cough,Azithromycin
+Ulcerative Colitis,Fatigue,Isoniazid
+Migraine,Swelling,Loperamide
+Lung Cancer,Cough,Azithromycin
+Influenza,Back Pain,Cetirizine
+Pneumonia,Cough,Loperamide
+COVID-19,Numbness,Azithromycin
+Chickenpox,Tremors,Prednisone
+Jaundice,Blurred Vision,Propranolol
+Peptic Ulcer,Blurred Vision,Ibuprofen
+Sinusitis,Swollen Lymph Nodes,Budesonide
+Acne,Numbness,Terbinafine
+Hypertension,Tremors,Sildenafil
+Psoriasis,Abdominal Pain,Chloroquine
+Eczema,Weight Loss,Rifampin
+Migraine,Numbness,Ibuprofen
+Urinary Tract Infection,Itching,Omeprazole
+Urinary Tract Infection,Nausea,Omeprazole
+Chronic Kidney Disease,Numbness,Cetirizine
+COVID-19,Numbness,Adalimumab
+Multiple Sclerosis,Swollen Lymph Nodes,Ciprofloxacin
+COVID-19,Diarrhea,Terbinafine
+Allergy,Numbness,Amoxicillin
+Gastroenteritis,Muscle Weakness,Propranolol
+Dengue,Night Sweats,Loperamide
+Epilepsy,Swollen Lymph Nodes,Budesonide
+Migraine,Dizziness,Amoxicillin
+Ulcerative Colitis,Runny Nose,Adalimumab
+Hepatitis,Itching,Isoniazid
+Fungal Infection,Runny Nose,Isoniazid
+Migraine,Swelling,Metformin
+Migraine,Night Sweats,Aspirin
+Common Cold,Joint Pain,Budesonide
+Dengue,Muscle Weakness,Prednisone
+Typhoid,Diarrhea,Loratadine
+Psoriasis,Joint Pain,Isoniazid
+Fungal Infection,Back Pain,Ciprofloxacin
+Bronchitis,Red Eyes,Ranitidine
+COVID-19,Vomiting,Calamine Lotion
+Glaucoma,Vomiting,Azithromycin
+Urinary Tract Infection,Shortness of breath,Loperamide
+Allergy,Swollen Lymph Nodes,Cetirizine
+Arthritis,Numbness,Rifampin
+Hypertension,Shortness of breath,Omeprazole
+Chickenpox,Tremors,Ciprofloxacin
+Zika Virus,Skin Rash,Propranolol
+Peptic Ulcer,Cough,Azithromycin
+Asthma,Headache,Ranitidine
+Chickenpox,Diarrhea,Propranolol
+Malaria,Nausea,Cetirizine
+Heart Disease,Blurred Vision,Ondansetron
+Arthritis,Chest Pain,Ciprofloxacin
+Chronic Kidney Disease,Swelling,Ranitidine
+Migraine,Loss of Appetite,Propranolol
+Vertigo,Runny Nose,Loperamide
+Acne,Sore Throat,Prednisone
+Fungal Infection,Numbness,Terbinafine
+Bronchitis,Chest Pain,Rifampin
+Malaria,Diarrhea,Aspirin
+Arthritis,Headache,Losartan
+Lung Cancer,Shortness of breath,Terbinafine
+Migraine,Numbness,Losartan
+Multiple Sclerosis,Runny Nose,Ibuprofen
+Jaundice,Dizziness,Topiramate
+COVID-19,Night Sweats,Ranitidine
+Pneumonia,Abdominal Pain,Sildenafil
+Malaria,Dizziness,Propranolol
+Allergy,Blurred Vision,Isoniazid
+Arthritis,Swelling,Ciprofloxacin
+Fungal Infection,Red Eyes,Isoniazid
+Urinary Tract Infection,Swollen Lymph Nodes,Glibenclamide
+Dengue,Cough,Chloroquine
+Influenza,Back Pain,Ranitidine
+Psoriasis,Sore Throat,Hydrocortisone
+Pneumonia,Loss of Appetite,Hydrocortisone
+Pneumonia,Shortness of breath,Glibenclamide
+Migraine,Swollen Lymph Nodes,Topiramate
+Sinusitis,Back Pain,Rifampin
+Typhoid,Abdominal Pain,Ranitidine
+Hepatitis,Fatigue,Aspirin
+Peptic Ulcer,Vomiting,Ciprofloxacin
+Lung Cancer,Numbness,Azithromycin
+Allergy,Numbness,Loratadine
+Bronchitis,Runny Nose,Ciprofloxacin
+Vertigo,Chest Pain,Budesonide
+Whooping Cough,Red Eyes,Ciprofloxacin
+Fungal Infection,Loss of Appetite,Budesonide
+Influenza,Diarrhea,Ciprofloxacin
+Multiple Sclerosis,Swelling,Calamine Lotion
+Arthritis,Vomiting,Azithromycin
+Dengue,Swollen Lymph Nodes,Glibenclamide
+Heart Disease,Swelling,Ranitidine
+Osteoporosis,Nausea,Ciprofloxacin
+Malaria,Fatigue,Azithromycin
+Diabetes,Swelling,Prednisone
+Tuberculosis,Blurred Vision,Loperamide
+Hepatitis,Abdominal Pain,Prednisone
+Migraine,Muscle Weakness,Sumatriptan
+Dengue,Abdominal Pain,Losartan
+Sinusitis,Numbness,Ibuprofen
+Psoriasis,Headache,Doxycycline
+Peptic Ulcer,Sore Throat,Terbinafine
+Hypertension,Cough,Chloroquine
+Gastroenteritis,Skin Rash,Levothyroxine
+Multiple Sclerosis,Numbness,Losartan
+Multiple Sclerosis,Fatigue,Aspirin
+Vertigo,Fatigue,Levothyroxine
+Migraine,Fatigue,Hydrocortisone
+Sinusitis,Shortness of breath,Azithromycin
+Tuberculosis,Cough,Paracetamol
+Pneumonia,Rapid Heartbeat,Calamine Lotion
+Tuberculosis,Night Sweats,Sildenafil
+Bronchitis,Rapid Heartbeat,Metformin
+Urinary Tract Infection,Shortness of breath,Terbinafine
+Multiple Sclerosis,Fever,Prednisone
+Diabetes,Sore Throat,Ibuprofen
+Peptic Ulcer,Weight Loss,Prednisone
+Allergy,Back Pain,Losartan
+Glaucoma,Shortness of breath,Isoniazid
+Psoriasis,Dizziness,Aspirin
+Vertigo,Cough,Isoniazid
+Allergy,Vomiting,Aspirin
+Pneumonia,Itching,Ranitidine
+COVID-19,Runny Nose,Rifampin
+Typhoid,Shortness of breath,Levothyroxine
+Zika Virus,Blurred Vision,Topiramate
+Heart Disease,Chest Pain,Topiramate
+Hypertension,Swelling,Doxycycline
+Diabetes,Headache,Calamine Lotion
+Malaria,Shortness of breath,Chloroquine
+Asthma,Swelling,Omeprazole
+Migraine,Runny Nose,Terbinafine
+Hepatitis,Itching,Propranolol
+Zika Virus,Fatigue,Aspirin
+Typhoid,Fever,Ondansetron
+Hypertension,Swollen Lymph Nodes,Adalimumab
+Glaucoma,Dizziness,Losartan
+Multiple Sclerosis,Vomiting,Aspirin
+Psoriasis,Ear Pain,Isoniazid
+Ulcerative Colitis,Ear Pain,Doxycycline
+Migraine,Chest Pain,Ibuprofen
+COVID-19,Abdominal Pain,Paracetamol
+Dengue,Muscle Weakness,Topiramate
+Hepatitis,Tremors,Ciprofloxacin
+Ulcerative Colitis,Headache,Calamine Lotion
+Arthritis,Fatigue,Propranolol
+Malaria,Shortness of breath,Glibenclamide
+Multiple Sclerosis,Shortness of breath,Sumatriptan
+Migraine,Ear Pain,Rifampin
+Allergy,Headache,Aspirin
+Epilepsy,Joint Pain,Prednisone
+Chronic Kidney Disease,Red Eyes,Azithromycin
+Eczema,Joint Pain,Azithromycin
+Diabetes,Shortness of breath,Budesonide
+Eczema,Back Pain,Ranitidine
+Eczema,Loss of Appetite,Omeprazole
+Influenza,Vomiting,Ondansetron
+Urinary Tract Infection,Cough,Doxycycline
+Lung Cancer,Cough,Adalimumab
+Typhoid,Diarrhea,Chloroquine
+Pneumonia,Cough,Topiramate
+Tuberculosis,Headache,Topiramate
+Glaucoma,Skin Rash,Prednisone
+Jaundice,Blurred Vision,Levothyroxine
+Epilepsy,Weight Loss,Ondansetron
+Whooping Cough,Red Eyes,Propranolol
+COVID-19,Itching,Cetirizine
+Sinusitis,Back Pain,Adalimumab
+Peptic Ulcer,Blurred Vision,Losartan
+Tuberculosis,Blurred Vision,Loratadine
+Jaundice,Rapid Heartbeat,Rifampin
+Chickenpox,Swelling,Cetirizine
+Tuberculosis,Swollen Lymph Nodes,Sumatriptan
+Jaundice,Joint Pain,Sildenafil
+Whooping Cough,Night Sweats,Chloroquine
+Diabetes,Tremors,Aspirin
+Osteoporosis,Fatigue,Calamine Lotion
+Arthritis,Muscle Weakness,Ondansetron
+Multiple Sclerosis,Swelling,Azithromycin
+Ulcerative Colitis,Shortness of breath,Ranitidine
+Osteoporosis,Nausea,Sildenafil
+Multiple Sclerosis,High Blood Pressure,Metformin
+Psoriasis,Fatigue,Loperamide
+Allergy,High Blood Pressure,Sildenafil
+Whooping Cough,Red Eyes,Cetirizine
+Ulcerative Colitis,Fatigue,Propranolol
+COVID-19,Cough,Losartan
+Diabetes,Runny Nose,Paracetamol
+Common Cold,Muscle Weakness,Ibuprofen
+COVID-19,Numbness,Paracetamol
+Fungal Infection,Swelling,Sumatriptan
+Influenza,Abdominal Pain,Hydrocortisone
+Arthritis,Vomiting,Rifampin
+Epilepsy,Fatigue,Paracetamol
+Glaucoma,Vomiting,Azithromycin
+Urinary Tract Infection,Cough,Adalimumab
+Vertigo,Numbness,Terbinafine
+Allergy,Nausea,Ranitidine
+Whooping Cough,Fever,Doxycycline
+Multiple Sclerosis,Dizziness,Azithromycin
+Lung Cancer,Nausea,Ranitidine
+Diabetes,Fever,Chloroquine
+Epilepsy,Swelling,Prednisone
+Chronic Kidney Disease,Rapid Heartbeat,Aspirin
+Typhoid,Dizziness,Chloroquine
+Psoriasis,Ear Pain,Azithromycin
+Arthritis,Headache,Topiramate
+Urinary Tract Infection,Tremors,Hydrocortisone
+Migraine,Joint Pain,Chloroquine
+Zika Virus,Fever,Ibuprofen
+Sinusitis,Cough,Topiramate
+Malaria,Chest Pain,Loperamide
+Common Cold,Red Eyes,Omeprazole
+Common Cold,Red Eyes,Doxycycline
+Urinary Tract Infection,Rapid Heartbeat,Hydrocortisone
+Hypertension,Joint Pain,Doxycycline
+Chronic Kidney Disease,Runny Nose,Terbinafine
+Osteoporosis,Fatigue,Ranitidine
+Jaundice,Weight Loss,Levothyroxine
+Hypertension,Back Pain,Adalimumab
+Acne,Dizziness,Calamine Lotion
+Acne,Shortness of breath,Budesonide
+Hepatitis,Abdominal Pain,Adalimumab
+Acne,Sore Throat,Ranitidine
+Glaucoma,Headache,Amoxicillin
+Typhoid,Fever,Amoxicillin
+Pneumonia,Muscle Weakness,Ranitidine
+Dengue,Fatigue,Loratadine
+Hypertension,Vomiting,Cetirizine
+Chronic Kidney Disease,Shortness of breath,Terbinafine
+Multiple Sclerosis,Sore Throat,Aspirin
+Heart Disease,Fever,Doxycycline
+Zika Virus,Muscle Weakness,Topiramate
+Common Cold,Fever,Budesonide
+Vertigo,Weight Loss,Sildenafil
+Vertigo,Blurred Vision,Aspirin
+Tuberculosis,Swelling,Losartan
+Dengue,Cough,Levothyroxine
+Asthma,Tremors,Adalimumab
+Typhoid,Skin Rash,Sumatriptan
+Pneumonia,Weight Loss,Calamine Lotion
+Arthritis,Tremors,Terbinafine
+Zika Virus,Sore Throat,Metformin
+Osteoporosis,Ear Pain,Doxycycline
+Bronchitis,Runny Nose,Topiramate
+Zika Virus,Fever,Doxycycline
+Peptic Ulcer,Chest Pain,Hydrocortisone
+COVID-19,Weight Loss,Rifampin
+Multiple Sclerosis,Muscle Weakness,Loperamide
+Typhoid,Vomiting,Hydrocortisone
+Peptic Ulcer,Fatigue,Ondansetron
+Peptic Ulcer,Muscle Weakness,Doxycycline
+Gastroenteritis,Vomiting,Cetirizine
+Multiple Sclerosis,Headache,Ciprofloxacin
+Epilepsy,Fever,Azithromycin
+Pneumonia,Tremors,Azithromycin
+Multiple Sclerosis,Loss of Appetite,Ranitidine
+Peptic Ulcer,Sore Throat,Budesonide
+Bronchitis,Sore Throat,Omeprazole
+Chickenpox,Nausea,Metformin
+Gastroenteritis,Headache,Ciprofloxacin
+Asthma,Numbness,Omeprazole
+Influenza,Muscle Weakness,Ciprofloxacin
+Gastroenteritis,Diarrhea,Aspirin
+Peptic Ulcer,Muscle Weakness,Budesonide
+Peptic Ulcer,Joint Pain,Levothyroxine
+Sinusitis,Back Pain,Azithromycin
+Lung Cancer,Vomiting,Budesonide
+Asthma,Fever,Cetirizine
+Psoriasis,Night Sweats,Cetirizine
+Eczema,Muscle Weakness,Sumatriptan
+Bronchitis,Back Pain,Paracetamol
+Tuberculosis,Shortness of breath,Topiramate
+Gastroenteritis,Rapid Heartbeat,Aspirin
+Hypertension,Skin Rash,Cetirizine
+Zika Virus,Rapid Heartbeat,Omeprazole
+Common Cold,Fatigue,Calamine Lotion
+Sinusitis,Tremors,Loperamide
+Dengue,Swelling,Hydrocortisone
+Zika Virus,Fever,Topiramate
+Eczema,Vomiting,Ibuprofen
+Dengue,Ear Pain,Paracetamol
+Tuberculosis,Skin Rash,Budesonide
+Fungal Infection,Skin Rash,Prednisone
+Gastroenteritis,Tremors,Cetirizine
+COVID-19,Dizziness,Ciprofloxacin
+Lung Cancer,Itching,Prednisone
+Influenza,Joint Pain,Cetirizine
+Glaucoma,Swelling,Cetirizine
+COVID-19,Weight Loss,Losartan
+Typhoid,Red Eyes,Adalimumab
+Epilepsy,Runny Nose,Topiramate
+COVID-19,Dizziness,Metformin
+Hepatitis,Swelling,Sildenafil
+Osteoporosis,Fever,Azithromycin
+Chronic Kidney Disease,Blurred Vision,Loratadine
+Jaundice,Muscle Weakness,Azithromycin
+Epilepsy,Red Eyes,Amoxicillin
+Acne,High Blood Pressure,Sumatriptan
+Arthritis,Back Pain,Rifampin
+Acne,Back Pain,Glibenclamide
+Malaria,Loss of Appetite,Omeprazole
+Hepatitis,Sore Throat,Prednisone
+Gastroenteritis,Tremors,Prednisone
+Diabetes,Vomiting,Ibuprofen
+Acne,Tremors,Losartan
+Arthritis,Shortness of breath,Ibuprofen
+Lung Cancer,Shortness of breath,Loperamide
+Gastroenteritis,Muscle Weakness,Ondansetron
+Zika Virus,Red Eyes,Hydrocortisone
+Osteoporosis,Back Pain,Chloroquine
+Migraine,Sore Throat,Prednisone
+Urinary Tract Infection,Night Sweats,Loperamide
+Vertigo,Nausea,Ciprofloxacin
+Bronchitis,Headache,Paracetamol
+Bronchitis,Back Pain,Levothyroxine
+Migraine,Numbness,Prednisone
+Multiple Sclerosis,Weight Loss,Rifampin
+Migraine,Rapid Heartbeat,Isoniazid
+Lung Cancer,Loss of Appetite,Aspirin
+Migraine,Diarrhea,Metformin
+Sinusitis,Weight Loss,Levothyroxine
+Epilepsy,Runny Nose,Amoxicillin
+Malaria,Rapid Heartbeat,Losartan
+Gastroenteritis,Dizziness,Prednisone
+Arthritis,Dizziness,Ibuprofen
+Arthritis,Swollen Lymph Nodes,Adalimumab
+Influenza,Abdominal Pain,Loratadine
+Whooping Cough,Swollen Lymph Nodes,Sumatriptan
+Fungal Infection,Itching,Losartan
+COVID-19,Night Sweats,Propranolol
+Pneumonia,Cough,Omeprazole
+Fungal Infection,Sore Throat,Sildenafil
+Glaucoma,Back Pain,Ciprofloxacin
+Lung Cancer,Rapid Heartbeat,Loperamide
+Pneumonia,Muscle Weakness,Aspirin
+Chickenpox,Dizziness,Ciprofloxacin
+Vertigo,Diarrhea,Amoxicillin
+Ulcerative Colitis,Chest Pain,Cetirizine
+Dengue,Back Pain,Cetirizine
+Hypertension,Loss of Appetite,Propranolol
+Dengue,Swollen Lymph Nodes,Prednisone
+Hypertension,Red Eyes,Levothyroxine
+Asthma,Shortness of breath,Topiramate
+Typhoid,Rapid Heartbeat,Rifampin
+Arthritis,Headache,Doxycycline
+Tuberculosis,Weight Loss,Adalimumab
+Fungal Infection,Diarrhea,Ondansetron
+Urinary Tract Infection,Tremors,Ibuprofen
+Fungal Infection,Back Pain,Metformin
+COVID-19,Ear Pain,Hydrocortisone
+Typhoid,Fever,Budesonide
+Glaucoma,Night Sweats,Loratadine
+Arthritis,Loss of Appetite,Isoniazid
+Bronchitis,Back Pain,Metformin
+Jaundice,Ear Pain,Doxycycline
+Sinusitis,Itching,Sumatriptan
+Multiple Sclerosis,Fever,Cetirizine
+Diabetes,Sore Throat,Omeprazole
+Bronchitis,Headache,Aspirin
+Lung Cancer,Vomiting,Rifampin
+Psoriasis,Swollen Lymph Nodes,Topiramate
+Chickenpox,Joint Pain,Aspirin
+Urinary Tract Infection,Sore Throat,Calamine Lotion
+Dengue,Night Sweats,Prednisone
+Pneumonia,Numbness,Sumatriptan
+Eczema,Shortness of breath,Hydrocortisone
+Chickenpox,Diarrhea,Propranolol
+Whooping Cough,Joint Pain,Calamine Lotion
+Dengue,Swelling,Loperamide
+Peptic Ulcer,Dizziness,Azithromycin
+Acne,Runny Nose,Azithromycin
+Multiple Sclerosis,Shortness of breath,Prednisone
+Pneumonia,Joint Pain,Cetirizine
+Osteoporosis,Night Sweats,Glibenclamide
+Gastroenteritis,Sore Throat,Glibenclamide
+Vertigo,Swollen Lymph Nodes,Ondansetron
+Chickenpox,Loss of Appetite,Levothyroxine
+Sinusitis,Nausea,Glibenclamide
+Ulcerative Colitis,Tremors,Paracetamol
+Multiple Sclerosis,Loss of Appetite,Metformin
+Tuberculosis,Fatigue,Loratadine
+Psoriasis,Ear Pain,Ranitidine
+Chronic Kidney Disease,Nausea,Glibenclamide
+Typhoid,High Blood Pressure,Loratadine
+Glaucoma,Fatigue,Propranolol
+Eczema,Swelling,Azithromycin
+Dengue,Sore Throat,Cetirizine
+Epilepsy,Loss of Appetite,Aspirin
+Vertigo,Swelling,Aspirin
+Arthritis,Itching,Paracetamol
+Dengue,Abdominal Pain,Loratadine
+Hypertension,Loss of Appetite,Doxycycline
+Tuberculosis,Rapid Heartbeat,Loratadine
+Glaucoma,Loss of Appetite,Budesonide
+Epilepsy,Runny Nose,Sumatriptan
+Influenza,Muscle Weakness,Ciprofloxacin
+Acne,Weight Loss,Calamine Lotion
+Influenza,Back Pain,Omeprazole
+Sinusitis,Dizziness,Doxycycline
+Sinusitis,Tremors,Doxycycline
+Tuberculosis,Joint Pain,Loratadine
+Malaria,Chest Pain,Sumatriptan
+Jaundice,Weight Loss,Glibenclamide
+Epilepsy,Fatigue,Budesonide
+Tuberculosis,Tremors,Metformin
+Fungal Infection,Vomiting,Loperamide
+Dengue,Nausea,Levothyroxine
+Sinusitis,Runny Nose,Losartan
+Peptic Ulcer,Shortness of breath,Topiramate
+Peptic Ulcer,Blurred Vision,Hydrocortisone
+Multiple Sclerosis,Cough,Ciprofloxacin
+Fungal Infection,Sore Throat,Omeprazole
+Acne,Cough,Terbinafine
+Influenza,Sore Throat,Cetirizine
+Pneumonia,Cough,Sumatriptan
+Malaria,Joint Pain,Propranolol
+Influenza,Itching,Isoniazid
+Eczema,Fatigue,Aspirin
+Peptic Ulcer,Ear Pain,Propranolol
+Urinary Tract Infection,Loss of Appetite,Hydrocortisone
+Asthma,Cough,Ranitidine
+Eczema,Ear Pain,Losartan
+Eczema,Headache,Propranolol
+Typhoid,Weight Loss,Omeprazole
+Multiple Sclerosis,Swollen Lymph Nodes,Loratadine
+Chronic Kidney Disease,Cough,Chloroquine
+Asthma,Cough,Azithromycin
+Influenza,Night Sweats,Amoxicillin
+Asthma,High Blood Pressure,Chloroquine
+Asthma,Skin Rash,Sildenafil
+Heart Disease,Loss of Appetite,Rifampin
+Fungal Infection,Cough,Amoxicillin
+Chronic Kidney Disease,Tremors,Hydrocortisone
+Dengue,Itching,Isoniazid
+Asthma,Dizziness,Omeprazole
+Tuberculosis,Vomiting,Isoniazid
+Common Cold,Back Pain,Sumatriptan
+COVID-19,Abdominal Pain,Ibuprofen
+Acne,Tremors,Ondansetron
+Glaucoma,Numbness,Ibuprofen
+Chronic Kidney Disease,Vomiting,Cetirizine
+Heart Disease,Dizziness,Ondansetron
+Urinary Tract Infection,Skin Rash,Losartan
+Bronchitis,Back Pain,Hydrocortisone
+Bronchitis,Cough,Aspirin
+Gastroenteritis,Blurred Vision,Doxycycline
+Pneumonia,Ear Pain,Terbinafine
+Ulcerative Colitis,Abdominal Pain,Omeprazole
+Typhoid,Dizziness,Ibuprofen
+Osteoporosis,Nausea,Topiramate
+Vertigo,Night Sweats,Propranolol
+Influenza,Fatigue,Isoniazid
+Gastroenteritis,Night Sweats,Amoxicillin
+Dengue,Skin Rash,Rifampin
+Ulcerative Colitis,Chest Pain,Calamine Lotion
+Osteoporosis,Tremors,Loratadine
+Psoriasis,Tremors,Loratadine
+Peptic Ulcer,Fatigue,Omeprazole
+Eczema,Diarrhea,Cetirizine
+Peptic Ulcer,Chest Pain,Glibenclamide
+Glaucoma,Weight Loss,Metformin
+Acne,Red Eyes,Ondansetron
+Lung Cancer,Back Pain,Omeprazole
+Asthma,Rapid Heartbeat,Ondansetron
+Zika Virus,Fatigue,Ibuprofen
+COVID-19,Vomiting,Chloroquine
+Acne,Sore Throat,Amoxicillin
+Zika Virus,Nausea,Chloroquine
+Multiple Sclerosis,Tremors,Prednisone
+Gastroenteritis,Nausea,Cetirizine
+Diabetes,High Blood Pressure,Hydrocortisone
+Tuberculosis,Back Pain,Ibuprofen
+Chickenpox,Shortness of breath,Ibuprofen
+Vertigo,Runny Nose,Aspirin
+Vertigo,Cough,Chloroquine
+Typhoid,Headache,Terbinafine
+Lung Cancer,Shortness of breath,Adalimumab
+Hypertension,High Blood Pressure,Amoxicillin
+Influenza,Cough,Propranolol
+Osteoporosis,High Blood Pressure,Adalimumab
+Tuberculosis,Joint Pain,Ondansetron
+Influenza,Weight Loss,Loratadine
+Chickenpox,Rapid Heartbeat,Paracetamol
+Chronic Kidney Disease,Numbness,Chloroquine
+Asthma,Numbness,Ranitidine
+Bronchitis,Tremors,Paracetamol
+Acne,Ear Pain,Cetirizine
+Bronchitis,Swollen Lymph Nodes,Topiramate
+Gastroenteritis,Nausea,Losartan
+Whooping Cough,Swelling,Budesonide
+Whooping Cough,Dizziness,Omeprazole
+Multiple Sclerosis,Loss of Appetite,Paracetamol
+Influenza,Tremors,Rifampin
+Migraine,Fatigue,Calamine Lotion
+Eczema,Back Pain,Ibuprofen
+Bronchitis,Cough,Adalimumab
+COVID-19,Itching,Sildenafil
+Heart Disease,Shortness of breath,Losartan
+Zika Virus,Loss of Appetite,Amoxicillin
+Tuberculosis,Night Sweats,Ibuprofen
+Sinusitis,Skin Rash,Doxycycline
+Heart Disease,Joint Pain,Terbinafine
+Pneumonia,Back Pain,Calamine Lotion
+Common Cold,Cough,Prednisone
+Typhoid,Blurred Vision,Sumatriptan
+Vertigo,Red Eyes,Sildenafil
+Common Cold,Weight Loss,Cetirizine
+Tuberculosis,Weight Loss,Loperamide
+Psoriasis,Muscle Weakness,Terbinafine
+Acne,Joint Pain,Ibuprofen
+Chickenpox,Abdominal Pain,Topiramate
+Lung Cancer,Chest Pain,Sildenafil
+Fungal Infection,Cough,Metformin
+Urinary Tract Infection,Cough,Glibenclamide
+Whooping Cough,Sore Throat,Topiramate
+Malaria,Fatigue,Cetirizine
+Psoriasis,Shortness of breath,Adalimumab
+Pneumonia,Fever,Prednisone
+Influenza,Muscle Weakness,Sildenafil
+Sinusitis,Abdominal Pain,Calamine Lotion
+Ulcerative Colitis,Red Eyes,Calamine Lotion
+Typhoid,Chest Pain,Azithromycin
+Influenza,Swelling,Sumatriptan
+Heart Disease,Rapid Heartbeat,Loperamide
+Psoriasis,Chest Pain,Chloroquine
+Psoriasis,Night Sweats,Propranolol
+Bronchitis,Rapid Heartbeat,Ciprofloxacin
+Epilepsy,Tremors,Doxycycline
+Tuberculosis,Diarrhea,Prednisone
+Fungal Infection,Dizziness,Metformin
+Gastroenteritis,Numbness,Omeprazole
+Hepatitis,Shortness of breath,Topiramate
+Zika Virus,Ear Pain,Rifampin
+Urinary Tract Infection,Back Pain,Terbinafine
+Influenza,Loss of Appetite,Doxycycline
+Allergy,Loss of Appetite,Azithromycin
+Whooping Cough,Dizziness,Losartan
+Asthma,Diarrhea,Sumatriptan
+Common Cold,Itching,Adalimumab
+Gastroenteritis,Shortness of breath,Ranitidine
+Fungal Infection,Skin Rash,Levothyroxine
+Sinusitis,Chest Pain,Ranitidine
+Bronchitis,Shortness of breath,Omeprazole
+Glaucoma,Loss of Appetite,Propranolol
+Sinusitis,Weight Loss,Aspirin
+Vertigo,Cough,Adalimumab
+Diabetes,Rapid Heartbeat,Ranitidine
+Ulcerative Colitis,Weight Loss,Omeprazole
+Acne,Dizziness,Sumatriptan
+Multiple Sclerosis,Fever,Loperamide
+Glaucoma,Vomiting,Loratadine
+Common Cold,Runny Nose,Aspirin
+Jaundice,Shortness of breath,Topiramate
+Hepatitis,Red Eyes,Chloroquine
+Migraine,Sore Throat,Losartan
+Zika Virus,Ear Pain,Glibenclamide
+Glaucoma,Shortness of breath,Calamine Lotion
+COVID-19,Cough,Azithromycin
+Typhoid,Chest Pain,Omeprazole
+Ulcerative Colitis,Cough,Ranitidine
+Glaucoma,Joint Pain,Chloroquine
+Urinary Tract Infection,High Blood Pressure,Loperamide
+Gastroenteritis,Dizziness,Isoniazid
+Chronic Kidney Disease,Night Sweats,Ibuprofen
+Chickenpox,Swollen Lymph Nodes,Metformin
+Gastroenteritis,Back Pain,Budesonide
+Asthma,Fatigue,Amoxicillin
+Malaria,Shortness of breath,Paracetamol
+Asthma,Joint Pain,Prednisone
+Ulcerative Colitis,Abdominal Pain,Adalimumab
+Arthritis,Numbness,Sildenafil
+Hepatitis,Headache,Sildenafil
+Influenza,Rapid Heartbeat,Terbinafine
+Multiple Sclerosis,Shortness of breath,Paracetamol
+Chickenpox,Fever,Isoniazid
+Fungal Infection,Weight Loss,Terbinafine
+Influenza,Sore Throat,Budesonide
+Multiple Sclerosis,Chest Pain,Loperamide
+Chronic Kidney Disease,Red Eyes,Budesonide
+Gastroenteritis,Weight Loss,Propranolol
+Chronic Kidney Disease,Numbness,Losartan
+Hypertension,Dizziness,Metformin
+Asthma,Red Eyes,Omeprazole
+Peptic Ulcer,Abdominal Pain,Cetirizine
+Arthritis,Diarrhea,Doxycycline
+Diabetes,Headache,Doxycycline
+Epilepsy,Abdominal Pain,Omeprazole
+Whooping Cough,Numbness,Sumatriptan
+Common Cold,Blurred Vision,Chloroquine
+Influenza,Rapid Heartbeat,Aspirin
+Bronchitis,Rapid Heartbeat,Ciprofloxacin
+Vertigo,Vomiting,Aspirin
+Hypertension,Headache,Levothyroxine
+Diabetes,Weight Loss,Sildenafil
+Tuberculosis,Muscle Weakness,Prednisone
+Chronic Kidney Disease,Abdominal Pain,Sumatriptan
+Allergy,Back Pain,Loperamide
+Diabetes,Loss of Appetite,Terbinafine
+Eczema,Rapid Heartbeat,Amoxicillin
+Sinusitis,Itching,Ibuprofen
+Diabetes,Abdominal Pain,Chloroquine
+Glaucoma,Weight Loss,Cetirizine
+Osteoporosis,Night Sweats,Ibuprofen
+Whooping Cough,Nausea,Budesonide
+Lung Cancer,Vomiting,Omeprazole
+Arthritis,Muscle Weakness,Ciprofloxacin
+Vertigo,Headache,Adalimumab
+Glaucoma,Fever,Hydrocortisone
+Multiple Sclerosis,Dizziness,Aspirin
+Fungal Infection,Weight Loss,Hydrocortisone
+Gastroenteritis,Joint Pain,Prednisone
+Urinary Tract Infection,Weight Loss,Chloroquine
+Chickenpox,Numbness,Ondansetron
+Allergy,Diarrhea,Ciprofloxacin
+Influenza,Weight Loss,Ciprofloxacin
+Glaucoma,Ear Pain,Terbinafine
+Pneumonia,Numbness,Aspirin
+Acne,Dizziness,Amoxicillin
+Chronic Kidney Disease,Weight Loss,Ondansetron
+COVID-19,Back Pain,Sumatriptan
+Influenza,Red Eyes,Glibenclamide
+Fungal Infection,Headache,Loratadine
+Allergy,Diarrhea,Azithromycin
+Common Cold,Joint Pain,Losartan
+Bronchitis,Rapid Heartbeat,Sildenafil
+Eczema,Nausea,Ibuprofen
+Dengue,Tremors,Azithromycin
+Diabetes,Itching,Levothyroxine
+Hepatitis,Blurred Vision,Prednisone
+Common Cold,Shortness of breath,Paracetamol
+Tuberculosis,Itching,Loratadine
+Heart Disease,Joint Pain,Paracetamol
+Chickenpox,Itching,Loratadine
+Malaria,Tremors,Topiramate
+Fungal Infection,Nausea,Rifampin
+Typhoid,Ear Pain,Doxycycline
+Typhoid,Joint Pain,Omeprazole
+Lung Cancer,Abdominal Pain,Doxycycline
+Influenza,Joint Pain,Loperamide
+Urinary Tract Infection,Muscle Weakness,Glibenclamide
+Glaucoma,Sore Throat,Losartan
+Zika Virus,Skin Rash,Loratadine
+Lung Cancer,Nausea,Adalimumab
+Whooping Cough,Swelling,Aspirin
+Allergy,Fever,Paracetamol
+Common Cold,Weight Loss,Isoniazid
+Lung Cancer,Ear Pain,Sumatriptan
+Chickenpox,Dizziness,Ranitidine
+Vertigo,Numbness,Calamine Lotion
+Vertigo,Shortness of breath,Losartan
+Multiple Sclerosis,Ear Pain,Loratadine
+Vertigo,Ear Pain,Glibenclamide
+Whooping Cough,Diarrhea,Loratadine
+Arthritis,Abdominal Pain,Paracetamol
+Ulcerative Colitis,Sore Throat,Aspirin
+Influenza,Ear Pain,Calamine Lotion
+Asthma,Ear Pain,Loperamide
+Sinusitis,Nausea,Doxycycline
+Glaucoma,Weight Loss,Doxycycline
+Asthma,Skin Rash,Calamine Lotion
+Urinary Tract Infection,Blurred Vision,Glibenclamide
+Osteoporosis,Loss of Appetite,Sumatriptan
+Dengue,Dizziness,Azithromycin
+Osteoporosis,Numbness,Ondansetron
+Multiple Sclerosis,Night Sweats,Glibenclamide
+Lung Cancer,Blurred Vision,Doxycycline
+Jaundice,Sore Throat,Sumatriptan
+Peptic Ulcer,Vomiting,Paracetamol
+Sinusitis,Back Pain,Ciprofloxacin
+Vertigo,Runny Nose,Ondansetron
+Chronic Kidney Disease,Red Eyes,Sumatriptan
+Vertigo,Swollen Lymph Nodes,Omeprazole
+Sinusitis,Cough,Prednisone
+Chickenpox,Loss of Appetite,Rifampin
+Diabetes,Abdominal Pain,Adalimumab
+Influenza,Runny Nose,Topiramate
+Fungal Infection,Swollen Lymph Nodes,Calamine Lotion
+Common Cold,Ear Pain,Ranitidine
+Multiple Sclerosis,Vomiting,Losartan
+Chickenpox,Sore Throat,Prednisone
+Glaucoma,Nausea,Aspirin
+Allergy,Itching,Rifampin
+Influenza,Fever,Ciprofloxacin
+Eczema,Cough,Topiramate
+Jaundice,Shortness of breath,Aspirin
+Fungal Infection,Headache,Ciprofloxacin
+Asthma,Diarrhea,Chloroquine
+Chickenpox,Dizziness,Metformin
+Peptic Ulcer,Sore Throat,Paracetamol
+Pneumonia,Muscle Weakness,Propranolol
+Tuberculosis,Runny Nose,Metformin
+Malaria,Abdominal Pain,Ciprofloxacin
+Malaria,Joint Pain,Chloroquine
+Multiple Sclerosis,Weight Loss,Losartan
+COVID-19,Diarrhea,Ondansetron
+Glaucoma,Swelling,Topiramate
+Epilepsy,Headache,Ciprofloxacin
+Jaundice,Diarrhea,Azithromycin
+Jaundice,Ear Pain,Amoxicillin
+Jaundice,Vomiting,Adalimumab
+Diabetes,High Blood Pressure,Prednisone
+Chronic Kidney Disease,High Blood Pressure,Cetirizine
+Epilepsy,Swollen Lymph Nodes,Metformin
+Chronic Kidney Disease,Weight Loss,Losartan
+Arthritis,Red Eyes,Ranitidine
+Peptic Ulcer,Rapid Heartbeat,Hydrocortisone
+Chronic Kidney Disease,Vomiting,Isoniazid
+Asthma,Fatigue,Sildenafil
+Malaria,Chest Pain,Prednisone
+Migraine,Joint Pain,Cetirizine
+Malaria,Numbness,Isoniazid
+Typhoid,Diarrhea,Losartan
+Influenza,Joint Pain,Prednisone
+Malaria,Swollen Lymph Nodes,Aspirin
+Gastroenteritis,Fatigue,Paracetamol
+COVID-19,Swollen Lymph Nodes,Propranolol
+Allergy,Fever,Sumatriptan
+Dengue,Night Sweats,Loratadine
+Sinusitis,Dizziness,Azithromycin
+COVID-19,Numbness,Levothyroxine
+Osteoporosis,Back Pain,Loperamide
+COVID-19,Weight Loss,Cetirizine
+Migraine,Joint Pain,Terbinafine
+Influenza,Red Eyes,Rifampin
+Chickenpox,Itching,Budesonide
+Influenza,Nausea,Topiramate
+Chickenpox,Blurred Vision,Levothyroxine
+Chronic Kidney Disease,Cough,Sumatriptan
+Urinary Tract Infection,Sore Throat,Chloroquine
+Influenza,Loss of Appetite,Ibuprofen
+Influenza,Sore Throat,Rifampin
+Ulcerative Colitis,Skin Rash,Budesonide
+Psoriasis,High Blood Pressure,Cetirizine
+Dengue,Cough,Omeprazole
+Epilepsy,Ear Pain,Amoxicillin
+Diabetes,Shortness of breath,Terbinafine
+Dengue,Weight Loss,Chloroquine
+Fungal Infection,Back Pain,Omeprazole
+COVID-19,Night Sweats,Propranolol
+Chickenpox,Numbness,Ranitidine
+Bronchitis,Sore Throat,Ibuprofen
+Pneumonia,Swelling,Rifampin
+Asthma,Vomiting,Ciprofloxacin
+Heart Disease,Ear Pain,Topiramate
+Ulcerative Colitis,Blurred Vision,Levothyroxine
+Glaucoma,Back Pain,Azithromycin
+Urinary Tract Infection,Ear Pain,Terbinafine
+Influenza,Ear Pain,Ibuprofen
+Malaria,Tremors,Paracetamol
+Dengue,Numbness,Budesonide
+Lung Cancer,Runny Nose,Calamine Lotion
+Common Cold,Dizziness,Prednisone
+Vertigo,Red Eyes,Paracetamol
+Arthritis,Shortness of breath,Calamine Lotion
+Malaria,Rapid Heartbeat,Terbinafine
+Lung Cancer,Vomiting,Ondansetron
+Osteoporosis,Blurred Vision,Ranitidine
+Jaundice,Weight Loss,Isoniazid
+Epilepsy,Sore Throat,Levothyroxine
+Fungal Infection,Sore Throat,Azithromycin
+Psoriasis,Numbness,Ondansetron
+Hypertension,High Blood Pressure,Sumatriptan
+Eczema,Muscle Weakness,Rifampin
+Lung Cancer,Weight Loss,Ibuprofen
+Whooping Cough,Tremors,Calamine Lotion
+Multiple Sclerosis,Rapid Heartbeat,Adalimumab
+Urinary Tract Infection,Fever,Losartan
+Hepatitis,Night Sweats,Chloroquine
+Bronchitis,Chest Pain,Budesonide
+Peptic Ulcer,Fatigue,Loperamide
+Chronic Kidney Disease,Headache,Doxycycline
+Psoriasis,Dizziness,Chloroquine
+Hypertension,Headache,Hydrocortisone
+Ulcerative Colitis,Muscle Weakness,Levothyroxine
+Bronchitis,Dizziness,Loperamide
+Lung Cancer,Swollen Lymph Nodes,Rifampin
+Diabetes,Sore Throat,Omeprazole
+Peptic Ulcer,Abdominal Pain,Sumatriptan
+Peptic Ulcer,Diarrhea,Azithromycin
+Peptic Ulcer,Red Eyes,Propranolol
+Whooping Cough,Loss of Appetite,Metformin
+Heart Disease,Headache,Isoniazid
+Migraine,Blurred Vision,Chloroquine
+Lung Cancer,Muscle Weakness,Adalimumab
+COVID-19,Swollen Lymph Nodes,Isoniazid
+Typhoid,Loss of Appetite,Doxycycline
+Zika Virus,Back Pain,Hydrocortisone
+Hepatitis,Tremors,Aspirin
+Bronchitis,Numbness,Topiramate
+Diabetes,Blurred Vision,Ondansetron
+Multiple Sclerosis,Tremors,Calamine Lotion
+Influenza,Itching,Topiramate
+Urinary Tract Infection,Night Sweats,Loratadine
+Typhoid,Diarrhea,Isoniazid
+Glaucoma,Fatigue,Sildenafil
+Acne,Blurred Vision,Adalimumab
+Migraine,Dizziness,Metformin
+Hepatitis,Back Pain,Doxycycline
+Common Cold,Rapid Heartbeat,Rifampin
+Dengue,Shortness of breath,Chloroquine
+Chronic Kidney Disease,Swollen Lymph Nodes,Budesonide
+Lung Cancer,Abdominal Pain,Omeprazole
+Glaucoma,Joint Pain,Glibenclamide
+Eczema,Tremors,Sildenafil
+Chickenpox,Chest Pain,Isoniazid
+Whooping Cough,Nausea,Rifampin
+Tuberculosis,Headache,Ciprofloxacin
+Migraine,Swollen Lymph Nodes,Topiramate
+Influenza,Diarrhea,Metformin
+Psoriasis,Runny Nose,Budesonide
+Arthritis,Diarrhea,Hydrocortisone
+Dengue,Chest Pain,Cetirizine
+Sinusitis,Numbness,Propranolol
+Sinusitis,Headache,Propranolol
+Vertigo,Dizziness,Loratadine
+Diabetes,Swollen Lymph Nodes,Isoniazid
+Common Cold,Cough,Isoniazid
+Allergy,Itching,Chloroquine
+Hypertension,Loss of Appetite,Propranolol
+Hypertension,Red Eyes,Ciprofloxacin
+Chickenpox,Red Eyes,Isoniazid
+Lung Cancer,Vomiting,Adalimumab
+Bronchitis,Cough,Budesonide
+Common Cold,Fatigue,Aspirin
+Influenza,Swelling,Rifampin
+COVID-19,Tremors,Loratadine
+Ulcerative Colitis,Headache,Ranitidine
+Urinary Tract Infection,Shortness of breath,Aspirin
+Heart Disease,Chest Pain,Sumatriptan
+Asthma,Itching,Azithromycin
+Epilepsy,Chest Pain,Amoxicillin
+Malaria,Shortness of breath,Levothyroxine
+Asthma,Fever,Terbinafine
+Pneumonia,Chest Pain,Rifampin
+Gastroenteritis,Shortness of breath,Terbinafine
+Bronchitis,Chest Pain,Doxycycline
+Dengue,Ear Pain,Propranolol
+Pneumonia,Blurred Vision,Ciprofloxacin
+Ulcerative Colitis,Nausea,Glibenclamide
+Eczema,Sore Throat,Adalimumab
+Arthritis,Swelling,Ranitidine
+Tuberculosis,Shortness of breath,Sildenafil
+Gastroenteritis,Headache,Rifampin
+Psoriasis,Swollen Lymph Nodes,Glibenclamide
+Ulcerative Colitis,Chest Pain,Aspirin
+Glaucoma,Abdominal Pain,Calamine Lotion
+Arthritis,Tremors,Topiramate
+Fungal Infection,Dizziness,Propranolol
+Chickenpox,Headache,Budesonide
+Vertigo,Runny Nose,Losartan
+Migraine,Blurred Vision,Sildenafil
+Acne,Shortness of breath,Doxycycline
+Chickenpox,Night Sweats,Loperamide
+Typhoid,Night Sweats,Adalimumab
+Eczema,Abdominal Pain,Sildenafil
+Vertigo,Diarrhea,Terbinafine
+Hepatitis,Sore Throat,Ondansetron
+COVID-19,Sore Throat,Hydrocortisone
+Hepatitis,Numbness,Ibuprofen
+Psoriasis,Skin Rash,Isoniazid
+Zika Virus,Back Pain,Adalimumab
+Multiple Sclerosis,Ear Pain,Topiramate
+Multiple Sclerosis,Joint Pain,Ciprofloxacin
+Urinary Tract Infection,Dizziness,Azithromycin
+Lung Cancer,Red Eyes,Cetirizine
+Asthma,Ear Pain,Doxycycline
+Epilepsy,Rapid Heartbeat,Loratadine
+Hepatitis,Swelling,Azithromycin
+Tuberculosis,Cough,Hydrocortisone
+Ulcerative Colitis,Blurred Vision,Amoxicillin
+Gastroenteritis,Rapid Heartbeat,Sildenafil
+COVID-19,Nausea,Omeprazole
+Sinusitis,Itching,Isoniazid
+Arthritis,Blurred Vision,Topiramate
+Multiple Sclerosis,Abdominal Pain,Loratadine
+Tuberculosis,Runny Nose,Rifampin
+Acne,Runny Nose,Ciprofloxacin
+Multiple Sclerosis,Joint Pain,Prednisone
+Whooping Cough,Ear Pain,Topiramate
+Osteoporosis,Shortness of breath,Budesonide
+Psoriasis,Cough,Calamine Lotion
+Common Cold,Itching,Glibenclamide
+Hypertension,Blurred Vision,Budesonide
+Pneumonia,Diarrhea,Aspirin
+Arthritis,Nausea,Rifampin
+Allergy,Fatigue,Rifampin
+Tuberculosis,Ear Pain,Chloroquine
+Peptic Ulcer,Sore Throat,Doxycycline
+Tuberculosis,Blurred Vision,Calamine Lotion
+Diabetes,Muscle Weakness,Ranitidine
+Heart Disease,Fatigue,Isoniazid
+Epilepsy,Dizziness,Ondansetron
+Heart Disease,Vomiting,Paracetamol
+Osteoporosis,Dizziness,Ibuprofen
+Acne,Ear Pain,Rifampin
+Hepatitis,Loss of Appetite,Losartan
+Acne,Joint Pain,Chloroquine
+Hepatitis,Shortness of breath,Doxycycline
+Migraine,Vomiting,Azithromycin
+Asthma,High Blood Pressure,Metformin
+Multiple Sclerosis,Tremors,Glibenclamide
+Gastroenteritis,Tremors,Isoniazid
+Influenza,Diarrhea,Loperamide
+Arthritis,High Blood Pressure,Cetirizine
+Sinusitis,Vomiting,Topiramate
+Chronic Kidney Disease,Blurred Vision,Losartan
+Zika Virus,Loss of Appetite,Levothyroxine
+Multiple Sclerosis,Sore Throat,Cetirizine
+Psoriasis,Rapid Heartbeat,Terbinafine
+Multiple Sclerosis,High Blood Pressure,Aspirin
+Influenza,Headache,Isoniazid
+Gastroenteritis,Numbness,Doxycycline
+Acne,Itching,Sildenafil
+Common Cold,Vomiting,Calamine Lotion
+Bronchitis,Weight Loss,Ranitidine
+Epilepsy,Red Eyes,Ciprofloxacin
+Asthma,Red Eyes,Ranitidine
+Fungal Infection,Swollen Lymph Nodes,Chloroquine
+Chronic Kidney Disease,High Blood Pressure,Prednisone
+Vertigo,Chest Pain,Omeprazole
+Pneumonia,Weight Loss,Chloroquine
+Chickenpox,Dizziness,Topiramate
+Hepatitis,Headache,Amoxicillin
+Common Cold,Sore Throat,Omeprazole
+Psoriasis,Vomiting,Amoxicillin
+Pneumonia,Night Sweats,Propranolol
+Chickenpox,Numbness,Azithromycin
+Malaria,Numbness,Amoxicillin
+Vertigo,Back Pain,Sildenafil
+Glaucoma,Swelling,Doxycycline
+Osteoporosis,Sore Throat,Prednisone
+Common Cold,Blurred Vision,Topiramate
+Influenza,Shortness of breath,Ondansetron
+Jaundice,Back Pain,Ondansetron
+Hypertension,Diarrhea,Rifampin
+Glaucoma,Back Pain,Adalimumab
+Malaria,Abdominal Pain,Azithromycin
+Fungal Infection,Fever,Topiramate
+Eczema,Headache,Levothyroxine
+Ulcerative Colitis,Rapid Heartbeat,Topiramate
+Allergy,Runny Nose,Sildenafil
+Acne,High Blood Pressure,Ranitidine
+Dengue,Shortness of breath,Ciprofloxacin
+Glaucoma,Skin Rash,Losartan
+Bronchitis,Weight Loss,Metformin
+Vertigo,Red Eyes,Topiramate
+Heart Disease,Night Sweats,Levothyroxine
+Glaucoma,Tremors,Doxycycline
+Eczema,Red Eyes,Aspirin
+Pneumonia,Fever,Propranolol
+Zika Virus,Headache,Azithromycin
+Malaria,Cough,Budesonide
+Eczema,Vomiting,Calamine Lotion
+Asthma,Runny Nose,Aspirin
+Glaucoma,Tremors,Rifampin
+Acne,Vomiting,Azithromycin
+Asthma,Cough,Sumatriptan
+Influenza,Numbness,Ondansetron
+Typhoid,Skin Rash,Glibenclamide
+Migraine,Numbness,Ciprofloxacin
+COVID-19,Joint Pain,Adalimumab
+Fungal Infection,Fatigue,Ondansetron
+Tuberculosis,Muscle Weakness,Ibuprofen
+Osteoporosis,Back Pain,Terbinafine
+Fungal Infection,Vomiting,Isoniazid
+Whooping Cough,Weight Loss,Omeprazole
+Heart Disease,Blurred Vision,Loperamide
+Acne,Blurred Vision,Losartan
+Epilepsy,Vomiting,Omeprazole
+Multiple Sclerosis,Muscle Weakness,Prednisone
+COVID-19,Swelling,Isoniazid
+Fungal Infection,Sore Throat,Terbinafine
+Gastroenteritis,Shortness of breath,Prednisone
+Peptic Ulcer,Skin Rash,Ondansetron
+Hypertension,Rapid Heartbeat,Chloroquine
+Sinusitis,Nausea,Prednisone
+Pneumonia,Sore Throat,Terbinafine
+Glaucoma,Rapid Heartbeat,Chloroquine
+Eczema,Back Pain,Isoniazid
+Glaucoma,Muscle Weakness,Propranolol
+Osteoporosis,Rapid Heartbeat,Isoniazid
+Typhoid,Shortness of breath,Adalimumab
+Hypertension,Rapid Heartbeat,Calamine Lotion
+Zika Virus,Ear Pain,Ibuprofen
+Eczema,Fatigue,Rifampin
+Arthritis,Swelling,Chloroquine
+Whooping Cough,Abdominal Pain,Ondansetron
+Malaria,Swelling,Rifampin
+Glaucoma,Headache,Losartan
+Glaucoma,Swollen Lymph Nodes,Terbinafine
+Asthma,Swelling,Ibuprofen
+Urinary Tract Infection,Rapid Heartbeat,Budesonide
+Peptic Ulcer,Loss of Appetite,Losartan
+Lung Cancer,Numbness,Loratadine
+Fungal Infection,Chest Pain,Paracetamol
+Tuberculosis,Swelling,Rifampin
+Vertigo,Itching,Sildenafil
+Allergy,Blurred Vision,Hydrocortisone
+Psoriasis,Headache,Loratadine
+Allergy,Joint Pain,Losartan
+Sinusitis,Abdominal Pain,Sumatriptan
+Vertigo,Fever,Prednisone
+Hypertension,Vomiting,Paracetamol
+Heart Disease,Shortness of breath,Ciprofloxacin
+Acne,Weight Loss,Topiramate
+Lung Cancer,Back Pain,Ranitidine
+Eczema,Shortness of breath,Propranolol
+Jaundice,High Blood Pressure,Cetirizine
+Tuberculosis,Night Sweats,Losartan
+Tuberculosis,Joint Pain,Calamine Lotion
+Common Cold,Blurred Vision,Topiramate
+Hepatitis,Headache,Losartan
+Gastroenteritis,Swollen Lymph Nodes,Calamine Lotion
+Hypertension,Skin Rash,Loratadine
+Lung Cancer,Ear Pain,Sumatriptan
+Dengue,Rapid Heartbeat,Aspirin
+Whooping Cough,Abdominal Pain,Paracetamol
+Dengue,Fatigue,Ciprofloxacin
+Acne,Runny Nose,Ibuprofen
+Urinary Tract Infection,Nausea,Budesonide
+Hypertension,Night Sweats,Calamine Lotion
+Influenza,Swollen Lymph Nodes,Propranolol
+Ulcerative Colitis,Shortness of breath,Losartan
+Gastroenteritis,High Blood Pressure,Azithromycin
+Dengue,High Blood Pressure,Aspirin
+Chronic Kidney Disease,High Blood Pressure,Doxycycline
+Hepatitis,Diarrhea,Glibenclamide
+Zika Virus,Tremors,Topiramate
+Arthritis,Swollen Lymph Nodes,Terbinafine
+Lung Cancer,Night Sweats,Hydrocortisone
+Acne,Vomiting,Topiramate
+Dengue,Numbness,Azithromycin
+Heart Disease,Nausea,Hydrocortisone
+Whooping Cough,Rapid Heartbeat,Levothyroxine
+Asthma,Muscle Weakness,Omeprazole
+Pneumonia,Rapid Heartbeat,Calamine Lotion
+Urinary Tract Infection,Dizziness,Losartan
+Heart Disease,Loss of Appetite,Amoxicillin
+Arthritis,Swollen Lymph Nodes,Adalimumab
+Glaucoma,Fatigue,Chloroquine
+Vertigo,Numbness,Rifampin
+Migraine,Itching,Aspirin
+Bronchitis,Dizziness,Ibuprofen
+Acne,Chest Pain,Propranolol
+Epilepsy,Headache,Hydrocortisone
+COVID-19,Swelling,Ranitidine
+Bronchitis,Weight Loss,Sumatriptan
+Asthma,Runny Nose,Ranitidine
+Influenza,Nausea,Loratadine
+Bronchitis,Weight Loss,Cetirizine
+COVID-19,Shortness of breath,Omeprazole
+Eczema,Numbness,Paracetamol
+Peptic Ulcer,Itching,Loratadine
+Vertigo,Ear Pain,Isoniazid
+Psoriasis,Tremors,Aspirin
+Pneumonia,Fever,Paracetamol
+Glaucoma,Shortness of breath,Topiramate
+Pneumonia,Fatigue,Ibuprofen
+Urinary Tract Infection,High Blood Pressure,Topiramate
+Bronchitis,Vomiting,Sildenafil
+Dengue,Weight Loss,Aspirin
+Chickenpox,Tremors,Losartan
+Glaucoma,Nausea,Ciprofloxacin
+Vertigo,Nausea,Doxycycline
+COVID-19,Chest Pain,Ciprofloxacin
+Eczema,Swollen Lymph Nodes,Hydrocortisone
+Psoriasis,Nausea,Ondansetron
+Urinary Tract Infection,Fever,Sumatriptan
+Lung Cancer,Swelling,Sildenafil
+Fungal Infection,Numbness,Ibuprofen
+Lung Cancer,Weight Loss,Terbinafine
+Glaucoma,Headache,Paracetamol
+Chickenpox,Swelling,Losartan
+Influenza,Headache,Rifampin
+Fungal Infection,Swelling,Loperamide
+Jaundice,Muscle Weakness,Omeprazole
+Migraine,Night Sweats,Chloroquine
+Allergy,Fever,Metformin
+Malaria,Chest Pain,Cetirizine
+Pneumonia,Back Pain,Ibuprofen
+Osteoporosis,Swollen Lymph Nodes,Aspirin
+Influenza,Fever,Ondansetron
+Hypertension,Numbness,Terbinafine
+Asthma,Cough,Glibenclamide
+Eczema,Headache,Sildenafil
+Hepatitis,Night Sweats,Levothyroxine
+Jaundice,Blurred Vision,Azithromycin
+Ulcerative Colitis,High Blood Pressure,Ibuprofen
+Lung Cancer,Back Pain,Propranolol
+Whooping Cough,Back Pain,Propranolol
+Vertigo,Blurred Vision,Hydrocortisone
+Jaundice,Loss of Appetite,Doxycycline
+Dengue,Abdominal Pain,Sildenafil
+Common Cold,Tremors,Loratadine
+Bronchitis,Dizziness,Calamine Lotion
+Heart Disease,Muscle Weakness,Cetirizine
+Hepatitis,Chest Pain,Topiramate
+Vertigo,Loss of Appetite,Calamine Lotion
+Osteoporosis,Ear Pain,Prednisone
+Jaundice,Swelling,Levothyroxine
+Diabetes,Ear Pain,Loratadine
+Sinusitis,Swelling,Sildenafil
+Psoriasis,Dizziness,Ciprofloxacin
+Allergy,Abdominal Pain,Budesonide
+Urinary Tract Infection,Loss of Appetite,Ciprofloxacin
+Hepatitis,Weight Loss,Losartan
+Influenza,Loss of Appetite,Ondansetron
+Chronic Kidney Disease,Abdominal Pain,Losartan
+Glaucoma,High Blood Pressure,Doxycycline
+Tuberculosis,Joint Pain,Glibenclamide
+COVID-19,Swelling,Calamine Lotion
+Typhoid,Weight Loss,Ciprofloxacin
+Asthma,Fever,Isoniazid
+Eczema,Weight Loss,Terbinafine
+Osteoporosis,Numbness,Propranolol
+Diabetes,Night Sweats,Azithromycin
+Sinusitis,Runny Nose,Glibenclamide
+Typhoid,Headache,Doxycycline
+Typhoid,Loss of Appetite,Losartan
+Chickenpox,Runny Nose,Terbinafine
+Vertigo,Diarrhea,Isoniazid
+Lung Cancer,Fatigue,Budesonide
+Tuberculosis,Swollen Lymph Nodes,Metformin
+Gastroenteritis,Fever,Isoniazid
+Acne,Rapid Heartbeat,Metformin
+Influenza,Loss of Appetite,Paracetamol
+Lung Cancer,Abdominal Pain,Sumatriptan
+Common Cold,Diarrhea,Cetirizine
+Pneumonia,Cough,Glibenclamide
+Typhoid,Rapid Heartbeat,Loperamide
+Typhoid,Joint Pain,Azithromycin
+Ulcerative Colitis,Red Eyes,Losartan
+Eczema,Loss of Appetite,Rifampin
+Whooping Cough,Red Eyes,Ibuprofen
+Jaundice,Blurred Vision,Budesonide
+Chronic Kidney Disease,Abdominal Pain,Loratadine
+Hepatitis,Rapid Heartbeat,Ciprofloxacin
+Bronchitis,Loss of Appetite,Calamine Lotion
+Typhoid,Skin Rash,Chloroquine
+Tuberculosis,Tremors,Doxycycline
+Sinusitis,Headache,Adalimumab
+Migraine,High Blood Pressure,Aspirin
+Influenza,Fever,Topiramate
+Zika Virus,Nausea,Hydrocortisone
+Diabetes,Runny Nose,Amoxicillin
+Arthritis,Swelling,Ibuprofen
+Diabetes,Skin Rash,Propranolol
+Malaria,Swollen Lymph Nodes,Budesonide
+Heart Disease,Sore Throat,Sumatriptan
+Influenza,Fatigue,Azithromycin
+Osteoporosis,Ear Pain,Levothyroxine
+Glaucoma,Red Eyes,Omeprazole
+Epilepsy,Fever,Ibuprofen
+Jaundice,Headache,Ondansetron
+Ulcerative Colitis,Dizziness,Cetirizine
+Gastroenteritis,Sore Throat,Rifampin
+Epilepsy,Swelling,Ibuprofen
+Whooping Cough,Numbness,Glibenclamide
+Asthma,Fatigue,Ranitidine
+Multiple Sclerosis,Chest Pain,Paracetamol
+Epilepsy,Fatigue,Glibenclamide
+Acne,Runny Nose,Levothyroxine
+Pneumonia,Swelling,Ranitidine
+Chronic Kidney Disease,Night Sweats,Azithromycin
+Urinary Tract Infection,Vomiting,Ranitidine
+Fungal Infection,Rapid Heartbeat,Levothyroxine
+Malaria,Fatigue,Hydrocortisone
+Migraine,Back Pain,Topiramate
+Urinary Tract Infection,Back Pain,Omeprazole
+Chickenpox,Sore Throat,Ciprofloxacin
+Jaundice,Joint Pain,Adalimumab
+Jaundice,Swollen Lymph Nodes,Chloroquine
+Zika Virus,Weight Loss,Sumatriptan
+Pneumonia,Swelling,Ranitidine
+Diabetes,Diarrhea,Glibenclamide
+Bronchitis,Rapid Heartbeat,Levothyroxine
+Dengue,Skin Rash,Adalimumab
+Urinary Tract Infection,Swollen Lymph Nodes,Ondansetron
+Vertigo,Ear Pain,Amoxicillin
+COVID-19,Headache,Hydrocortisone
+Bronchitis,Joint Pain,Cetirizine
+Chickenpox,Chest Pain,Budesonide
+Zika Virus,Weight Loss,Levothyroxine
+Eczema,Chest Pain,Ciprofloxacin
+Migraine,Headache,Doxycycline
+Lung Cancer,Numbness,Omeprazole
+Fungal Infection,Headache,Azithromycin
+Malaria,Swollen Lymph Nodes,Isoniazid
+Arthritis,Numbness,Metformin
+Glaucoma,Loss of Appetite,Amoxicillin
+Diabetes,Night Sweats,Terbinafine
+Heart Disease,Tremors,Doxycycline
+Typhoid,Sore Throat,Isoniazid
+Sinusitis,Vomiting,Topiramate
+Whooping Cough,Dizziness,Metformin
+Acne,Muscle Weakness,Ibuprofen
+COVID-19,Muscle Weakness,Terbinafine
+Chronic Kidney Disease,Swollen Lymph Nodes,Metformin
+Bronchitis,Shortness of breath,Losartan
+Peptic Ulcer,Rapid Heartbeat,Loratadine
+Pneumonia,Abdominal Pain,Isoniazid
+Psoriasis,Itching,Glibenclamide
+Multiple Sclerosis,Night Sweats,Propranolol
+Influenza,Loss of Appetite,Omeprazole
+Asthma,Joint Pain,Isoniazid
+Acne,Headache,Prednisone
+Vertigo,Diarrhea,Loratadine
+Zika Virus,Headache,Topiramate
+Chickenpox,Swollen Lymph Nodes,Azithromycin
+Jaundice,Sore Throat,Chloroquine
+Multiple Sclerosis,Ear Pain,Cetirizine
+Arthritis,Red Eyes,Calamine Lotion
+Urinary Tract Infection,Rapid Heartbeat,Isoniazid
+Asthma,Headache,Isoniazid
+Hepatitis,Tremors,Topiramate
+Chronic Kidney Disease,Weight Loss,Adalimumab
+Asthma,Ear Pain,Terbinafine
+Typhoid,Shortness of breath,Glibenclamide
+Allergy,Tremors,Terbinafine
+Diabetes,Diarrhea,Amoxicillin
+Fungal Infection,Itching,Metformin
+Gastroenteritis,Ear Pain,Azithromycin
+Glaucoma,Numbness,Azithromycin
+COVID-19,Joint Pain,Amoxicillin
+Jaundice,Red Eyes,Prednisone
+Gastroenteritis,Back Pain,Isoniazid
+Migraine,Chest Pain,Chloroquine
+Dengue,Diarrhea,Cetirizine
+Gastroenteritis,Weight Loss,Chloroquine
+Hepatitis,Red Eyes,Topiramate
+Typhoid,Tremors,Doxycycline
+Influenza,Rapid Heartbeat,Ibuprofen
+Arthritis,Back Pain,Topiramate
+Migraine,Back Pain,Cetirizine
+COVID-19,Red Eyes,Prednisone
+Chronic Kidney Disease,Ear Pain,Cetirizine
+Sinusitis,Runny Nose,Ranitidine
+Sinusitis,Ear Pain,Paracetamol
+Jaundice,Tremors,Cetirizine
+Heart Disease,Dizziness,Calamine Lotion
+Asthma,Fever,Calamine Lotion
+Asthma,Headache,Hydrocortisone
+Typhoid,Muscle Weakness,Chloroquine
+Migraine,Night Sweats,Adalimumab
+Zika Virus,Ear Pain,Budesonide
+Lung Cancer,Itching,Omeprazole
+Lung Cancer,Shortness of breath,Omeprazole
+Multiple Sclerosis,Dizziness,Propranolol
+Hepatitis,Rapid Heartbeat,Doxycycline
+Common Cold,Joint Pain,Ciprofloxacin
+Allergy,Joint Pain,Azithromycin
+Arthritis,Numbness,Omeprazole
+Sinusitis,Cough,Levothyroxine
+Asthma,Joint Pain,Doxycycline
+COVID-19,Skin Rash,Losartan
+Influenza,Weight Loss,Chloroquine
+Psoriasis,Skin Rash,Budesonide
+Allergy,Runny Nose,Budesonide
+Typhoid,Tremors,Ondansetron
+Jaundice,Itching,Losartan
+Typhoid,Vomiting,Ondansetron
+Zika Virus,Swelling,Cetirizine
+Chickenpox,Shortness of breath,Cetirizine
+Ulcerative Colitis,Joint Pain,Levothyroxine
+Peptic Ulcer,Headache,Aspirin
+Osteoporosis,Weight Loss,Ciprofloxacin
+Vertigo,Muscle Weakness,Sumatriptan
+Arthritis,Diarrhea,Cetirizine
+Urinary Tract Infection,Chest Pain,Terbinafine
+Peptic Ulcer,Chest Pain,Ranitidine
+Epilepsy,Dizziness,Calamine Lotion
+Dengue,Dizziness,Metformin
+Psoriasis,Vomiting,Omeprazole
+Diabetes,Itching,Ibuprofen
+Tuberculosis,Nausea,Propranolol
+Heart Disease,Numbness,Ibuprofen
+Chickenpox,Nausea,Hydrocortisone
+Ulcerative Colitis,Headache,Topiramate
+Whooping Cough,Red Eyes,Topiramate
+Psoriasis,Chest Pain,Budesonide
+Pneumonia,Muscle Weakness,Cetirizine
+Allergy,Tremors,Chloroquine
+Urinary Tract Infection,Joint Pain,Ciprofloxacin
+Common Cold,Sore Throat,Amoxicillin
+Heart Disease,Fever,Ranitidine
+Typhoid,Fever,Chloroquine
+Jaundice,Red Eyes,Hydrocortisone
+Peptic Ulcer,Headache,Glibenclamide
+Ulcerative Colitis,Muscle Weakness,Rifampin
+Gastroenteritis,Fever,Amoxicillin
+Lung Cancer,Numbness,Cetirizine
+Glaucoma,Fever,Isoniazid
+Asthma,Blurred Vision,Ondansetron
+Acne,Weight Loss,Azithromycin
+Epilepsy,Fatigue,Rifampin
+Osteoporosis,Fatigue,Losartan
+Lung Cancer,Blurred Vision,Loperamide
+Allergy,Tremors,Losartan
+Common Cold,Runny Nose,Levothyroxine
+Allergy,Shortness of breath,Loratadine
+Osteoporosis,Back Pain,Budesonide
+Allergy,Loss of Appetite,Sildenafil
+Typhoid,Shortness of breath,Calamine Lotion
+Multiple Sclerosis,Abdominal Pain,Metformin
+Dengue,Abdominal Pain,Adalimumab
+Common Cold,High Blood Pressure,Isoniazid
+Allergy,Red Eyes,Topiramate
+Whooping Cough,Dizziness,Doxycycline
+Vertigo,Chest Pain,Propranolol
+Typhoid,Tremors,Glibenclamide
+Epilepsy,Chest Pain,Budesonide
+Glaucoma,Headache,Sildenafil
+Psoriasis,Cough,Ranitidine
+Heart Disease,Ear Pain,Ciprofloxacin
+Malaria,Sore Throat,Prednisone
+Osteoporosis,Rapid Heartbeat,Adalimumab
+Migraine,Blurred Vision,Sumatriptan
+Diabetes,Red Eyes,Amoxicillin
+Migraine,Tremors,Ondansetron
+Fungal Infection,Night Sweats,Sumatriptan
+Allergy,Chest Pain,Loratadine
+Arthritis,Diarrhea,Loperamide
+Malaria,Red Eyes,Omeprazole
+Dengue,Back Pain,Levothyroxine
+Vertigo,Abdominal Pain,Terbinafine
+Ulcerative Colitis,Back Pain,Loratadine
+Fungal Infection,Rapid Heartbeat,Glibenclamide
+Asthma,Nausea,Ondansetron
+Pneumonia,Swollen Lymph Nodes,Cetirizine
+Typhoid,Loss of Appetite,Rifampin
+Peptic Ulcer,Tremors,Amoxicillin
+Typhoid,Back Pain,Ibuprofen
+Sinusitis,Night Sweats,Hydrocortisone
+Chickenpox,Fatigue,Aspirin
+Psoriasis,Night Sweats,Doxycycline
+Ulcerative Colitis,Loss of Appetite,Prednisone
+Arthritis,Chest Pain,Paracetamol
+Glaucoma,Rapid Heartbeat,Paracetamol
+Whooping Cough,Fatigue,Loperamide
+Multiple Sclerosis,Muscle Weakness,Amoxicillin
+Zika Virus,Tremors,Chloroquine
+COVID-19,Rapid Heartbeat,Metformin
+Heart Disease,Swollen Lymph Nodes,Levothyroxine
+Peptic Ulcer,Red Eyes,Loratadine
+Malaria,Swelling,Losartan
+Vertigo,Weight Loss,Loperamide
+Typhoid,Itching,Ibuprofen
+Chickenpox,Shortness of breath,Budesonide
+Common Cold,Night Sweats,Prednisone
+Ulcerative Colitis,Fatigue,Adalimumab
+Tuberculosis,Skin Rash,Ranitidine
+Urinary Tract Infection,Red Eyes,Glibenclamide
+Tuberculosis,Swollen Lymph Nodes,Sumatriptan
+Dengue,Chest Pain,Paracetamol
+Fungal Infection,Tremors,Azithromycin
+Common Cold,Blurred Vision,Levothyroxine
+Osteoporosis,Shortness of breath,Terbinafine
+Peptic Ulcer,Nausea,Glibenclamide
+Lung Cancer,Sore Throat,Doxycycline
+Hepatitis,Ear Pain,Topiramate
+Peptic Ulcer,Blurred Vision,Amoxicillin
+Dengue,Loss of Appetite,Azithromycin
+Chronic Kidney Disease,Swelling,Glibenclamide
+Osteoporosis,Red Eyes,Adalimumab
+Tuberculosis,Itching,Cetirizine
+Psoriasis,Loss of Appetite,Metformin
+Allergy,Red Eyes,Ciprofloxacin
+Epilepsy,Ear Pain,Hydrocortisone
+Sinusitis,Back Pain,Omeprazole
+Sinusitis,Sore Throat,Terbinafine
+Peptic Ulcer,Skin Rash,Doxycycline
+Jaundice,Swelling,Levothyroxine
+Bronchitis,Blurred Vision,Omeprazole
+Migraine,Rapid Heartbeat,Ibuprofen
+Sinusitis,High Blood Pressure,Loratadine
+Ulcerative Colitis,High Blood Pressure,Losartan
+Psoriasis,Shortness of breath,Terbinafine
+Peptic Ulcer,Fatigue,Amoxicillin
+Influenza,Blurred Vision,Calamine Lotion
+Influenza,High Blood Pressure,Prednisone
+Acne,Joint Pain,Budesonide
+Chronic Kidney Disease,Tremors,Budesonide
+Fungal Infection,Blurred Vision,Omeprazole
+Migraine,Back Pain,Sildenafil
+Pneumonia,Red Eyes,Chloroquine
+Diabetes,Red Eyes,Azithromycin
+Heart Disease,Muscle Weakness,Chloroquine
+Hypertension,Numbness,Budesonide
+Malaria,Night Sweats,Budesonide
+Chronic Kidney Disease,Nausea,Propranolol
+Arthritis,Loss of Appetite,Losartan
+Fungal Infection,Joint Pain,Glibenclamide
+Acne,Red Eyes,Isoniazid
+Tuberculosis,Weight Loss,Ranitidine
+Ulcerative Colitis,Dizziness,Adalimumab
+Eczema,Loss of Appetite,Terbinafine
+Chickenpox,Fever,Prednisone
+Malaria,Chest Pain,Loperamide
+Gastroenteritis,Tremors,Losartan
+Influenza,Skin Rash,Ondansetron
+Urinary Tract Infection,Headache,Cetirizine
+Eczema,Ear Pain,Isoniazid
+Bronchitis,Weight Loss,Omeprazole
+Common Cold,Fatigue,Ondansetron
+Osteoporosis,Headache,Omeprazole
+Epilepsy,Nausea,Loperamide
+Bronchitis,Weight Loss,Sumatriptan
+Fungal Infection,Shortness of breath,Chloroquine
+Common Cold,High Blood Pressure,Levothyroxine
+Psoriasis,Chest Pain,Budesonide
+Pneumonia,Back Pain,Aspirin
+Hypertension,Joint Pain,Amoxicillin
+Fungal Infection,Chest Pain,Metformin
+Vertigo,Red Eyes,Doxycycline
+Dengue,Numbness,Glibenclamide
+Chronic Kidney Disease,Cough,Omeprazole
+Vertigo,Red Eyes,Prednisone
+Acne,Red Eyes,Budesonide
+Zika Virus,Nausea,Loperamide
+Arthritis,Runny Nose,Budesonide
+Osteoporosis,Runny Nose,Loratadine
+Urinary Tract Infection,Swelling,Sildenafil
+Pneumonia,Fever,Calamine Lotion
+Urinary Tract Infection,Red Eyes,Losartan
+Psoriasis,Dizziness,Isoniazid
+Common Cold,Vomiting,Calamine Lotion
+Influenza,Cough,Ibuprofen
+Urinary Tract Infection,Blurred Vision,Amoxicillin
+Fungal Infection,Fever,Aspirin
+Whooping Cough,Skin Rash,Aspirin
+Chronic Kidney Disease,Loss of Appetite,Budesonide
+Peptic Ulcer,Fatigue,Omeprazole
+Eczema,Vomiting,Sumatriptan
+Osteoporosis,Blurred Vision,Loratadine
+COVID-19,Skin Rash,Loperamide
+Glaucoma,Abdominal Pain,Sildenafil
+Multiple Sclerosis,Cough,Calamine Lotion
+Tuberculosis,Numbness,Loratadine
+Asthma,Back Pain,Omeprazole
+Zika Virus,Rapid Heartbeat,Losartan
+Bronchitis,Rapid Heartbeat,Amoxicillin
+Osteoporosis,Abdominal Pain,Metformin
+Arthritis,Blurred Vision,Aspirin
+Typhoid,Chest Pain,Ibuprofen
+Jaundice,Numbness,Cetirizine
+Typhoid,Tremors,Ranitidine
+Arthritis,Dizziness,Losartan
+Multiple Sclerosis,Abdominal Pain,Aspirin
+Pneumonia,Joint Pain,Ranitidine
+Jaundice,Swelling,Doxycycline
+Osteoporosis,Ear Pain,Amoxicillin
+COVID-19,Ear Pain,Terbinafine
+Arthritis,High Blood Pressure,Rifampin
+Peptic Ulcer,Numbness,Levothyroxine
+COVID-19,Swollen Lymph Nodes,Rifampin
+Psoriasis,Chest Pain,Loperamide
+Multiple Sclerosis,Diarrhea,Azithromycin
+Migraine,Red Eyes,Chloroquine
+Influenza,Blurred Vision,Metformin
+Lung Cancer,Muscle Weakness,Levothyroxine
+Ulcerative Colitis,Chest Pain,Amoxicillin
+Chickenpox,Vomiting,Adalimumab
+Vertigo,Abdominal Pain,Ibuprofen
+Bronchitis,High Blood Pressure,Ondansetron
+Chickenpox,Shortness of breath,Losartan
+Common Cold,Swollen Lymph Nodes,Rifampin
+Jaundice,Ear Pain,Loperamide
+Bronchitis,Skin Rash,Aspirin
+Hypertension,Nausea,Azithromycin
+Bronchitis,Ear Pain,Topiramate
+Jaundice,Fever,Levothyroxine
+Ulcerative Colitis,Rapid Heartbeat,Loperamide
+Pneumonia,Headache,Ibuprofen
+Sinusitis,Nausea,Sumatriptan
+Eczema,Weight Loss,Loperamide
+Zika Virus,Loss of Appetite,Ranitidine
+Tuberculosis,Swelling,Glibenclamide
+Hepatitis,Swollen Lymph Nodes,Cetirizine
+Common Cold,Fatigue,Prednisone
+Heart Disease,Fatigue,Paracetamol
+COVID-19,Vomiting,Hydrocortisone
+Malaria,Ear Pain,Glibenclamide
+Ulcerative Colitis,Night Sweats,Levothyroxine
+Malaria,Abdominal Pain,Rifampin
+Gastroenteritis,Cough,Terbinafine
+Ulcerative Colitis,Tremors,Levothyroxine
+Diabetes,Chest Pain,Losartan
+Vertigo,Fatigue,Propranolol
+Jaundice,Swelling,Hydrocortisone
+Jaundice,Tremors,Azithromycin
+Fungal Infection,Tremors,Omeprazole
+Multiple Sclerosis,Red Eyes,Metformin
+Lung Cancer,Fever,Cetirizine
+Bronchitis,Back Pain,Losartan
+Bronchitis,Abdominal Pain,Chloroquine
+Diabetes,Weight Loss,Ciprofloxacin
+Sinusitis,Runny Nose,Loperamide
+Diabetes,Skin Rash,Hydrocortisone
+Jaundice,Chest Pain,Loratadine
+Sinusitis,Abdominal Pain,Amoxicillin
+Pneumonia,Cough,Loperamide
+Tuberculosis,Nausea,Topiramate
+Bronchitis,Shortness of breath,Rifampin
+Glaucoma,Blurred Vision,Loratadine
+Diabetes,Numbness,Ondansetron
+Whooping Cough,Blurred Vision,Isoniazid
+Vertigo,Itching,Ciprofloxacin
+Chickenpox,Nausea,Ondansetron
+Acne,Night Sweats,Paracetamol
+Influenza,Weight Loss,Paracetamol
+Bronchitis,Swelling,Aspirin
+Hypertension,Skin Rash,Losartan
+Pneumonia,Fever,Glibenclamide
+Migraine,Ear Pain,Hydrocortisone
+Jaundice,Rapid Heartbeat,Loratadine
+Allergy,Back Pain,Ranitidine
+Dengue,Joint Pain,Sildenafil
+Pneumonia,Weight Loss,Budesonide
+Eczema,Tremors,Ibuprofen
+Hypertension,Shortness of breath,Sildenafil
+Whooping Cough,Chest Pain,Cetirizine
+Hepatitis,Shortness of breath,Budesonide
+Osteoporosis,Fatigue,Glibenclamide
+Whooping Cough,Ear Pain,Budesonide
+Chronic Kidney Disease,Joint Pain,Prednisone
+Hepatitis,Weight Loss,Levothyroxine
+COVID-19,Night Sweats,Sumatriptan
+Osteoporosis,Fever,Sildenafil
+Hypertension,Swollen Lymph Nodes,Terbinafine
+Glaucoma,Swelling,Topiramate
+Tuberculosis,Red Eyes,Cetirizine
+Glaucoma,Blurred Vision,Calamine Lotion
+Jaundice,Rapid Heartbeat,Rifampin
+Lung Cancer,Weight Loss,Sildenafil
+Whooping Cough,Ear Pain,Omeprazole
+COVID-19,Sore Throat,Prednisone
+Hepatitis,Diarrhea,Amoxicillin
+Jaundice,Red Eyes,Propranolol
+Eczema,Muscle Weakness,Metformin
+Epilepsy,Joint Pain,Sildenafil
+Chickenpox,Chest Pain,Omeprazole
+Whooping Cough,Shortness of breath,Sumatriptan
+Chronic Kidney Disease,Tremors,Aspirin
+Heart Disease,Numbness,Ondansetron
+Acne,Nausea,Propranolol
+Epilepsy,Abdominal Pain,Rifampin
+Asthma,High Blood Pressure,Calamine Lotion
+Glaucoma,Rapid Heartbeat,Ibuprofen
+Common Cold,Headache,Loperamide
+Glaucoma,Itching,Isoniazid
+Arthritis,Cough,Loratadine
+Diabetes,Runny Nose,Topiramate
+Acne,Itching,Ondansetron
+Gastroenteritis,Cough,Topiramate
+Acne,Fatigue,Amoxicillin
+Psoriasis,Nausea,Ranitidine
+Osteoporosis,Fever,Losartan
+Bronchitis,Joint Pain,Adalimumab
+Malaria,Loss of Appetite,Calamine Lotion
+Chronic Kidney Disease,Dizziness,Budesonide
+Vertigo,Diarrhea,Terbinafine
+Eczema,Itching,Cetirizine
+Psoriasis,Shortness of breath,Cetirizine
+Heart Disease,Rapid Heartbeat,Azithromycin
+Psoriasis,Abdominal Pain,Propranolol
+Tuberculosis,Rapid Heartbeat,Calamine Lotion
+Influenza,Swollen Lymph Nodes,Prednisone
+Migraine,Chest Pain,Glibenclamide
+Epilepsy,Muscle Weakness,Loperamide
+Multiple Sclerosis,Sore Throat,Sumatriptan
+Heart Disease,Skin Rash,Levothyroxine
+Pneumonia,Chest Pain,Levothyroxine
+Urinary Tract Infection,Blurred Vision,Ciprofloxacin
+Common Cold,Fatigue,Azithromycin
+Typhoid,Fever,Doxycycline
+Osteoporosis,Loss of Appetite,Losartan
+Typhoid,Vomiting,Omeprazole
+Lung Cancer,Muscle Weakness,Hydrocortisone
+Eczema,Blurred Vision,Loperamide
+Whooping Cough,Dizziness,Sildenafil
+Diabetes,Itching,Prednisone
+COVID-19,Fatigue,Sumatriptan
+Hypertension,Itching,Aspirin
+Bronchitis,Swelling,Ciprofloxacin
+Bronchitis,Vomiting,Topiramate
+Multiple Sclerosis,Dizziness,Isoniazid
+Dengue,Skin Rash,Prednisone
+Urinary Tract Infection,Back Pain,Omeprazole
+Chickenpox,Muscle Weakness,Omeprazole
+Influenza,Muscle Weakness,Isoniazid
+Arthritis,Skin Rash,Ondansetron
+Acne,Back Pain,Glibenclamide
+Acne,Swelling,Isoniazid
+Influenza,Skin Rash,Propranolol
+Common Cold,Night Sweats,Losartan
+Dengue,Sore Throat,Amoxicillin
+Dengue,Night Sweats,Levothyroxine
+Multiple Sclerosis,Dizziness,Loperamide
+Ulcerative Colitis,Fever,Losartan
+Malaria,Joint Pain,Sumatriptan
+Pneumonia,Abdominal Pain,Glibenclamide
+Lung Cancer,Swollen Lymph Nodes,Loperamide
+Glaucoma,Swelling,Omeprazole
+Asthma,Numbness,Ondansetron
+Chronic Kidney Disease,Loss of Appetite,Ondansetron
+Zika Virus,Itching,Omeprazole
+Dengue,Nausea,Paracetamol
+Heart Disease,Fever,Isoniazid
+Epilepsy,Fatigue,Azithromycin
+Lung Cancer,Weight Loss,Sumatriptan
+Tuberculosis,Numbness,Ibuprofen
+Influenza,Weight Loss,Omeprazole
+Glaucoma,Swollen Lymph Nodes,Ondansetron
+Tuberculosis,Red Eyes,Isoniazid
+COVID-19,Swelling,Ciprofloxacin
+Urinary Tract Infection,Weight Loss,Propranolol
+Hepatitis,Diarrhea,Prednisone
+Eczema,Headache,Propranolol
+Glaucoma,Fever,Prednisone
+Influenza,Night Sweats,Ibuprofen
+Zika Virus,Night Sweats,Isoniazid
+Chronic Kidney Disease,Abdominal Pain,Glibenclamide
+Common Cold,Night Sweats,Isoniazid
+Sinusitis,Skin Rash,Hydrocortisone
+Influenza,Itching,Sildenafil
+Gastroenteritis,Shortness of breath,Isoniazid
+Heart Disease,Sore Throat,Metformin
+Typhoid,Nausea,Cetirizine
+Tuberculosis,Back Pain,Levothyroxine
+Diabetes,Chest Pain,Loperamide
+Ulcerative Colitis,Headache,Amoxicillin
+Osteoporosis,High Blood Pressure,Aspirin
+Common Cold,Weight Loss,Chloroquine
+Urinary Tract Infection,Swelling,Levothyroxine
+Typhoid,Headache,Propranolol
+Migraine,Ear Pain,Aspirin
+Heart Disease,Rapid Heartbeat,Levothyroxine
+Sinusitis,Cough,Levothyroxine
+Typhoid,Numbness,Loratadine
+Chickenpox,Headache,Glibenclamide
+Hypertension,Blurred Vision,Glibenclamide
+Vertigo,Headache,Adalimumab
+Heart Disease,Weight Loss,Aspirin
+Peptic Ulcer,Numbness,Topiramate
+COVID-19,High Blood Pressure,Omeprazole
+COVID-19,Skin Rash,Chloroquine
+Gastroenteritis,Tremors,Sumatriptan
+Eczema,Red Eyes,Rifampin
+Gastroenteritis,Chest Pain,Azithromycin
+Lung Cancer,Cough,Omeprazole
+Peptic Ulcer,Back Pain,Propranolol
+COVID-19,Headache,Amoxicillin
+Sinusitis,Night Sweats,Isoniazid
+Hepatitis,Chest Pain,Loratadine
+Jaundice,Chest Pain,Topiramate
+Malaria,Vomiting,Loperamide
+Zika Virus,Swelling,Terbinafine
+Common Cold,Fever,Omeprazole
+Allergy,Dizziness,Adalimumab
+COVID-19,Night Sweats,Ondansetron
+Jaundice,Chest Pain,Adalimumab
+Diabetes,Swelling,Adalimumab
+Ulcerative Colitis,Muscle Weakness,Terbinafine
+Whooping Cough,Red Eyes,Loperamide
+Hypertension,Rapid Heartbeat,Loratadine
+Ulcerative Colitis,Weight Loss,Terbinafine
+Bronchitis,Rapid Heartbeat,Sumatriptan
+Multiple Sclerosis,Loss of Appetite,Sildenafil
+COVID-19,Weight Loss,Aspirin
+Eczema,Swollen Lymph Nodes,Omeprazole
+Lung Cancer,Cough,Levothyroxine
+Chickenpox,Swelling,Azithromycin
+Allergy,Sore Throat,Ranitidine
+Eczema,High Blood Pressure,Amoxicillin
+Allergy,Joint Pain,Loratadine
+Peptic Ulcer,Blurred Vision,Ibuprofen
+Influenza,Sore Throat,Losartan
+Pneumonia,Muscle Weakness,Terbinafine
+Typhoid,Nausea,Isoniazid
+Peptic Ulcer,Tremors,Adalimumab
+Psoriasis,Dizziness,Prednisone
+Arthritis,Numbness,Terbinafine
+Fungal Infection,Sore Throat,Azithromycin
+Osteoporosis,Dizziness,Terbinafine
+Malaria,Night Sweats,Topiramate
+Ulcerative Colitis,Sore Throat,Aspirin
+Heart Disease,Skin Rash,Aspirin
+Tuberculosis,Rapid Heartbeat,Loperamide
+Allergy,Chest Pain,Glibenclamide
+Hepatitis,Runny Nose,Levothyroxine
+Allergy,Red Eyes,Ibuprofen
+Eczema,Tremors,Ondansetron
+Influenza,Cough,Sumatriptan
+Glaucoma,Joint Pain,Sildenafil
+Psoriasis,Loss of Appetite,Sildenafil
+Hepatitis,Red Eyes,Isoniazid
+Pneumonia,Joint Pain,Metformin
+Urinary Tract Infection,Diarrhea,Adalimumab
+Pneumonia,Weight Loss,Loratadine
+Diabetes,Dizziness,Budesonide
+Peptic Ulcer,Headache,Sumatriptan
+Acne,Joint Pain,Levothyroxine
+Glaucoma,Abdominal Pain,Terbinafine
+Hepatitis,Fever,Levothyroxine
+Osteoporosis,Back Pain,Propranolol
+Pneumonia,Numbness,Propranolol
+Typhoid,Shortness of breath,Hydrocortisone
+Eczema,Numbness,Ranitidine
+Ulcerative Colitis,Rapid Heartbeat,Terbinafine
+Zika Virus,Numbness,Ranitidine
+Pneumonia,Fatigue,Doxycycline
+Jaundice,Swelling,Adalimumab
+Chickenpox,Runny Nose,Rifampin
+Hepatitis,Blurred Vision,Ranitidine
+Asthma,Diarrhea,Omeprazole
+Chickenpox,Rapid Heartbeat,Glibenclamide
+Osteoporosis,Itching,Loperamide
+Peptic Ulcer,Tremors,Sildenafil
+Arthritis,Red Eyes,Chloroquine
+Fungal Infection,Abdominal Pain,Terbinafine
+Hepatitis,Abdominal Pain,Sumatriptan
+Ulcerative Colitis,Nausea,Omeprazole
+Tuberculosis,Abdominal Pain,Ciprofloxacin
+Hypertension,High Blood Pressure,Paracetamol
+Vertigo,Rapid Heartbeat,Adalimumab
+Glaucoma,Rapid Heartbeat,Sildenafil
+Tuberculosis,Swelling,Ondansetron
+Zika Virus,Ear Pain,Prednisone
+Eczema,Red Eyes,Doxycycline
+Chronic Kidney Disease,Abdominal Pain,Levothyroxine
+Multiple Sclerosis,Blurred Vision,Isoniazid
+Arthritis,Dizziness,Hydrocortisone
+Acne,Headache,Paracetamol
+Pneumonia,Runny Nose,Amoxicillin
+Dengue,Fever,Ibuprofen
+Glaucoma,Numbness,Sumatriptan
+Arthritis,Loss of Appetite,Amoxicillin
+Diabetes,Nausea,Azithromycin
+Urinary Tract Infection,Red Eyes,Sumatriptan
+Tuberculosis,Itching,Loperamide
+Allergy,Vomiting,Amoxicillin
+Osteoporosis,Night Sweats,Glibenclamide
+Hypertension,Sore Throat,Cetirizine
+Vertigo,Blurred Vision,Losartan
+Diabetes,Numbness,Paracetamol
+Common Cold,Weight Loss,Loperamide
+Jaundice,Runny Nose,Paracetamol
+Ulcerative Colitis,Skin Rash,Paracetamol
+Hypertension,Red Eyes,Ciprofloxacin
+Tuberculosis,Numbness,Prednisone
+Psoriasis,Fever,Ibuprofen
+Bronchitis,Runny Nose,Terbinafine
+Zika Virus,Skin Rash,Isoniazid
+Glaucoma,Sore Throat,Propranolol
+Malaria,Back Pain,Doxycycline
+Arthritis,Runny Nose,Ranitidine
+Sinusitis,Weight Loss,Rifampin
+Multiple Sclerosis,Headache,Propranolol
+Whooping Cough,Tremors,Isoniazid
+Allergy,Fatigue,Cetirizine
+Multiple Sclerosis,Abdominal Pain,Paracetamol
+Chickenpox,Back Pain,Amoxicillin
+Psoriasis,Tremors,Budesonide
+Bronchitis,Tremors,Ciprofloxacin
+Fungal Infection,Runny Nose,Cetirizine
+Fungal Infection,Nausea,Doxycycline
+Osteoporosis,Tremors,Ciprofloxacin
+Pneumonia,Shortness of breath,Ranitidine
+Asthma,Back Pain,Ranitidine
+Malaria,Shortness of breath,Doxycycline
+Fungal Infection,Swollen Lymph Nodes,Losartan
+Common Cold,Tremors,Aspirin
+Hypertension,Night Sweats,Losartan
+Tuberculosis,Abdominal Pain,Omeprazole
+Heart Disease,Skin Rash,Propranolol
+Diabetes,Night Sweats,Terbinafine
+Common Cold,Dizziness,Sumatriptan
+Asthma,Nausea,Levothyroxine
+Gastroenteritis,Numbness,Sildenafil
+Multiple Sclerosis,Blurred Vision,Adalimumab
+Migraine,Chest Pain,Calamine Lotion
+Chickenpox,Vomiting,Sildenafil
+Heart Disease,Diarrhea,Levothyroxine
+Sinusitis,Cough,Paracetamol
+Ulcerative Colitis,Back Pain,Sildenafil
+Eczema,Night Sweats,Budesonide
+Arthritis,Sore Throat,Doxycycline
+Gastroenteritis,Shortness of breath,Amoxicillin
+Arthritis,Diarrhea,Losartan
+Jaundice,Night Sweats,Azithromycin
+Dengue,Red Eyes,Budesonide
+Malaria,Rapid Heartbeat,Budesonide
+COVID-19,Abdominal Pain,Losartan
+Malaria,Itching,Aspirin
+Osteoporosis,Swelling,Paracetamol
+Jaundice,Itching,Rifampin
+Tuberculosis,Dizziness,Aspirin
+Jaundice,Numbness,Hydrocortisone
+Acne,Rapid Heartbeat,Budesonide
+Asthma,Dizziness,Metformin
+Asthma,High Blood Pressure,Topiramate
+Eczema,Abdominal Pain,Loratadine
+Malaria,Night Sweats,Topiramate
+Dengue,Vomiting,Ondansetron
+Multiple Sclerosis,Sore Throat,Glibenclamide
+Sinusitis,Red Eyes,Terbinafine
+Malaria,Shortness of breath,Metformin
+Epilepsy,High Blood Pressure,Paracetamol
+Hypertension,Nausea,Sumatriptan
+Gastroenteritis,Itching,Isoniazid
+Vertigo,Fatigue,Adalimumab
+Diabetes,Swollen Lymph Nodes,Chloroquine
+COVID-19,Cough,Losartan
+Gastroenteritis,Red Eyes,Amoxicillin
+Jaundice,Vomiting,Amoxicillin
+Bronchitis,Shortness of breath,Losartan
+Allergy,Dizziness,Propranolol
+Chickenpox,Blurred Vision,Hydrocortisone
+Pneumonia,Diarrhea,Sildenafil
+Arthritis,Shortness of breath,Ranitidine
+Jaundice,Swollen Lymph Nodes,Losartan
+Asthma,High Blood Pressure,Losartan
+Chronic Kidney Disease,Tremors,Prednisone
+Urinary Tract Infection,Itching,Omeprazole
+Pneumonia,Weight Loss,Levothyroxine
+Common Cold,Back Pain,Loratadine
+Hypertension,Runny Nose,Doxycycline
+Acne,High Blood Pressure,Levothyroxine
+Ulcerative Colitis,Shortness of breath,Ranitidine
+Allergy,Red Eyes,Prednisone
+Urinary Tract Infection,Itching,Azithromycin
+Common Cold,Chest Pain,Azithromycin
+Eczema,Headache,Amoxicillin
+Gastroenteritis,Sore Throat,Loratadine
+Allergy,Swelling,Loratadine
+Peptic Ulcer,Numbness,Isoniazid
+Asthma,Swelling,Calamine Lotion
+Influenza,Blurred Vision,Rifampin
+Whooping Cough,Cough,Metformin
+Sinusitis,Swollen Lymph Nodes,Loperamide
+Urinary Tract Infection,Abdominal Pain,Topiramate
+Hypertension,Sore Throat,Loperamide
+Acne,Joint Pain,Ibuprofen
+Gastroenteritis,Shortness of breath,Loratadine
+Acne,Swelling,Ciprofloxacin
+Common Cold,Red Eyes,Adalimumab
+Zika Virus,Muscle Weakness,Propranolol
+Migraine,Headache,Loperamide
+Diabetes,Headache,Paracetamol
+Influenza,Sore Throat,Glibenclamide
+Migraine,Rapid Heartbeat,Glibenclamide
+Asthma,Headache,Levothyroxine
+Dengue,Nausea,Amoxicillin
+Tuberculosis,Muscle Weakness,Loperamide
+Hepatitis,Sore Throat,Sumatriptan
+Urinary Tract Infection,Swelling,Ranitidine
+Arthritis,Swollen Lymph Nodes,Glibenclamide
+Ulcerative Colitis,Back Pain,Propranolol
+Jaundice,Numbness,Prednisone
+Hypertension,Sore Throat,Azithromycin
+Urinary Tract Infection,Diarrhea,Losartan
+Typhoid,Fever,Calamine Lotion
+Tuberculosis,Night Sweats,Ondansetron
+Eczema,Loss of Appetite,Ibuprofen
+Common Cold,Swollen Lymph Nodes,Propranolol
+Lung Cancer,Tremors,Azithromycin
+Typhoid,Chest Pain,Rifampin
+Typhoid,Muscle Weakness,Loratadine
+Multiple Sclerosis,Diarrhea,Glibenclamide
+Glaucoma,Skin Rash,Isoniazid
+Dengue,Weight Loss,Isoniazid
+Acne,Numbness,Budesonide
+Urinary Tract Infection,Numbness,Doxycycline
+Jaundice,Loss of Appetite,Terbinafine
+Bronchitis,Headache,Paracetamol
+Acne,Weight Loss,Topiramate
+Hepatitis,Chest Pain,Propranolol
+Allergy,Chest Pain,Calamine Lotion
+Dengue,Fatigue,Terbinafine
+Ulcerative Colitis,High Blood Pressure,Propranolol
+Eczema,Joint Pain,Sildenafil
+Epilepsy,Night Sweats,Losartan
+Epilepsy,Fever,Ciprofloxacin
+Hepatitis,Ear Pain,Azithromycin
+Hepatitis,Runny Nose,Ibuprofen
+Zika Virus,Vomiting,Topiramate
+Whooping Cough,Swelling,Cetirizine
+Epilepsy,Abdominal Pain,Propranolol
+Hypertension,Rapid Heartbeat,Metformin
+Jaundice,Cough,Glibenclamide
+Osteoporosis,Itching,Sumatriptan
+Eczema,Skin Rash,Ranitidine
+Chronic Kidney Disease,Numbness,Paracetamol
+Chickenpox,Blurred Vision,Loperamide
+Chickenpox,High Blood Pressure,Budesonide
+Zika Virus,Night Sweats,Rifampin
+Peptic Ulcer,Swollen Lymph Nodes,Azithromycin
+Fungal Infection,Red Eyes,Ranitidine
+Acne,Nausea,Terbinafine
+COVID-19,Weight Loss,Aspirin
+Tuberculosis,Blurred Vision,Ranitidine
+Malaria,Swelling,Sumatriptan
+Sinusitis,Headache,Sildenafil
+Peptic Ulcer,Loss of Appetite,Adalimumab
+Vertigo,Sore Throat,Levothyroxine
+Bronchitis,Blurred Vision,Ranitidine
+Diabetes,Swelling,Budesonide
+Gastroenteritis,Fatigue,Loratadine
+Asthma,Fatigue,Ondansetron
+Jaundice,Swollen Lymph Nodes,Doxycycline
+Heart Disease,High Blood Pressure,Chloroquine
+Urinary Tract Infection,Swelling,Amoxicillin
+Typhoid,Cough,Budesonide
+Arthritis,Muscle Weakness,Calamine Lotion
+Migraine,Blurred Vision,Paracetamol
+Allergy,Nausea,Losartan
+Epilepsy,Rapid Heartbeat,Losartan
+Malaria,Blurred Vision,Paracetamol
+Peptic Ulcer,Sore Throat,Loperamide
+Migraine,Headache,Ondansetron
+Influenza,Back Pain,Metformin
+Dengue,Red Eyes,Calamine Lotion
+Migraine,Headache,Sumatriptan
+Eczema,Diarrhea,Adalimumab
+Migraine,Itching,Ondansetron
+Tuberculosis,Swelling,Hydrocortisone
+Sinusitis,Fever,Topiramate
+Zika Virus,High Blood Pressure,Budesonide
+Lung Cancer,Cough,Sumatriptan
+Acne,Fatigue,Rifampin
+Glaucoma,Vomiting,Sumatriptan
+Jaundice,Shortness of breath,Isoniazid
+Migraine,Shortness of breath,Terbinafine
+Urinary Tract Infection,Joint Pain,Ciprofloxacin
+Common Cold,Sore Throat,Rifampin
+Migraine,Muscle Weakness,Loratadine
+Urinary Tract Infection,Rapid Heartbeat,Calamine Lotion
+Eczema,Red Eyes,Terbinafine
+Glaucoma,Loss of Appetite,Amoxicillin
+Zika Virus,Cough,Losartan
+Ulcerative Colitis,Abdominal Pain,Terbinafine
+Hepatitis,Sore Throat,Omeprazole
+Migraine,Fatigue,Adalimumab
+Bronchitis,Nausea,Rifampin
+Chickenpox,Red Eyes,Adalimumab
+Dengue,Abdominal Pain,Azithromycin
+Psoriasis,Abdominal Pain,Doxycycline
+Chickenpox,Fever,Doxycycline
+Malaria,Swelling,Rifampin
+Typhoid,Back Pain,Ibuprofen
+Sinusitis,Night Sweats,Loratadine
+Allergy,Fever,Omeprazole
+Fungal Infection,Swollen Lymph Nodes,Ibuprofen
+Jaundice,Blurred Vision,Adalimumab
+Hypertension,Fever,Isoniazid
+Diabetes,Rapid Heartbeat,Sildenafil
+Glaucoma,Diarrhea,Hydrocortisone
+Common Cold,Vomiting,Terbinafine
+Glaucoma,Sore Throat,Paracetamol
+Whooping Cough,Fatigue,Chloroquine
+Asthma,Rapid Heartbeat,Sildenafil
+Osteoporosis,Swelling,Isoniazid
+Common Cold,Back Pain,Omeprazole
+Hepatitis,Shortness of breath,Sumatriptan
+Sinusitis,Vomiting,Isoniazid
+COVID-19,Joint Pain,Losartan
+Vertigo,Cough,Loperamide
+Multiple Sclerosis,Runny Nose,Hydrocortisone
+Pneumonia,Night Sweats,Sildenafil
+Tuberculosis,Nausea,Ibuprofen
+Multiple Sclerosis,Tremors,Prednisone
+Hepatitis,Muscle Weakness,Levothyroxine
+Chickenpox,Fever,Calamine Lotion
+Heart Disease,Diarrhea,Doxycycline
+Asthma,High Blood Pressure,Sumatriptan
+Bronchitis,Weight Loss,Ranitidine
+Tuberculosis,Chest Pain,Prednisone
+Gastroenteritis,Cough,Paracetamol
+Jaundice,Chest Pain,Topiramate
+Chronic Kidney Disease,Night Sweats,Prednisone
+Migraine,Abdominal Pain,Terbinafine
+Chickenpox,Runny Nose,Omeprazole
+Migraine,Itching,Budesonide
+Eczema,Skin Rash,Isoniazid
+Epilepsy,Shortness of breath,Levothyroxine
+Migraine,Dizziness,Propranolol
+Chickenpox,Nausea,Loperamide
+Bronchitis,Abdominal Pain,Sildenafil
+Typhoid,Swelling,Cetirizine
+Influenza,Runny Nose,Sildenafil
+Multiple Sclerosis,Nausea,Levothyroxine
+Diabetes,Rapid Heartbeat,Chloroquine
+Vertigo,Fatigue,Paracetamol
+Ulcerative Colitis,High Blood Pressure,Ciprofloxacin
+Diabetes,Numbness,Doxycycline
+Ulcerative Colitis,Shortness of breath,Doxycycline
+Malaria,High Blood Pressure,Sildenafil
+Diabetes,Joint Pain,Cetirizine
+Peptic Ulcer,Shortness of breath,Glibenclamide
+Lung Cancer,Ear Pain,Sumatriptan
+Diabetes,Nausea,Prednisone
+Asthma,Tremors,Metformin
+Influenza,Muscle Weakness,Losartan
+Dengue,Nausea,Levothyroxine
+COVID-19,Blurred Vision,Adalimumab
+Chickenpox,Loss of Appetite,Amoxicillin
+Dengue,Dizziness,Amoxicillin
+Whooping Cough,Muscle Weakness,Hydrocortisone
+Common Cold,Runny Nose,Ibuprofen
+Tuberculosis,Joint Pain,Prednisone
+Urinary Tract Infection,Weight Loss,Levothyroxine
+Jaundice,Cough,Loperamide
+COVID-19,Vomiting,Calamine Lotion
+Eczema,Vomiting,Losartan
+Ulcerative Colitis,Fatigue,Losartan
+Asthma,Dizziness,Omeprazole
+Gastroenteritis,Tremors,Aspirin
+Migraine,Fatigue,Metformin
+Diabetes,Tremors,Propranolol
+Whooping Cough,Runny Nose,Doxycycline
+Peptic Ulcer,Blurred Vision,Azithromycin
+Psoriasis,Runny Nose,Ciprofloxacin
+Epilepsy,Swollen Lymph Nodes,Metformin
+Whooping Cough,Numbness,Doxycycline
+Allergy,Rapid Heartbeat,Ciprofloxacin
+Vertigo,Headache,Azithromycin
+Allergy,Swollen Lymph Nodes,Loratadine
+Common Cold,Chest Pain,Topiramate
+Bronchitis,Numbness,Levothyroxine
+Pneumonia,Tremors,Adalimumab
+Arthritis,Weight Loss,Ranitidine
+Tuberculosis,Fever,Aspirin
+Tuberculosis,Skin Rash,Chloroquine
+COVID-19,Skin Rash,Budesonide
+Bronchitis,Chest Pain,Calamine Lotion
+Osteoporosis,Headache,Ranitidine
+Glaucoma,Blurred Vision,Terbinafine
+Multiple Sclerosis,Abdominal Pain,Calamine Lotion
+Acne,Swelling,Omeprazole
+Zika Virus,Muscle Weakness,Omeprazole
+Psoriasis,Shortness of breath,Glibenclamide
+Heart Disease,Cough,Ranitidine
+Chronic Kidney Disease,Joint Pain,Loratadine
+Psoriasis,Chest Pain,Hydrocortisone
+Vertigo,Joint Pain,Prednisone
+Allergy,Diarrhea,Losartan
+Acne,Swollen Lymph Nodes,Loperamide
+Lung Cancer,Weight Loss,Ciprofloxacin
+Common Cold,Vomiting,Ranitidine
+COVID-19,High Blood Pressure,Sildenafil
+Bronchitis,Joint Pain,Sildenafil
+Epilepsy,Dizziness,Propranolol
+Bronchitis,Runny Nose,Ranitidine
+Psoriasis,Weight Loss,Sumatriptan
+Typhoid,Back Pain,Adalimumab
+Lung Cancer,Shortness of breath,Losartan
+COVID-19,Loss of Appetite,Amoxicillin
+Allergy,Nausea,Ibuprofen
+Dengue,Fatigue,Levothyroxine
+Diabetes,Dizziness,Propranolol
+Asthma,Runny Nose,Calamine Lotion
+Multiple Sclerosis,Loss of Appetite,Ciprofloxacin
+Allergy,Dizziness,Adalimumab
+Fungal Infection,Numbness,Rifampin
+Malaria,Joint Pain,Amoxicillin
+Peptic Ulcer,Fever,Loperamide
+Chickenpox,Shortness of breath,Ibuprofen
+Peptic Ulcer,Chest Pain,Doxycycline
+Typhoid,Numbness,Ondansetron
+Osteoporosis,Swelling,Ibuprofen
+Diabetes,Cough,Cetirizine
+Diabetes,Swelling,Calamine Lotion
+Whooping Cough,Sore Throat,Ranitidine
+Peptic Ulcer,Tremors,Ciprofloxacin
+Multiple Sclerosis,Abdominal Pain,Calamine Lotion
+Psoriasis,Swollen Lymph Nodes,Loratadine
+Osteoporosis,Chest Pain,Prednisone
+Arthritis,High Blood Pressure,Chloroquine
+Glaucoma,Back Pain,Hydrocortisone
+Pneumonia,Shortness of breath,Topiramate
+Eczema,Red Eyes,Calamine Lotion
+Diabetes,Fatigue,Metformin
+Common Cold,Chest Pain,Doxycycline
+Hepatitis,Diarrhea,Hydrocortisone
+Migraine,Sore Throat,Isoniazid
+Chickenpox,Skin Rash,Ondansetron
+Hepatitis,Runny Nose,Ondansetron
+Ulcerative Colitis,Back Pain,Paracetamol
+Zika Virus,Vomiting,Rifampin
+Whooping Cough,Fever,Sildenafil
+Allergy,Blurred Vision,Losartan
+Gastroenteritis,Nausea,Glibenclamide
+Chronic Kidney Disease,Muscle Weakness,Ranitidine
+Gastroenteritis,Nausea,Aspirin
+Chronic Kidney Disease,Rapid Heartbeat,Topiramate
+Lung Cancer,Headache,Omeprazole
+Sinusitis,Blurred Vision,Rifampin
+Pneumonia,Chest Pain,Glibenclamide
+Peptic Ulcer,Nausea,Chloroquine
+Typhoid,Joint Pain,Loratadine
+Tuberculosis,Shortness of breath,Hydrocortisone
+Allergy,Skin Rash,Amoxicillin
+Zika Virus,Fever,Azithromycin
+Multiple Sclerosis,Chest Pain,Aspirin
+Jaundice,Loss of Appetite,Rifampin
+Chickenpox,Loss of Appetite,Budesonide
+Glaucoma,Blurred Vision,Aspirin
+Lung Cancer,Shortness of breath,Cetirizine
+Tuberculosis,Fever,Topiramate
+Malaria,Joint Pain,Calamine Lotion
+Asthma,Headache,Omeprazole
+Malaria,Loss of Appetite,Hydrocortisone
+COVID-19,Ear Pain,Isoniazid
+Diabetes,Shortness of breath,Ibuprofen
+Whooping Cough,Fever,Chloroquine
+Epilepsy,Tremors,Budesonide
+Hypertension,Skin Rash,Sildenafil
+Glaucoma,Abdominal Pain,Amoxicillin
+COVID-19,Joint Pain,Ranitidine
+Glaucoma,Swollen Lymph Nodes,Budesonide
+Pneumonia,Fever,Glibenclamide
+Pneumonia,Headache,Levothyroxine
+Zika Virus,Dizziness,Aspirin
+Hepatitis,Shortness of breath,Rifampin
+Glaucoma,Dizziness,Levothyroxine
+Lung Cancer,Night Sweats,Budesonide
+Heart Disease,Rapid Heartbeat,Omeprazole
+Bronchitis,Sore Throat,Budesonide
+Hypertension,Headache,Losartan
+Common Cold,Fever,Loratadine
+Pneumonia,Fatigue,Terbinafine
+Urinary Tract Infection,Diarrhea,Terbinafine
+Migraine,High Blood Pressure,Amoxicillin
+Osteoporosis,Shortness of breath,Metformin
+Arthritis,Weight Loss,Ibuprofen
+Acne,Skin Rash,Propranolol
+Hypertension,Fatigue,Hydrocortisone
+Sinusitis,Itching,Terbinafine
+Gastroenteritis,Night Sweats,Prednisone
+Asthma,Sore Throat,Aspirin
+Fungal Infection,Itching,Amoxicillin
+Osteoporosis,Cough,Topiramate
+Acne,Tremors,Amoxicillin
+Diabetes,Blurred Vision,Cetirizine
+Hypertension,Numbness,Rifampin
+COVID-19,Muscle Weakness,Prednisone
+Multiple Sclerosis,Sore Throat,Adalimumab
+Common Cold,Cough,Losartan
+Pneumonia,Red Eyes,Metformin
+Gastroenteritis,Loss of Appetite,Loperamide
+Psoriasis,Abdominal Pain,Ranitidine
+Zika Virus,Vomiting,Metformin
+Typhoid,Itching,Ranitidine
+Jaundice,Blurred Vision,Loratadine
+Osteoporosis,Abdominal Pain,Hydrocortisone
+Jaundice,Back Pain,Glibenclamide
+Malaria,Muscle Weakness,Chloroquine
+Bronchitis,Diarrhea,Metformin
+Gastroenteritis,Joint Pain,Amoxicillin
+Influenza,Dizziness,Loratadine
+Hypertension,Nausea,Aspirin
+Bronchitis,Night Sweats,Levothyroxine
+Epilepsy,Headache,Glibenclamide
+Ulcerative Colitis,Joint Pain,Rifampin
+Vertigo,Weight Loss,Azithromycin
+Peptic Ulcer,Cough,Hydrocortisone
+Fungal Infection,Night Sweats,Levothyroxine
+Eczema,Diarrhea,Levothyroxine
+Influenza,Headache,Isoniazid
+Typhoid,Joint Pain,Ondansetron
+Whooping Cough,Joint Pain,Isoniazid
+Urinary Tract Infection,Diarrhea,Aspirin
+Migraine,Weight Loss,Rifampin
+COVID-19,Fever,Loperamide
+Migraine,Dizziness,Ibuprofen
+Hepatitis,Muscle Weakness,Ciprofloxacin
+Zika Virus,Weight Loss,Amoxicillin
+Hepatitis,Swelling,Losartan
+Heart Disease,Dizziness,Calamine Lotion
+Hypertension,Cough,Sumatriptan
+Whooping Cough,Weight Loss,Ranitidine
+Heart Disease,Muscle Weakness,Aspirin
+Jaundice,Fever,Levothyroxine
+Typhoid,Runny Nose,Sildenafil
+Dengue,High Blood Pressure,Amoxicillin
+Arthritis,Sore Throat,Prednisone
+Acne,Blurred Vision,Terbinafine
+Asthma,Runny Nose,Calamine Lotion
+Tuberculosis,Nausea,Prednisone
+Epilepsy,Joint Pain,Paracetamol
+Migraine,Night Sweats,Adalimumab
+Arthritis,Ear Pain,Amoxicillin
+Allergy,Night Sweats,Levothyroxine
+Glaucoma,Swollen Lymph Nodes,Calamine Lotion
+Lung Cancer,Back Pain,Ciprofloxacin
+Chronic Kidney Disease,Dizziness,Cetirizine
+Heart Disease,Sore Throat,Rifampin
+Hepatitis,Ear Pain,Metformin
+Whooping Cough,Swelling,Propranolol
+Epilepsy,Diarrhea,Ciprofloxacin
+Influenza,Itching,Terbinafine
+Epilepsy,Sore Throat,Topiramate
+Diabetes,Weight Loss,Losartan
+Psoriasis,Chest Pain,Losartan
+Psoriasis,Dizziness,Metformin
+Epilepsy,Red Eyes,Ondansetron
+Hepatitis,Swelling,Ondansetron
+Common Cold,High Blood Pressure,Sumatriptan
+Hepatitis,Tremors,Rifampin
+Lung Cancer,Loss of Appetite,Ciprofloxacin
+Ulcerative Colitis,Numbness,Cetirizine
+Glaucoma,Joint Pain,Sildenafil
+Jaundice,Cough,Propranolol
+Asthma,Fever,Ibuprofen
+Glaucoma,Swollen Lymph Nodes,Azithromycin
+Jaundice,Vomiting,Sumatriptan
+Bronchitis,Sore Throat,Terbinafine
+Peptic Ulcer,Weight Loss,Loratadine
+Hepatitis,Red Eyes,Sumatriptan
+Diabetes,Rapid Heartbeat,Propranolol
+Vertigo,Nausea,Aspirin
+Multiple Sclerosis,Runny Nose,Losartan
+COVID-19,Swelling,Adalimumab
+Epilepsy,Tremors,Doxycycline
+Epilepsy,Runny Nose,Budesonide
+COVID-19,Ear Pain,Isoniazid
+Asthma,Chest Pain,Sumatriptan
+Common Cold,Red Eyes,Levothyroxine
+Osteoporosis,Back Pain,Ranitidine
+Multiple Sclerosis,Diarrhea,Omeprazole
+Multiple Sclerosis,Ear Pain,Calamine Lotion
+Fungal Infection,Cough,Ranitidine
+Bronchitis,Red Eyes,Budesonide
+Arthritis,Rapid Heartbeat,Cetirizine
+Typhoid,Numbness,Paracetamol
+Eczema,Red Eyes,Prednisone
+Urinary Tract Infection,Ear Pain,Loperamide
+Jaundice,Ear Pain,Metformin
+Heart Disease,Loss of Appetite,Chloroquine
+Asthma,Abdominal Pain,Ibuprofen
+Vertigo,Headache,Sumatriptan
+Lung Cancer,Dizziness,Isoniazid
+Acne,Back Pain,Ondansetron
+Chickenpox,Nausea,Rifampin
+Arthritis,Joint Pain,Metformin
+Allergy,Ear Pain,Ibuprofen
+Lung Cancer,Swelling,Budesonide
+Tuberculosis,Vomiting,Calamine Lotion
+Heart Disease,Joint Pain,Chloroquine
+Eczema,Loss of Appetite,Ibuprofen
+Osteoporosis,Fever,Calamine Lotion
+Influenza,High Blood Pressure,Sumatriptan
+Heart Disease,Back Pain,Azithromycin
+Migraine,Back Pain,Hydrocortisone
+Lung Cancer,Joint Pain,Isoniazid
+Vertigo,Blurred Vision,Chloroquine
+Hypertension,Swelling,Losartan
+Peptic Ulcer,High Blood Pressure,Azithromycin
+Lung Cancer,Sore Throat,Adalimumab
+Pneumonia,Nausea,Budesonide
+Ulcerative Colitis,Loss of Appetite,Sildenafil
+Bronchitis,Weight Loss,Levothyroxine
+Arthritis,Sore Throat,Metformin
+Multiple Sclerosis,Nausea,Sumatriptan
+Urinary Tract Infection,Fever,Metformin
+Whooping Cough,Dizziness,Levothyroxine
+Acne,Abdominal Pain,Sildenafil
+Sinusitis,Fever,Prednisone
+Acne,Tremors,Loratadine
+Osteoporosis,Back Pain,Ranitidine
+Influenza,Red Eyes,Metformin
+Typhoid,Abdominal Pain,Omeprazole
+Pneumonia,High Blood Pressure,Aspirin
+Allergy,Itching,Prednisone
+Gastroenteritis,Night Sweats,Budesonide
+Urinary Tract Infection,Dizziness,Cetirizine
+Malaria,Back Pain,Chloroquine
+Common Cold,Runny Nose,Aspirin
+Dengue,Blurred Vision,Calamine Lotion
+Lung Cancer,Red Eyes,Sildenafil
+Peptic Ulcer,Weight Loss,Topiramate
+Influenza,Chest Pain,Amoxicillin
+Allergy,Swollen Lymph Nodes,Ibuprofen
+Acne,Numbness,Topiramate
+Bronchitis,Dizziness,Chloroquine
+Zika Virus,Muscle Weakness,Ibuprofen
+Typhoid,Fever,Cetirizine
+Asthma,Tremors,Loratadine
+COVID-19,Joint Pain,Aspirin
+Gastroenteritis,Loss of Appetite,Isoniazid
+Migraine,Muscle Weakness,Aspirin
+Epilepsy,Shortness of breath,Topiramate
+Malaria,Dizziness,Loratadine
+Whooping Cough,Tremors,Topiramate
+Jaundice,Red Eyes,Sildenafil
+Diabetes,Swelling,Omeprazole
+Zika Virus,Red Eyes,Hydrocortisone
+Vertigo,Headache,Metformin
+Epilepsy,Blurred Vision,Levothyroxine
+Acne,Tremors,Prednisone
+Whooping Cough,Runny Nose,Rifampin
+Gastroenteritis,Weight Loss,Glibenclamide
+Diabetes,Red Eyes,Rifampin
+Ulcerative Colitis,Skin Rash,Losartan
+Sinusitis,Headache,Glibenclamide
+Sinusitis,Chest Pain,Hydrocortisone
+Bronchitis,Numbness,Chloroquine
+Peptic Ulcer,Headache,Metformin
+Jaundice,Muscle Weakness,Adalimumab
+Zika Virus,Shortness of breath,Doxycycline
+Lung Cancer,Blurred Vision,Doxycycline
+Allergy,Chest Pain,Glibenclamide
+Hypertension,Loss of Appetite,Loperamide
+Malaria,Itching,Losartan
+Acne,Chest Pain,Metformin
+Urinary Tract Infection,Itching,Sildenafil
+Jaundice,Loss of Appetite,Aspirin
+Peptic Ulcer,Blurred Vision,Terbinafine
+Diabetes,Dizziness,Chloroquine
+Chronic Kidney Disease,Itching,Cetirizine
+Malaria,High Blood Pressure,Loperamide
+Chronic Kidney Disease,Night Sweats,Hydrocortisone
+Arthritis,Abdominal Pain,Glibenclamide
+Tuberculosis,Night Sweats,Ibuprofen
+Eczema,Chest Pain,Topiramate
+Osteoporosis,Skin Rash,Doxycycline
+Urinary Tract Infection,Shortness of breath,Rifampin
+COVID-19,Swollen Lymph Nodes,Ranitidine
+Psoriasis,Joint Pain,Ondansetron
+Arthritis,Red Eyes,Cetirizine
+Peptic Ulcer,Muscle Weakness,Adalimumab
+Pneumonia,Diarrhea,Hydrocortisone
+Asthma,Diarrhea,Omeprazole
+Vertigo,Weight Loss,Loperamide
+Pneumonia,Swollen Lymph Nodes,Metformin
+Malaria,Shortness of breath,Amoxicillin
+Pneumonia,Blurred Vision,Ondansetron
+Epilepsy,Cough,Cetirizine
+Diabetes,Loss of Appetite,Loperamide
+Chickenpox,Itching,Propranolol
+Lung Cancer,Joint Pain,Sumatriptan
+Chronic Kidney Disease,Cough,Doxycycline
+Ulcerative Colitis,Itching,Loratadine
+Pneumonia,Abdominal Pain,Topiramate
+Diabetes,Swelling,Loperamide
+Epilepsy,Nausea,Isoniazid
+Typhoid,Diarrhea,Propranolol
+Psoriasis,Joint Pain,Azithromycin
+Jaundice,High Blood Pressure,Rifampin
+COVID-19,Muscle Weakness,Isoniazid
+Fungal Infection,Rapid Heartbeat,Ciprofloxacin
+Lung Cancer,Cough,Ondansetron
+Influenza,Fever,Ciprofloxacin
+Malaria,Dizziness,Aspirin
+Osteoporosis,Fatigue,Glibenclamide
+Common Cold,Shortness of breath,Hydrocortisone
+Psoriasis,Night Sweats,Budesonide
+Diabetes,Vomiting,Chloroquine
+Fungal Infection,Swollen Lymph Nodes,Rifampin
+Chickenpox,Red Eyes,Doxycycline
+Eczema,Cough,Doxycycline
+Bronchitis,High Blood Pressure,Isoniazid
+Hepatitis,Shortness of breath,Losartan
+Lung Cancer,Cough,Sumatriptan
+Common Cold,Runny Nose,Ibuprofen
+Peptic Ulcer,Sore Throat,Isoniazid
+Fungal Infection,Swollen Lymph Nodes,Hydrocortisone
+Heart Disease,Shortness of breath,Loperamide
+Migraine,Headache,Levothyroxine
+Psoriasis,High Blood Pressure,Terbinafine
+Chickenpox,Headache,Ranitidine
+Asthma,Weight Loss,Isoniazid
+Fungal Infection,Muscle Weakness,Aspirin
+Typhoid,Fever,Topiramate
+Urinary Tract Infection,Night Sweats,Aspirin
+Vertigo,Skin Rash,Amoxicillin
+Sinusitis,Red Eyes,Loperamide
+Pneumonia,Swollen Lymph Nodes,Sumatriptan
+Acne,Fever,Azithromycin
+Glaucoma,Swollen Lymph Nodes,Rifampin
+Lung Cancer,Chest Pain,Ciprofloxacin
+Dengue,Runny Nose,Calamine Lotion
+Influenza,Blurred Vision,Adalimumab
+Allergy,Swollen Lymph Nodes,Aspirin
+Pneumonia,Numbness,Rifampin
+Jaundice,Joint Pain,Propranolol
+Vertigo,Nausea,Azithromycin
+Lung Cancer,Swelling,Omeprazole
+Osteoporosis,Fever,Paracetamol
+Heart Disease,Rapid Heartbeat,Ondansetron
+Urinary Tract Infection,Vomiting,Omeprazole
+Vertigo,Vomiting,Chloroquine
+Chickenpox,Skin Rash,Ranitidine
+Zika Virus,Sore Throat,Calamine Lotion
+Osteoporosis,Swelling,Sildenafil
+COVID-19,Fever,Sildenafil
+Dengue,Rapid Heartbeat,Loratadine
+COVID-19,Fatigue,Doxycycline
+Glaucoma,Dizziness,Sildenafil
+Acne,Rapid Heartbeat,Azithromycin
+Gastroenteritis,Tremors,Budesonide
+Chronic Kidney Disease,Back Pain,Ciprofloxacin
+Pneumonia,Ear Pain,Omeprazole
+Heart Disease,Vomiting,Levothyroxine
+Diabetes,Muscle Weakness,Amoxicillin
+Hypertension,Headache,Isoniazid
+Heart Disease,Red Eyes,Ibuprofen
+Glaucoma,Abdominal Pain,Ondansetron
+Epilepsy,Tremors,Loratadine
+Glaucoma,High Blood Pressure,Sumatriptan
+Fungal Infection,Dizziness,Hydrocortisone
+Dengue,Nausea,Glibenclamide
+Gastroenteritis,Dizziness,Aspirin
+Lung Cancer,Itching,Aspirin
+Dengue,Night Sweats,Topiramate
+Malaria,Ear Pain,Terbinafine
+Gastroenteritis,Swelling,Loperamide
+Glaucoma,Sore Throat,Metformin
+Hepatitis,Headache,Ondansetron
+Influenza,Back Pain,Adalimumab
+Asthma,Weight Loss,Ondansetron
+Gastroenteritis,Skin Rash,Ranitidine
+Asthma,Ear Pain,Levothyroxine
+Eczema,Blurred Vision,Terbinafine
+Dengue,Loss of Appetite,Aspirin
+Glaucoma,Nausea,Doxycycline
+Fungal Infection,Runny Nose,Calamine Lotion
+Diabetes,Chest Pain,Calamine Lotion
+Tuberculosis,Rapid Heartbeat,Losartan
+Malaria,Weight Loss,Adalimumab
+Bronchitis,Loss of Appetite,Budesonide
+Eczema,Nausea,Topiramate
+Vertigo,Abdominal Pain,Sildenafil
+Vertigo,Night Sweats,Metformin
+Chickenpox,Abdominal Pain,Ranitidine
+Dengue,Red Eyes,Azithromycin
+Bronchitis,Ear Pain,Sildenafil
+Vertigo,Diarrhea,Prednisone
+Tuberculosis,Fever,Levothyroxine
+Hypertension,Vomiting,Terbinafine
+Typhoid,Shortness of breath,Isoniazid
+Chickenpox,Cough,Ciprofloxacin
+Malaria,Diarrhea,Losartan
+Pneumonia,High Blood Pressure,Aspirin
+Gastroenteritis,Red Eyes,Ibuprofen
+Hypertension,Swelling,Metformin
+Allergy,Chest Pain,Metformin
+Gastroenteritis,Weight Loss,Amoxicillin
+Multiple Sclerosis,Swollen Lymph Nodes,Loperamide
+Glaucoma,Headache,Ranitidine
+Fungal Infection,Runny Nose,Topiramate
+Tuberculosis,Swollen Lymph Nodes,Glibenclamide
+Sinusitis,Vomiting,Isoniazid
+Influenza,Weight Loss,Cetirizine
+Asthma,Blurred Vision,Cetirizine
+Allergy,Numbness,Aspirin
+Pneumonia,Blurred Vision,Cetirizine
+Epilepsy,Skin Rash,Isoniazid
+Jaundice,Chest Pain,Propranolol
+Sinusitis,Chest Pain,Ondansetron
+Sinusitis,Tremors,Terbinafine
+Multiple Sclerosis,Back Pain,Topiramate
+Gastroenteritis,Runny Nose,Loperamide
+Dengue,Nausea,Calamine Lotion
+Dengue,Blurred Vision,Aspirin
+Epilepsy,Muscle Weakness,Glibenclamide
+Eczema,Fatigue,Cetirizine
+Dengue,High Blood Pressure,Metformin
+COVID-19,Rapid Heartbeat,Calamine Lotion
+Hepatitis,Rapid Heartbeat,Sildenafil
+Fungal Infection,Weight Loss,Sumatriptan
+Ulcerative Colitis,Cough,Metformin
+Malaria,Vomiting,Isoniazid
+Acne,Abdominal Pain,Amoxicillin
+Arthritis,Fatigue,Sildenafil
+Acne,Muscle Weakness,Omeprazole
+Psoriasis,Joint Pain,Rifampin
+Urinary Tract Infection,Cough,Loratadine
+Bronchitis,Numbness,Aspirin
+Migraine,Muscle Weakness,Ranitidine
+Zika Virus,Loss of Appetite,Amoxicillin
+Bronchitis,Fatigue,Topiramate
+Vertigo,Back Pain,Ciprofloxacin
+Influenza,Night Sweats,Propranolol
+Bronchitis,Swollen Lymph Nodes,Ibuprofen
+Fungal Infection,Itching,Losartan
+Osteoporosis,Itching,Budesonide
+Vertigo,Back Pain,Terbinafine
+Whooping Cough,Loss of Appetite,Topiramate
+Lung Cancer,Itching,Doxycycline
+Diabetes,Headache,Propranolol
+COVID-19,Red Eyes,Ibuprofen
+COVID-19,Back Pain,Budesonide
+Hepatitis,Numbness,Isoniazid
+Zika Virus,Swollen Lymph Nodes,Amoxicillin
+Bronchitis,Abdominal Pain,Doxycycline
+Acne,Ear Pain,Losartan
+Psoriasis,Loss of Appetite,Loratadine
+Common Cold,Rapid Heartbeat,Metformin
+Heart Disease,Vomiting,Terbinafine
+Tuberculosis,Fever,Ibuprofen
+Whooping Cough,Night Sweats,Levothyroxine
+Chronic Kidney Disease,Headache,Loratadine
+Gastroenteritis,Back Pain,Losartan
+Chickenpox,Diarrhea,Hydrocortisone
+Hepatitis,Blurred Vision,Doxycycline
+Ulcerative Colitis,Muscle Weakness,Propranolol
+Arthritis,Numbness,Cetirizine
+Whooping Cough,Blurred Vision,Chloroquine
+Urinary Tract Infection,Weight Loss,Aspirin
+Gastroenteritis,Sore Throat,Azithromycin
+Malaria,Fever,Aspirin
+Hepatitis,Swollen Lymph Nodes,Azithromycin
+Epilepsy,Nausea,Paracetamol
+Vertigo,Night Sweats,Rifampin
+COVID-19,Nausea,Ibuprofen
+Hepatitis,Chest Pain,Metformin
+Vertigo,Fever,Ciprofloxacin
+Hepatitis,Skin Rash,Terbinafine
+Acne,Loss of Appetite,Sildenafil
+Vertigo,Sore Throat,Ciprofloxacin
+Bronchitis,Blurred Vision,Adalimumab
+Zika Virus,Swollen Lymph Nodes,Ranitidine
+Tuberculosis,Swelling,Ranitidine
+Allergy,Back Pain,Hydrocortisone
+Malaria,Back Pain,Amoxicillin
+Osteoporosis,Rapid Heartbeat,Metformin
+Acne,Weight Loss,Cetirizine
+Zika Virus,Tremors,Levothyroxine
+Allergy,Back Pain,Loperamide
+Urinary Tract Infection,Abdominal Pain,Ciprofloxacin
+Diabetes,Skin Rash,Amoxicillin
+Typhoid,Blurred Vision,Chloroquine
+Psoriasis,Diarrhea,Loratadine
+Common Cold,Joint Pain,Adalimumab
+Eczema,Night Sweats,Losartan
+Diabetes,Abdominal Pain,Loperamide
+Arthritis,Abdominal Pain,Metformin
+Glaucoma,Red Eyes,Ondansetron
+Asthma,Chest Pain,Doxycycline
+Zika Virus,Runny Nose,Terbinafine
+Pneumonia,Vomiting,Cetirizine
+Fungal Infection,Runny Nose,Aspirin
+Allergy,Diarrhea,Sumatriptan
+Migraine,Red Eyes,Hydrocortisone
+Glaucoma,Headache,Losartan
+Osteoporosis,Shortness of breath,Sumatriptan
+Urinary Tract Infection,Headache,Ibuprofen
+Acne,Fever,Aspirin
+Peptic Ulcer,Swollen Lymph Nodes,Calamine Lotion
+Eczema,Blurred Vision,Metformin
+Gastroenteritis,Abdominal Pain,Amoxicillin
+Multiple Sclerosis,Vomiting,Metformin
+Ulcerative Colitis,Runny Nose,Glibenclamide
+Psoriasis,Dizziness,Azithromycin
+Bronchitis,Muscle Weakness,Budesonide
+Heart Disease,Muscle Weakness,Loratadine
+Whooping Cough,Diarrhea,Budesonide
+Hypertension,Runny Nose,Terbinafine
+Influenza,Weight Loss,Azithromycin
+Dengue,Dizziness,Doxycycline
+Tuberculosis,Abdominal Pain,Budesonide
+Jaundice,Loss of Appetite,Cetirizine
+Multiple Sclerosis,Chest Pain,Loratadine
+COVID-19,Chest Pain,Adalimumab
+Chickenpox,Abdominal Pain,Ondansetron
+Hepatitis,Swollen Lymph Nodes,Cetirizine
+Multiple Sclerosis,Itching,Isoniazid
+Heart Disease,Chest Pain,Ondansetron
+Jaundice,Cough,Omeprazole
+Psoriasis,Tremors,Losartan
+Lung Cancer,Nausea,Cetirizine
+Heart Disease,Cough,Budesonide
+Whooping Cough,Cough,Terbinafine
+Multiple Sclerosis,Red Eyes,Adalimumab
+Acne,Swelling,Hydrocortisone
+Vertigo,Tremors,Ranitidine
+Gastroenteritis,Swollen Lymph Nodes,Budesonide
+Hypertension,Blurred Vision,Ranitidine
+Diabetes,Chest Pain,Isoniazid
+Heart Disease,Loss of Appetite,Omeprazole
+Gastroenteritis,Fatigue,Amoxicillin
+Zika Virus,Loss of Appetite,Adalimumab
+Asthma,Numbness,Rifampin
+Chronic Kidney Disease,Sore Throat,Amoxicillin
+Glaucoma,Vomiting,Loratadine
+Typhoid,Shortness of breath,Omeprazole
+Allergy,Runny Nose,Sildenafil
+Chronic Kidney Disease,Runny Nose,Levothyroxine
+Osteoporosis,Shortness of breath,Aspirin
+Common Cold,Tremors,Omeprazole
+Psoriasis,Red Eyes,Glibenclamide
+Diabetes,Diarrhea,Sumatriptan
+Eczema,Sore Throat,Terbinafine
+Sinusitis,Rapid Heartbeat,Glibenclamide
+Multiple Sclerosis,Numbness,Cetirizine
+Influenza,Fever,Rifampin
+Asthma,Abdominal Pain,Sildenafil
+Diabetes,Tremors,Rifampin
+Gastroenteritis,Tremors,Ciprofloxacin
+Urinary Tract Infection,Headache,Omeprazole
+Multiple Sclerosis,Swollen Lymph Nodes,Ciprofloxacin
+Sinusitis,Dizziness,Ranitidine
+Asthma,Chest Pain,Hydrocortisone
+Eczema,Dizziness,Glibenclamide
+Arthritis,Sore Throat,Ranitidine
+Ulcerative Colitis,Loss of Appetite,Loratadine
+Dengue,Cough,Terbinafine
+Ulcerative Colitis,Rapid Heartbeat,Ondansetron
+Jaundice,Runny Nose,Isoniazid
+Common Cold,Loss of Appetite,Ranitidine
+Pneumonia,Swollen Lymph Nodes,Ranitidine
+Acne,Rapid Heartbeat,Ciprofloxacin
+Urinary Tract Infection,Headache,Omeprazole
+Jaundice,Runny Nose,Amoxicillin
+Diabetes,Chest Pain,Chloroquine
+Allergy,Tremors,Cetirizine
+Peptic Ulcer,Back Pain,Loperamide
+Tuberculosis,High Blood Pressure,Hydrocortisone
+Dengue,Blurred Vision,Hydrocortisone
+Pneumonia,Weight Loss,Ranitidine
+Multiple Sclerosis,Tremors,Budesonide
+Epilepsy,Skin Rash,Ibuprofen
+Allergy,Rapid Heartbeat,Loratadine
+Sinusitis,Fever,Chloroquine
+Zika Virus,Tremors,Ibuprofen
+Diabetes,Rapid Heartbeat,Ranitidine
+Vertigo,Fever,Prednisone
+Hepatitis,Rapid Heartbeat,Ondansetron
+Acne,Blurred Vision,Sildenafil
+Lung Cancer,Blurred Vision,Adalimumab
+Chronic Kidney Disease,Sore Throat,Metformin
+Fungal Infection,Chest Pain,Sumatriptan
+Heart Disease,Dizziness,Ciprofloxacin
+Glaucoma,Diarrhea,Hydrocortisone
+Asthma,Sore Throat,Loratadine
+Chickenpox,Rapid Heartbeat,Ondansetron
+Osteoporosis,Itching,Calamine Lotion
+Migraine,Sore Throat,Propranolol
+Osteoporosis,Skin Rash,Paracetamol
+Eczema,Tremors,Aspirin
+Common Cold,Weight Loss,Loratadine
+Common Cold,Sore Throat,Paracetamol
+Epilepsy,Skin Rash,Ibuprofen
+Common Cold,Ear Pain,Loratadine
+Peptic Ulcer,Blurred Vision,Ciprofloxacin
+Whooping Cough,Abdominal Pain,Sildenafil
+Urinary Tract Infection,Itching,Losartan
+Allergy,Fatigue,Paracetamol
+Heart Disease,Sore Throat,Aspirin
+Gastroenteritis,Swollen Lymph Nodes,Ondansetron
+Gastroenteritis,Numbness,Ondansetron
+Arthritis,Back Pain,Metformin
+Acne,Fatigue,Hydrocortisone
+Whooping Cough,Swelling,Doxycycline
+Migraine,Chest Pain,Propranolol
+Peptic Ulcer,Dizziness,Doxycycline
+Ulcerative Colitis,High Blood Pressure,Adalimumab
+COVID-19,Sore Throat,Azithromycin
+Sinusitis,Skin Rash,Azithromycin
+Arthritis,Tremors,Terbinafine
+Chickenpox,Fatigue,Terbinafine
+Vertigo,Chest Pain,Cetirizine
+Whooping Cough,Night Sweats,Loratadine
+Hepatitis,Swelling,Chloroquine
+Peptic Ulcer,Night Sweats,Metformin
+Typhoid,Shortness of breath,Loratadine
+Fungal Infection,Nausea,Losartan
+Glaucoma,Back Pain,Ondansetron
+Peptic Ulcer,Rapid Heartbeat,Glibenclamide
+Common Cold,Diarrhea,Paracetamol
+Peptic Ulcer,Diarrhea,Topiramate
+Allergy,Shortness of breath,Loratadine
+Ulcerative Colitis,Weight Loss,Loratadine
+Epilepsy,Loss of Appetite,Loperamide
+Influenza,Vomiting,Loperamide
+COVID-19,Ear Pain,Ibuprofen
+Pneumonia,Tremors,Amoxicillin
+Eczema,Swelling,Chloroquine
+Psoriasis,Numbness,Amoxicillin
+Pneumonia,Loss of Appetite,Azithromycin
+Chronic Kidney Disease,Weight Loss,Azithromycin
+Hepatitis,Blurred Vision,Terbinafine
+Dengue,Cough,Sildenafil
+Vertigo,Night Sweats,Losartan
+Sinusitis,Sore Throat,Amoxicillin
+Malaria,Weight Loss,Adalimumab
+Acne,Headache,Losartan
+Heart Disease,Vomiting,Aspirin
+Zika Virus,Weight Loss,Amoxicillin
+Hepatitis,Ear Pain,Loratadine
+Zika Virus,Fatigue,Azithromycin
+Whooping Cough,Ear Pain,Calamine Lotion
+Pneumonia,Nausea,Losartan
+COVID-19,Fever,Cetirizine
+Psoriasis,Itching,Prednisone
+Arthritis,Numbness,Prednisone
+Urinary Tract Infection,Night Sweats,Calamine Lotion
+Fungal Infection,Fever,Amoxicillin
+Multiple Sclerosis,Red Eyes,Terbinafine
+Asthma,Swollen Lymph Nodes,Sumatriptan
+Acne,Shortness of breath,Azithromycin
+Zika Virus,Night Sweats,Losartan
+Bronchitis,Fever,Topiramate
+Ulcerative Colitis,Nausea,Sumatriptan
+Urinary Tract Infection,Back Pain,Rifampin
+Hypertension,Tremors,Losartan
+Bronchitis,Fatigue,Isoniazid
+Dengue,Diarrhea,Paracetamol
+Glaucoma,Skin Rash,Levothyroxine
+Eczema,Muscle Weakness,Calamine Lotion
+Osteoporosis,Loss of Appetite,Chloroquine
+Osteoporosis,Fatigue,Rifampin
+Peptic Ulcer,Chest Pain,Omeprazole
+Glaucoma,Skin Rash,Calamine Lotion
+Gastroenteritis,Night Sweats,Glibenclamide
+Gastroenteritis,Ear Pain,Paracetamol
+Urinary Tract Infection,Rapid Heartbeat,Aspirin
+Asthma,Numbness,Prednisone
+Pneumonia,Runny Nose,Ranitidine
+Malaria,Blurred Vision,Propranolol
+Allergy,Ear Pain,Loratadine
+Vertigo,Red Eyes,Ranitidine
+Influenza,Sore Throat,Isoniazid
+Migraine,Loss of Appetite,Losartan
+Chickenpox,Blurred Vision,Adalimumab
+Bronchitis,Dizziness,Losartan
+Peptic Ulcer,Skin Rash,Ranitidine
+Whooping Cough,Red Eyes,Loratadine
+Hepatitis,High Blood Pressure,Loperamide
+Tuberculosis,Loss of Appetite,Budesonide
+Vertigo,Fever,Hydrocortisone
+Influenza,Vomiting,Isoniazid
+Peptic Ulcer,Blurred Vision,Paracetamol
+Vertigo,Loss of Appetite,Budesonide
+Asthma,Loss of Appetite,Loratadine
+Arthritis,High Blood Pressure,Paracetamol
+Diabetes,Swelling,Azithromycin
+Multiple Sclerosis,Ear Pain,Ondansetron
+Chickenpox,Weight Loss,Rifampin
+Common Cold,Runny Nose,Losartan
+Psoriasis,Diarrhea,Ranitidine
+Heart Disease,Back Pain,Azithromycin
+Malaria,Ear Pain,Adalimumab
+Zika Virus,Nausea,Rifampin
+Bronchitis,Muscle Weakness,Glibenclamide
+COVID-19,Tremors,Prednisone
+Psoriasis,Cough,Prednisone
+Heart Disease,Chest Pain,Losartan
+Arthritis,Runny Nose,Amoxicillin
+Peptic Ulcer,Swelling,Hydrocortisone
+Arthritis,Diarrhea,Budesonide
+Peptic Ulcer,Abdominal Pain,Isoniazid
+Malaria,Abdominal Pain,Metformin
+Chronic Kidney Disease,Back Pain,Levothyroxine
+Acne,Tremors,Adalimumab
+Jaundice,Shortness of breath,Budesonide
+Diabetes,Night Sweats,Amoxicillin
+Chickenpox,Nausea,Propranolol
+Osteoporosis,Dizziness,Amoxicillin
+Ulcerative Colitis,Tremors,Glibenclamide
+Osteoporosis,Night Sweats,Sildenafil
+Chronic Kidney Disease,Vomiting,Loratadine
+Sinusitis,High Blood Pressure,Amoxicillin
+Psoriasis,Weight Loss,Losartan
+Urinary Tract Infection,High Blood Pressure,Ranitidine
+Sinusitis,Shortness of breath,Metformin
+Allergy,Muscle Weakness,Prednisone
+Glaucoma,Runny Nose,Metformin
+Bronchitis,Tremors,Ranitidine
+Vertigo,Fever,Hydrocortisone
+Arthritis,Joint Pain,Calamine Lotion
+Common Cold,Fatigue,Azithromycin
+Zika Virus,Muscle Weakness,Ciprofloxacin
+Hypertension,Ear Pain,Ibuprofen
+Tuberculosis,Abdominal Pain,Terbinafine
+Tuberculosis,Ear Pain,Budesonide
+Acne,Fever,Isoniazid
+Ulcerative Colitis,Skin Rash,Prednisone
+Acne,Night Sweats,Prednisone
+Diabetes,Nausea,Loperamide
+Fungal Infection,Ear Pain,Chloroquine
+Tuberculosis,Fever,Paracetamol
+Hypertension,Red Eyes,Topiramate
+Asthma,Sore Throat,Ciprofloxacin
+Zika Virus,Runny Nose,Paracetamol
+Jaundice,Loss of Appetite,Budesonide
+Sinusitis,Ear Pain,Topiramate
+Hepatitis,Tremors,Ranitidine
+Whooping Cough,Runny Nose,Loratadine
+Heart Disease,Nausea,Metformin
+Urinary Tract Infection,Blurred Vision,Cetirizine
+Gastroenteritis,High Blood Pressure,Levothyroxine
+Urinary Tract Infection,Joint Pain,Terbinafine
+Pneumonia,Ear Pain,Loperamide
+COVID-19,Joint Pain,Cetirizine
+Diabetes,Shortness of breath,Ranitidine
+Hepatitis,Nausea,Ondansetron
+Peptic Ulcer,Vomiting,Doxycycline
+Gastroenteritis,Muscle Weakness,Isoniazid
+Hypertension,Skin Rash,Ranitidine
+COVID-19,Vomiting,Prednisone
+Fungal Infection,Skin Rash,Paracetamol
+Migraine,Vomiting,Ibuprofen
+Eczema,Joint Pain,Losartan
+Migraine,Night Sweats,Sildenafil
+Psoriasis,Headache,Ranitidine
+Influenza,Chest Pain,Metformin
+Epilepsy,Headache,Glibenclamide
+Common Cold,Muscle Weakness,Budesonide
+Hepatitis,Red Eyes,Propranolol
+Psoriasis,Blurred Vision,Chloroquine
+Glaucoma,Weight Loss,Amoxicillin
+Epilepsy,Dizziness,Azithromycin
+Tuberculosis,Shortness of breath,Rifampin
+Heart Disease,Rapid Heartbeat,Cetirizine
+Arthritis,Cough,Topiramate
+Epilepsy,Chest Pain,Propranolol
+Chronic Kidney Disease,Shortness of breath,Prednisone
+COVID-19,Blurred Vision,Propranolol
+Hypertension,Tremors,Glibenclamide
+Jaundice,Joint Pain,Levothyroxine
+Tuberculosis,Nausea,Chloroquine
+Malaria,Rapid Heartbeat,Sildenafil
+Whooping Cough,Nausea,Paracetamol
+Jaundice,Dizziness,Omeprazole
+Dengue,Diarrhea,Metformin
+Pneumonia,Headache,Glibenclamide
+Urinary Tract Infection,Dizziness,Terbinafine
+Migraine,Rapid Heartbeat,Ranitidine
+Vertigo,Ear Pain,Levothyroxine
+Eczema,Vomiting,Glibenclamide
+Ulcerative Colitis,Tremors,Losartan
+Influenza,Night Sweats,Sumatriptan
+Asthma,Sore Throat,Doxycycline
+Chickenpox,Vomiting,Isoniazid
+Diabetes,Rapid Heartbeat,Sumatriptan
+Sinusitis,Itching,Azithromycin
+Heart Disease,Nausea,Doxycycline
+Zika Virus,Night Sweats,Propranolol
+Multiple Sclerosis,Ear Pain,Prednisone
+Sinusitis,Red Eyes,Omeprazole
+Chickenpox,Red Eyes,Topiramate
+Eczema,Skin Rash,Glibenclamide
+Bronchitis,Nausea,Isoniazid
+Lung Cancer,Rapid Heartbeat,Terbinafine
+Acne,Night Sweats,Isoniazid
+Asthma,Ear Pain,Doxycycline
+Fungal Infection,Abdominal Pain,Sildenafil
+Hypertension,Sore Throat,Loperamide
+Glaucoma,Red Eyes,Paracetamol
+Allergy,Swelling,Topiramate
+Diabetes,Swollen Lymph Nodes,Cetirizine
+Migraine,Shortness of breath,Prednisone
+COVID-19,Dizziness,Hydrocortisone
+Vertigo,Tremors,Adalimumab
+Sinusitis,Fever,Loperamide
+Whooping Cough,Cough,Propranolol
+Typhoid,Night Sweats,Hydrocortisone
+Vertigo,Fatigue,Cetirizine
+Gastroenteritis,Swollen Lymph Nodes,Amoxicillin
+Gastroenteritis,Muscle Weakness,Omeprazole
+Fungal Infection,Ear Pain,Ibuprofen
+Malaria,Swelling,Prednisone
+Influenza,Headache,Aspirin
+Urinary Tract Infection,Loss of Appetite,Ranitidine
+Heart Disease,Itching,Aspirin
+Acne,Cough,Hydrocortisone
+Chronic Kidney Disease,Blurred Vision,Topiramate
+Influenza,Headache,Loratadine
+Diabetes,Joint Pain,Aspirin
+Jaundice,Itching,Rifampin
+Epilepsy,Nausea,Levothyroxine
+Pneumonia,Swollen Lymph Nodes,Rifampin
+Heart Disease,Headache,Prednisone
+Tuberculosis,Night Sweats,Loratadine
+Dengue,Loss of Appetite,Propranolol
+Sinusitis,Runny Nose,Sumatriptan
+Allergy,Sore Throat,Glibenclamide
+Hypertension,Runny Nose,Loperamide
+Psoriasis,Nausea,Isoniazid
+Chickenpox,High Blood Pressure,Budesonide
+Chickenpox,High Blood Pressure,Omeprazole
+Peptic Ulcer,Red Eyes,Amoxicillin
+Jaundice,High Blood Pressure,Calamine Lotion
+Eczema,Shortness of breath,Hydrocortisone
+Fungal Infection,Loss of Appetite,Ranitidine
+Glaucoma,Ear Pain,Isoniazid
+Peptic Ulcer,Abdominal Pain,Calamine Lotion
+Jaundice,Shortness of breath,Aspirin
+Influenza,Skin Rash,Metformin
+Allergy,Abdominal Pain,Ondansetron
+Influenza,Headache,Metformin
+Epilepsy,Chest Pain,Loperamide
+Allergy,Nausea,Budesonide
+COVID-19,Shortness of breath,Adalimumab
+Dengue,Swelling,Ciprofloxacin
+Zika Virus,Blurred Vision,Sumatriptan
+Psoriasis,Joint Pain,Terbinafine
+Epilepsy,Diarrhea,Aspirin
+Typhoid,Shortness of breath,Ibuprofen
+Tuberculosis,Abdominal Pain,Chloroquine
+Dengue,Vomiting,Propranolol
+Malaria,Abdominal Pain,Prednisone
+Multiple Sclerosis,Swelling,Isoniazid
+Zika Virus,Cough,Ciprofloxacin
+Eczema,Itching,Calamine Lotion
+Acne,Headache,Terbinafine
+Bronchitis,Blurred Vision,Loperamide
+COVID-19,Vomiting,Budesonide
+Peptic Ulcer,Sore Throat,Calamine Lotion
+Eczema,Ear Pain,Amoxicillin
+Heart Disease,Fever,Ranitidine
+Zika Virus,Red Eyes,Sumatriptan
+Chronic Kidney Disease,Weight Loss,Topiramate
+Asthma,Vomiting,Prednisone
+Tuberculosis,Diarrhea,Glibenclamide
+Arthritis,Tremors,Ciprofloxacin
+Ulcerative Colitis,Blurred Vision,Levothyroxine
+Jaundice,Numbness,Azithromycin
+Migraine,Numbness,Glibenclamide
+Eczema,Swelling,Loratadine
+Typhoid,Vomiting,Budesonide
+Osteoporosis,Shortness of breath,Ciprofloxacin
+Migraine,Skin Rash,Budesonide
+Migraine,Night Sweats,Isoniazid
+Influenza,Shortness of breath,Levothyroxine
+Whooping Cough,Numbness,Topiramate
+Urinary Tract Infection,Shortness of breath,Ondansetron
+Malaria,Swelling,Loperamide
+Whooping Cough,Itching,Adalimumab
+Peptic Ulcer,Cough,Adalimumab
+Epilepsy,Loss of Appetite,Loperamide
+Tuberculosis,Weight Loss,Paracetamol
+Typhoid,Night Sweats,Budesonide
+Heart Disease,Back Pain,Sildenafil
+Osteoporosis,Fever,Azithromycin
+Migraine,Fatigue,Sildenafil
+Psoriasis,Muscle Weakness,Topiramate
+Ulcerative Colitis,Numbness,Cetirizine
+Epilepsy,Tremors,Paracetamol
+Common Cold,Tremors,Doxycycline
+Urinary Tract Infection,Loss of Appetite,Losartan
+Hypertension,Abdominal Pain,Budesonide
+Typhoid,Weight Loss,Prednisone
+Influenza,Headache,Propranolol
+Hypertension,Diarrhea,Ondansetron
+Zika Virus,Weight Loss,Amoxicillin
+Common Cold,Night Sweats,Rifampin
+Bronchitis,High Blood Pressure,Levothyroxine
+Sinusitis,Runny Nose,Budesonide
+Arthritis,Night Sweats,Amoxicillin
+Arthritis,Joint Pain,Ibuprofen
+Multiple Sclerosis,Diarrhea,Calamine Lotion
+Gastroenteritis,Vomiting,Chloroquine
+Zika Virus,Joint Pain,Isoniazid
+Peptic Ulcer,Back Pain,Sildenafil
+Asthma,Headache,Ranitidine
+Arthritis,Abdominal Pain,Glibenclamide
+Whooping Cough,Cough,Budesonide
+Tuberculosis,Joint Pain,Prednisone
+Migraine,Fatigue,Paracetamol
+Chickenpox,Vomiting,Paracetamol
+Eczema,Vomiting,Ondansetron
+Allergy,Nausea,Sildenafil
+Common Cold,Swelling,Azithromycin
+Bronchitis,Runny Nose,Sildenafil
+Epilepsy,Itching,Sildenafil
+COVID-19,Numbness,Topiramate
+Sinusitis,Tremors,Topiramate
+Osteoporosis,Weight Loss,Glibenclamide
+Hepatitis,Blurred Vision,Hydrocortisone
+Psoriasis,Joint Pain,Chloroquine
+Acne,Abdominal Pain,Omeprazole
+Gastroenteritis,Swollen Lymph Nodes,Levothyroxine
+Typhoid,Itching,Hydrocortisone
+Heart Disease,Swollen Lymph Nodes,Aspirin
+Heart Disease,Headache,Prednisone
+Hepatitis,Night Sweats,Ranitidine
+Diabetes,Runny Nose,Adalimumab
+Influenza,Muscle Weakness,Azithromycin
+Acne,Sore Throat,Calamine Lotion
+Common Cold,Loss of Appetite,Ranitidine
+Gastroenteritis,Abdominal Pain,Ranitidine
+Dengue,Tremors,Doxycycline
+Ulcerative Colitis,Swollen Lymph Nodes,Rifampin
+Eczema,Cough,Loratadine
+Lung Cancer,High Blood Pressure,Chloroquine
+Glaucoma,Back Pain,Omeprazole
+Vertigo,Fatigue,Ibuprofen
+Pneumonia,Shortness of breath,Levothyroxine
+Fungal Infection,Nausea,Budesonide
+Lung Cancer,Numbness,Ibuprofen
+Whooping Cough,Tremors,Budesonide
+Eczema,Vomiting,Terbinafine
+Hepatitis,Night Sweats,Ondansetron
+Osteoporosis,Nausea,Metformin
+Heart Disease,Abdominal Pain,Chloroquine
+Diabetes,Loss of Appetite,Adalimumab
+Common Cold,High Blood Pressure,Ranitidine
+Common Cold,Itching,Ondansetron
+Pneumonia,Abdominal Pain,Amoxicillin
+Hypertension,Abdominal Pain,Loratadine
+Epilepsy,Night Sweats,Omeprazole
+Chickenpox,Cough,Ranitidine
+Urinary Tract Infection,Fatigue,Aspirin
+Influenza,Dizziness,Loratadine
+Hypertension,Ear Pain,Amoxicillin
+Arthritis,Weight Loss,Loratadine
+Urinary Tract Infection,Tremors,Aspirin
+Sinusitis,Joint Pain,Aspirin
+Pneumonia,Red Eyes,Calamine Lotion
+Osteoporosis,Numbness,Doxycycline
+Osteoporosis,High Blood Pressure,Sildenafil
+COVID-19,Sore Throat,Paracetamol
+Malaria,Skin Rash,Chloroquine
+Sinusitis,Tremors,Ciprofloxacin
+Heart Disease,Skin Rash,Ranitidine
+Urinary Tract Infection,Dizziness,Terbinafine
+Acne,Headache,Aspirin
+Zika Virus,Swollen Lymph Nodes,Propranolol
+Glaucoma,Abdominal Pain,Metformin
+Zika Virus,Red Eyes,Levothyroxine
+Zika Virus,Nausea,Azithromycin
+Malaria,Back Pain,Chloroquine
+Hepatitis,Chest Pain,Isoniazid
+Migraine,Shortness of breath,Terbinafine
+Gastroenteritis,Numbness,Cetirizine
+Epilepsy,Skin Rash,Adalimumab
+Ulcerative Colitis,Ear Pain,Ciprofloxacin
+Influenza,Numbness,Sildenafil
+Asthma,Red Eyes,Prednisone
+Chickenpox,Weight Loss,Calamine Lotion
+Influenza,Chest Pain,Loperamide
+Acne,Joint Pain,Levothyroxine
+Migraine,Tremors,Terbinafine
+Tuberculosis,Red Eyes,Metformin
+Typhoid,Joint Pain,Loperamide
+Fungal Infection,Back Pain,Budesonide
+Migraine,Nausea,Ciprofloxacin
+Typhoid,Swelling,Loperamide
+Sinusitis,Nausea,Ondansetron
+Hepatitis,Rapid Heartbeat,Metformin
+Lung Cancer,Skin Rash,Azithromycin
+Gastroenteritis,Skin Rash,Topiramate
+Eczema,Back Pain,Ciprofloxacin
+Dengue,Chest Pain,Calamine Lotion
+Acne,Runny Nose,Cetirizine
+Whooping Cough,Swelling,Isoniazid
+Ulcerative Colitis,Loss of Appetite,Doxycycline
+Epilepsy,Vomiting,Hydrocortisone
+Multiple Sclerosis,Red Eyes,Cetirizine
+Fungal Infection,Nausea,Azithromycin
+Asthma,Weight Loss,Omeprazole
+COVID-19,Sore Throat,Propranolol
+Diabetes,Headache,Calamine Lotion
+Heart Disease,Runny Nose,Sumatriptan
+COVID-19,Muscle Weakness,Amoxicillin
+Influenza,Back Pain,Prednisone
+Urinary Tract Infection,Swelling,Omeprazole
+Tuberculosis,Swollen Lymph Nodes,Losartan
+Jaundice,Muscle Weakness,Isoniazid
+Influenza,High Blood Pressure,Hydrocortisone
+Acne,Cough,Budesonide
+Jaundice,Dizziness,Loratadine
+Sinusitis,Back Pain,Loratadine
+Zika Virus,Skin Rash,Isoniazid
+Eczema,Sore Throat,Ciprofloxacin
+Lung Cancer,Shortness of breath,Ciprofloxacin
+Jaundice,Diarrhea,Amoxicillin
+Common Cold,Ear Pain,Glibenclamide
+Migraine,Joint Pain,Paracetamol
+Glaucoma,Swelling,Ibuprofen
+Epilepsy,Skin Rash,Levothyroxine
+Allergy,Rapid Heartbeat,Sildenafil
+Influenza,Cough,Isoniazid
+Acne,High Blood Pressure,Chloroquine
+Urinary Tract Infection,Rapid Heartbeat,Rifampin
+Urinary Tract Infection,Cough,Adalimumab
+Fungal Infection,Fatigue,Aspirin
+Jaundice,Numbness,Ibuprofen
+Diabetes,Itching,Ibuprofen
+Lung Cancer,Muscle Weakness,Propranolol
+Common Cold,Shortness of breath,Chloroquine
+Heart Disease,Fever,Loratadine
+Asthma,Chest Pain,Loperamide
+Osteoporosis,Chest Pain,Glibenclamide
+Common Cold,Vomiting,Hydrocortisone
+Urinary Tract Infection,Swelling,Aspirin
+Urinary Tract Infection,Runny Nose,Rifampin
+Multiple Sclerosis,Vomiting,Calamine Lotion
+Allergy,Swollen Lymph Nodes,Calamine Lotion
+COVID-19,Rapid Heartbeat,Sumatriptan
+Influenza,Ear Pain,Ibuprofen
+Jaundice,Nausea,Loperamide
+COVID-19,Numbness,Terbinafine
+Multiple Sclerosis,Itching,Amoxicillin
+COVID-19,Back Pain,Amoxicillin
+Glaucoma,Loss of Appetite,Losartan
+Ulcerative Colitis,Joint Pain,Losartan
+Psoriasis,Swelling,Hydrocortisone
+Lung Cancer,Diarrhea,Cetirizine
+Glaucoma,Sore Throat,Ciprofloxacin
+Pneumonia,Chest Pain,Paracetamol
+Multiple Sclerosis,Itching,Sumatriptan
+Multiple Sclerosis,Joint Pain,Ondansetron
+Epilepsy,Sore Throat,Ondansetron
+Diabetes,Swelling,Omeprazole
+Jaundice,Blurred Vision,Loratadine
+Ulcerative Colitis,Red Eyes,Losartan
+Common Cold,Chest Pain,Doxycycline
+Psoriasis,Night Sweats,Topiramate
+Fungal Infection,Swelling,Levothyroxine
+Acne,Rapid Heartbeat,Ranitidine
+Zika Virus,Sore Throat,Budesonide
+Diabetes,Rapid Heartbeat,Terbinafine
+Heart Disease,Night Sweats,Glibenclamide
+Sinusitis,High Blood Pressure,Ondansetron
+Zika Virus,High Blood Pressure,Rifampin
+Acne,High Blood Pressure,Budesonide
+Arthritis,Numbness,Rifampin
+Arthritis,Itching,Losartan
+Fungal Infection,Night Sweats,Losartan
+Typhoid,Numbness,Cetirizine
+Glaucoma,Sore Throat,Hydrocortisone
+Common Cold,Ear Pain,Aspirin
+Pneumonia,Diarrhea,Sildenafil
+Hypertension,Tremors,Chloroquine
+Hepatitis,Fever,Ranitidine
+Ulcerative Colitis,High Blood Pressure,Sumatriptan
+Allergy,Cough,Rifampin
+Zika Virus,Headache,Isoniazid
+Epilepsy,Diarrhea,Paracetamol
+Eczema,Ear Pain,Paracetamol
+Asthma,Shortness of breath,Prednisone
+Diabetes,Cough,Prednisone
+Vertigo,Tremors,Amoxicillin
+Multiple Sclerosis,Itching,Aspirin
+Chronic Kidney Disease,Tremors,Propranolol
+COVID-19,Nausea,Loratadine
+Vertigo,Sore Throat,Ciprofloxacin
+Gastroenteritis,Weight Loss,Cetirizine
+Sinusitis,Headache,Aspirin
+Psoriasis,Numbness,Calamine Lotion
+Gastroenteritis,Itching,Budesonide
+Pneumonia,High Blood Pressure,Losartan
+Allergy,Shortness of breath,Chloroquine
+Psoriasis,Swelling,Chloroquine
+Vertigo,Skin Rash,Ibuprofen
+Psoriasis,Swollen Lymph Nodes,Prednisone
+Multiple Sclerosis,Itching,Loperamide
+Influenza,High Blood Pressure,Metformin
+Chickenpox,Blurred Vision,Chloroquine
+Allergy,Headache,Ondansetron
+Migraine,Tremors,Prednisone
+Common Cold,Night Sweats,Metformin
+Osteoporosis,Abdominal Pain,Topiramate
+Chronic Kidney Disease,Cough,Levothyroxine
+Chronic Kidney Disease,Tremors,Losartan
+Hypertension,Nausea,Topiramate
+Allergy,Back Pain,Ibuprofen
+Zika Virus,Headache,Ciprofloxacin
+Dengue,Back Pain,Rifampin
+Acne,Joint Pain,Azithromycin
+Diabetes,Joint Pain,Doxycycline
+Eczema,Swollen Lymph Nodes,Sumatriptan
+Epilepsy,Sore Throat,Rifampin
+Lung Cancer,Muscle Weakness,Propranolol
+Influenza,Diarrhea,Isoniazid
+Vertigo,Ear Pain,Calamine Lotion
+Asthma,Diarrhea,Sildenafil
+Heart Disease,Rapid Heartbeat,Isoniazid
+Common Cold,Weight Loss,Calamine Lotion
+Dengue,Fever,Amoxicillin
+Chronic Kidney Disease,Swelling,Chloroquine
+Tuberculosis,Shortness of breath,Ibuprofen
+Chickenpox,Vomiting,Ciprofloxacin
+Malaria,Chest Pain,Ondansetron
+Allergy,High Blood Pressure,Prednisone
+Hepatitis,Swelling,Topiramate
+Allergy,Night Sweats,Doxycycline
+Epilepsy,Chest Pain,Levothyroxine
+Urinary Tract Infection,Weight Loss,Prednisone
+Lung Cancer,Tremors,Losartan
+Whooping Cough,Tremors,Chloroquine
+Peptic Ulcer,Runny Nose,Loratadine
+Hypertension,Chest Pain,Chloroquine
+Epilepsy,Rapid Heartbeat,Sildenafil
+Diabetes,Itching,Prednisone
+Multiple Sclerosis,Swelling,Sildenafil
+Peptic Ulcer,Swollen Lymph Nodes,Aspirin
+Fungal Infection,Weight Loss,Chloroquine
+Arthritis,Fever,Adalimumab
+Ulcerative Colitis,Muscle Weakness,Losartan
+Bronchitis,Sore Throat,Amoxicillin
+Malaria,Fever,Budesonide
+Dengue,Night Sweats,Rifampin
+Acne,Diarrhea,Loratadine
+Zika Virus,Swollen Lymph Nodes,Ondansetron
+Gastroenteritis,Vomiting,Cetirizine
+Chronic Kidney Disease,Cough,Omeprazole
+Whooping Cough,Ear Pain,Loperamide
+Hypertension,Loss of Appetite,Adalimumab
+Lung Cancer,Back Pain,Sildenafil
+Tuberculosis,Ear Pain,Sumatriptan
+Epilepsy,Back Pain,Hydrocortisone
+Whooping Cough,Back Pain,Paracetamol
+Osteoporosis,Swelling,Adalimumab
+Tuberculosis,Numbness,Glibenclamide
+Gastroenteritis,Nausea,Terbinafine
+Glaucoma,Loss of Appetite,Chloroquine
+Hypertension,Diarrhea,Chloroquine
+Acne,Abdominal Pain,Cetirizine
+Eczema,Fever,Sumatriptan
+COVID-19,Muscle Weakness,Aspirin
+Chickenpox,Muscle Weakness,Ibuprofen
+Fungal Infection,Tremors,Ciprofloxacin
+Urinary Tract Infection,Sore Throat,Levothyroxine
+Chickenpox,Sore Throat,Loratadine
+Chickenpox,Joint Pain,Paracetamol
+Hypertension,Back Pain,Doxycycline
+COVID-19,Dizziness,Ciprofloxacin
+Vertigo,Fever,Hydrocortisone
+Fungal Infection,Fatigue,Loperamide
+Arthritis,Sore Throat,Sildenafil
+Migraine,Headache,Ibuprofen
+Ulcerative Colitis,Blurred Vision,Losartan
+Chronic Kidney Disease,Tremors,Levothyroxine
+Common Cold,Cough,Doxycycline
+Acne,Loss of Appetite,Adalimumab
+Zika Virus,Headache,Paracetamol
+Osteoporosis,Chest Pain,Terbinafine
+Glaucoma,Weight Loss,Ibuprofen
+Eczema,Cough,Adalimumab
+Zika Virus,Rapid Heartbeat,Azithromycin
+Glaucoma,Loss of Appetite,Propranolol
+Glaucoma,Joint Pain,Loratadine
+Allergy,Sore Throat,Budesonide
+Zika Virus,Dizziness,Ranitidine
+Zika Virus,Blurred Vision,Metformin
+Common Cold,Swelling,Ranitidine
+Urinary Tract Infection,Dizziness,Metformin
+Hypertension,Headache,Calamine Lotion
+Zika Virus,Weight Loss,Topiramate
+Gastroenteritis,Cough,Chloroquine
+Tuberculosis,Dizziness,Ranitidine
+Chronic Kidney Disease,Swollen Lymph Nodes,Aspirin
+Zika Virus,Tremors,Budesonide
+Chronic Kidney Disease,Nausea,Omeprazole
+Common Cold,Nausea,Amoxicillin
+Arthritis,Runny Nose,Omeprazole
+Osteoporosis,Sore Throat,Isoniazid
+Pneumonia,Cough,Terbinafine
+Glaucoma,Numbness,Budesonide
+Eczema,Rapid Heartbeat,Glibenclamide
+Glaucoma,Numbness,Topiramate
+Psoriasis,Night Sweats,Cetirizine
+Tuberculosis,Weight Loss,Amoxicillin
+Common Cold,Ear Pain,Chloroquine
+Peptic Ulcer,Night Sweats,Budesonide
+Ulcerative Colitis,Numbness,Amoxicillin
+Osteoporosis,Shortness of breath,Ranitidine
+Dengue,Diarrhea,Losartan
+Sinusitis,Blurred Vision,Ranitidine
+Hypertension,Red Eyes,Prednisone
+Whooping Cough,Skin Rash,Hydrocortisone
+Arthritis,Abdominal Pain,Azithromycin
+Glaucoma,Rapid Heartbeat,Budesonide
+Chronic Kidney Disease,Diarrhea,Rifampin
+Psoriasis,Tremors,Hydrocortisone
+Chickenpox,Fever,Doxycycline
+Zika Virus,Skin Rash,Terbinafine
+Osteoporosis,Weight Loss,Sildenafil
+Jaundice,Runny Nose,Metformin
+Whooping Cough,Vomiting,Omeprazole
+Eczema,Muscle Weakness,Loperamide
+Zika Virus,Joint Pain,Azithromycin
+Asthma,Dizziness,Cetirizine
+Osteoporosis,Headache,Losartan
+COVID-19,Cough,Terbinafine
+Fungal Infection,Sore Throat,Hydrocortisone
+Tuberculosis,Joint Pain,Aspirin
+Multiple Sclerosis,Night Sweats,Rifampin
+Whooping Cough,Loss of Appetite,Rifampin
+Urinary Tract Infection,Diarrhea,Ciprofloxacin
+Typhoid,Skin Rash,Paracetamol
+Lung Cancer,Loss of Appetite,Sumatriptan
+Heart Disease,Ear Pain,Amoxicillin
+Osteoporosis,Loss of Appetite,Terbinafine
+Zika Virus,Dizziness,Topiramate
+Arthritis,Swollen Lymph Nodes,Chloroquine
+Influenza,Itching,Chloroquine
+Sinusitis,Rapid Heartbeat,Loperamide
+Bronchitis,Chest Pain,Prednisone
+Sinusitis,Loss of Appetite,Amoxicillin
+Osteoporosis,Abdominal Pain,Isoniazid
+Sinusitis,Headache,Azithromycin
+Migraine,Sore Throat,Aspirin
+COVID-19,Runny Nose,Metformin
+Jaundice,Cough,Doxycycline
+Acne,Red Eyes,Amoxicillin
+Osteoporosis,Weight Loss,Rifampin
+Heart Disease,Headache,Propranolol
+Multiple Sclerosis,Runny Nose,Losartan
+Allergy,Skin Rash,Isoniazid
+Common Cold,High Blood Pressure,Propranolol
+Fungal Infection,Swelling,Losartan
+Dengue,Fatigue,Aspirin
+Ulcerative Colitis,Skin Rash,Ibuprofen
+Influenza,Rapid Heartbeat,Chloroquine
+Glaucoma,High Blood Pressure,Isoniazid
+Psoriasis,Joint Pain,Omeprazole
+Eczema,Swollen Lymph Nodes,Isoniazid
+Asthma,Ear Pain,Omeprazole
+Urinary Tract Infection,Swelling,Azithromycin
+Osteoporosis,Night Sweats,Amoxicillin
+Chronic Kidney Disease,Itching,Metformin
+Fungal Infection,Red Eyes,Rifampin
+Multiple Sclerosis,Swollen Lymph Nodes,Metformin
+Ulcerative Colitis,Diarrhea,Adalimumab
+Hepatitis,Chest Pain,Aspirin
+Common Cold,Itching,Omeprazole
+Dengue,Headache,Chloroquine
+Influenza,Skin Rash,Budesonide
+Hypertension,Blurred Vision,Ondansetron
+Malaria,Runny Nose,Cetirizine
+Sinusitis,Joint Pain,Rifampin
+Sinusitis,Red Eyes,Cetirizine
+Typhoid,Loss of Appetite,Ranitidine
+Whooping Cough,Diarrhea,Losartan
+Eczema,Numbness,Doxycycline
+Heart Disease,Diarrhea,Calamine Lotion
+Arthritis,Sore Throat,Levothyroxine
+Heart Disease,Dizziness,Rifampin
+Asthma,Muscle Weakness,Adalimumab
+Hypertension,Ear Pain,Topiramate
+Malaria,Dizziness,Doxycycline
+Vertigo,Diarrhea,Cetirizine
+Zika Virus,Tremors,Paracetamol
+Epilepsy,Diarrhea,Levothyroxine
+Hepatitis,Fever,Amoxicillin
+Urinary Tract Infection,Sore Throat,Sumatriptan
+Ulcerative Colitis,Rapid Heartbeat,Terbinafine
+Common Cold,Tremors,Aspirin
+Migraine,Nausea,Metformin
+Urinary Tract Infection,Tremors,Prednisone
+Common Cold,Tremors,Loperamide
+Osteoporosis,Weight Loss,Sumatriptan
+Chronic Kidney Disease,High Blood Pressure,Budesonide
+Peptic Ulcer,Fatigue,Propranolol
+Hypertension,Runny Nose,Ranitidine
+Jaundice,Itching,Hydrocortisone
+Malaria,Ear Pain,Losartan
+Vertigo,Vomiting,Prednisone
+Eczema,Tremors,Amoxicillin
+Heart Disease,Ear Pain,Terbinafine
+Hepatitis,Itching,Loratadine
+Vertigo,Tremors,Prednisone
+Jaundice,Nausea,Prednisone
+Whooping Cough,Runny Nose,Adalimumab
+Chickenpox,Runny Nose,Amoxicillin
+Arthritis,Headache,Ondansetron
+Typhoid,Shortness of breath,Isoniazid
+Urinary Tract Infection,Fever,Isoniazid
+COVID-19,Red Eyes,Rifampin
+Heart Disease,Joint Pain,Propranolol
+Acne,Abdominal Pain,Paracetamol
+Gastroenteritis,Night Sweats,Levothyroxine
+Whooping Cough,Weight Loss,Prednisone
+Jaundice,Abdominal Pain,Sildenafil
+Influenza,Ear Pain,Loperamide
+Dengue,Numbness,Ranitidine
+Sinusitis,Rapid Heartbeat,Azithromycin
+Psoriasis,Shortness of breath,Ondansetron
+Arthritis,Abdominal Pain,Ciprofloxacin
+Chickenpox,Fever,Adalimumab
+Sinusitis,Skin Rash,Sumatriptan
+Psoriasis,Headache,Prednisone
+Hepatitis,Itching,Sildenafil
+Urinary Tract Infection,Fever,Terbinafine
+Vertigo,Back Pain,Aspirin
+Fungal Infection,Fever,Topiramate
+Urinary Tract Infection,Swollen Lymph Nodes,Hydrocortisone
+Gastroenteritis,Skin Rash,Amoxicillin
+Pneumonia,Swelling,Levothyroxine
+Heart Disease,Ear Pain,Glibenclamide
+Zika Virus,Loss of Appetite,Loratadine
+Allergy,Muscle Weakness,Prednisone
+Zika Virus,Skin Rash,Hydrocortisone
+Whooping Cough,Runny Nose,Ibuprofen
+Lung Cancer,Shortness of breath,Adalimumab
+Arthritis,Joint Pain,Cetirizine
+Tuberculosis,Night Sweats,Loperamide
+Peptic Ulcer,Dizziness,Propranolol
+Malaria,Diarrhea,Losartan
+Glaucoma,Skin Rash,Ibuprofen
+Asthma,Skin Rash,Hydrocortisone
+Zika Virus,Rapid Heartbeat,Calamine Lotion
+Vertigo,Sore Throat,Doxycycline
+Heart Disease,Swollen Lymph Nodes,Isoniazid
+Tuberculosis,Fever,Terbinafine
+Peptic Ulcer,Fatigue,Chloroquine
+Peptic Ulcer,Runny Nose,Levothyroxine
+Urinary Tract Infection,Weight Loss,Losartan
+Fungal Infection,Swollen Lymph Nodes,Propranolol
+Zika Virus,Sore Throat,Doxycycline
+Asthma,Joint Pain,Ibuprofen
+Psoriasis,Red Eyes,Rifampin
+Glaucoma,Night Sweats,Adalimumab
+Influenza,Chest Pain,Omeprazole
+Malaria,Headache,Rifampin
+Chickenpox,Sore Throat,Adalimumab
+Zika Virus,Runny Nose,Isoniazid
+Jaundice,Fever,Terbinafine
+Tuberculosis,Numbness,Metformin
+Glaucoma,Fatigue,Loperamide
+Sinusitis,Fatigue,Chloroquine
+Diabetes,Loss of Appetite,Hydrocortisone
+Vertigo,Nausea,Sumatriptan
+Sinusitis,Red Eyes,Calamine Lotion
+Vertigo,Abdominal Pain,Amoxicillin
+Acne,Dizziness,Adalimumab
+Osteoporosis,Back Pain,Ibuprofen
+Pneumonia,Rapid Heartbeat,Ranitidine
+Vertigo,Fever,Ibuprofen
+Chickenpox,Skin Rash,Ciprofloxacin
+Ulcerative Colitis,Swelling,Terbinafine
+Ulcerative Colitis,Shortness of breath,Ondansetron
+Ulcerative Colitis,Numbness,Amoxicillin
+Acne,Headache,Glibenclamide
+Heart Disease,Itching,Ondansetron
+Glaucoma,Vomiting,Aspirin
+Epilepsy,Weight Loss,Propranolol
+Tuberculosis,Back Pain,Loratadine
+Peptic Ulcer,Muscle Weakness,Terbinafine
+Zika Virus,Abdominal Pain,Doxycycline
+Psoriasis,Loss of Appetite,Prednisone
+Osteoporosis,Skin Rash,Losartan
+Sinusitis,Fever,Metformin
+Gastroenteritis,Loss of Appetite,Budesonide
+Dengue,Swelling,Paracetamol
+COVID-19,Itching,Aspirin
+Diabetes,Nausea,Glibenclamide
+Chickenpox,Red Eyes,Sildenafil
+Lung Cancer,High Blood Pressure,Amoxicillin
+Multiple Sclerosis,Dizziness,Ciprofloxacin
+Asthma,Tremors,Calamine Lotion
+Influenza,Loss of Appetite,Isoniazid
+Sinusitis,Swollen Lymph Nodes,Hydrocortisone
+Eczema,Cough,Rifampin
+Chickenpox,Back Pain,Prednisone
+Bronchitis,High Blood Pressure,Sumatriptan
+Influenza,Weight Loss,Glibenclamide
+Sinusitis,Chest Pain,Ondansetron
+Fungal Infection,Headache,Propranolol
+Lung Cancer,Headache,Loperamide
+Chronic Kidney Disease,Ear Pain,Glibenclamide
+Common Cold,Headache,Sumatriptan
+Lung Cancer,Tremors,Topiramate
+Psoriasis,Joint Pain,Isoniazid
+Chronic Kidney Disease,Shortness of breath,Glibenclamide
+Sinusitis,Swelling,Aspirin
+Arthritis,Blurred Vision,Doxycycline
+Glaucoma,Sore Throat,Aspirin
+Malaria,Fatigue,Aspirin
+Tuberculosis,Night Sweats,Propranolol
+Acne,Swelling,Isoniazid
+Tuberculosis,Red Eyes,Sumatriptan
+Hepatitis,Diarrhea,Sildenafil
+Eczema,Blurred Vision,Propranolol
+Asthma,Blurred Vision,Chloroquine
+Dengue,Weight Loss,Calamine Lotion
+Eczema,Swelling,Omeprazole
+Influenza,Joint Pain,Loratadine
+Gastroenteritis,Tremors,Sumatriptan
+Multiple Sclerosis,Night Sweats,Adalimumab
+Zika Virus,Fever,Metformin
+Sinusitis,Nausea,Ciprofloxacin
+Dengue,Skin Rash,Calamine Lotion
+Osteoporosis,Nausea,Topiramate
+Chickenpox,Swelling,Terbinafine
+Asthma,Swelling,Calamine Lotion
+Urinary Tract Infection,Diarrhea,Hydrocortisone
+Glaucoma,Swollen Lymph Nodes,Terbinafine
+Jaundice,Ear Pain,Sildenafil
+Acne,Skin Rash,Chloroquine
+Fungal Infection,Runny Nose,Propranolol
+Multiple Sclerosis,Itching,Propranolol
+Glaucoma,Vomiting,Sildenafil
+Jaundice,Sore Throat,Ranitidine
+COVID-19,Muscle Weakness,Loperamide
+Dengue,Fever,Terbinafine
+Bronchitis,Red Eyes,Omeprazole
+Lung Cancer,Runny Nose,Loperamide
+Psoriasis,High Blood Pressure,Levothyroxine
+Sinusitis,Itching,Ondansetron
+Peptic Ulcer,High Blood Pressure,Prednisone
+Dengue,Ear Pain,Losartan
+Migraine,Dizziness,Budesonide
+Hepatitis,Dizziness,Cetirizine
+Gastroenteritis,Ear Pain,Ranitidine
+Epilepsy,Vomiting,Budesonide
+Zika Virus,Fever,Sumatriptan
+Vertigo,Ear Pain,Omeprazole
+Chickenpox,Fever,Terbinafine
+Dengue,Joint Pain,Ciprofloxacin
+Acne,Swelling,Amoxicillin
+Zika Virus,Nausea,Ibuprofen
+COVID-19,Shortness of breath,Loperamide
+Malaria,Fever,Chloroquine
+Gastroenteritis,Swelling,Rifampin
+Diabetes,Numbness,Cetirizine
+Jaundice,Fatigue,Doxycycline
+Pneumonia,Weight Loss,Cetirizine
+Lung Cancer,Headache,Amoxicillin
+Asthma,Joint Pain,Cetirizine
+Malaria,Tremors,Ranitidine
+Influenza,Headache,Loratadine
+Hypertension,Itching,Aspirin
+Acne,Itching,Loratadine
+Asthma,Fever,Sildenafil
+Psoriasis,Numbness,Terbinafine
+Osteoporosis,Loss of Appetite,Losartan
+Allergy,Nausea,Budesonide
+Malaria,Swollen Lymph Nodes,Azithromycin
+Gastroenteritis,Back Pain,Paracetamol
+Tuberculosis,Weight Loss,Losartan
+Glaucoma,High Blood Pressure,Budesonide
+Peptic Ulcer,Abdominal Pain,Budesonide
+Jaundice,Abdominal Pain,Paracetamol
+Bronchitis,Skin Rash,Sumatriptan
+Heart Disease,Weight Loss,Loperamide
+Osteoporosis,Loss of Appetite,Doxycycline
+Lung Cancer,Back Pain,Metformin
+Migraine,Tremors,Aspirin
+Common Cold,Abdominal Pain,Omeprazole
+Tuberculosis,Runny Nose,Loperamide
+Urinary Tract Infection,Red Eyes,Hydrocortisone
+Fungal Infection,Nausea,Losartan
+Malaria,Chest Pain,Ciprofloxacin
+Arthritis,Joint Pain,Omeprazole
+Glaucoma,Dizziness,Chloroquine
+Migraine,Fatigue,Ondansetron
+Sinusitis,Night Sweats,Propranolol
+Multiple Sclerosis,Joint Pain,Ranitidine
+Psoriasis,Tremors,Rifampin
+Zika Virus,Blurred Vision,Budesonide
+Ulcerative Colitis,Runny Nose,Glibenclamide
+Eczema,Swollen Lymph Nodes,Loratadine
+Common Cold,Fever,Omeprazole
+Urinary Tract Infection,Chest Pain,Rifampin
+Glaucoma,Headache,Doxycycline
+Eczema,Numbness,Ibuprofen
+Diabetes,Swollen Lymph Nodes,Paracetamol
+Tuberculosis,Muscle Weakness,Glibenclamide
+Influenza,Itching,Ondansetron
+Pneumonia,Night Sweats,Loperamide
+Sinusitis,Sore Throat,Amoxicillin
+Common Cold,Rapid Heartbeat,Prednisone
+Malaria,High Blood Pressure,Losartan
+Typhoid,Abdominal Pain,Loratadine
+Multiple Sclerosis,Ear Pain,Terbinafine
+Vertigo,Fever,Adalimumab
+Eczema,Nausea,Calamine Lotion
+Psoriasis,Weight Loss,Ondansetron
+Whooping Cough,Blurred Vision,Hydrocortisone
+Tuberculosis,Swelling,Sumatriptan
+Dengue,Red Eyes,Paracetamol
+Ulcerative Colitis,Headache,Loratadine
+Allergy,Headache,Azithromycin
+Heart Disease,Night Sweats,Isoniazid
+Asthma,High Blood Pressure,Aspirin
+Lung Cancer,Loss of Appetite,Metformin
+Influenza,Loss of Appetite,Propranolol
+Typhoid,Joint Pain,Glibenclamide
+Bronchitis,Weight Loss,Losartan
+Eczema,Red Eyes,Ranitidine
+Dengue,Ear Pain,Prednisone
+Zika Virus,Tremors,Azithromycin
+Lung Cancer,Chest Pain,Cetirizine
+Gastroenteritis,Shortness of breath,Azithromycin
+Malaria,Tremors,Ondansetron
+Hypertension,Dizziness,Loperamide
+Psoriasis,Numbness,Ibuprofen
+Tuberculosis,Itching,Budesonide
+Chickenpox,Cough,Azithromycin
+Epilepsy,High Blood Pressure,Omeprazole
+Gastroenteritis,Chest Pain,Loratadine
+Diabetes,Runny Nose,Amoxicillin
+Glaucoma,Fatigue,Loratadine
+Asthma,Muscle Weakness,Budesonide
+COVID-19,Cough,Ibuprofen
+Zika Virus,Dizziness,Cetirizine
+Allergy,Runny Nose,Adalimumab
+Osteoporosis,Back Pain,Ibuprofen
+Hepatitis,Numbness,Paracetamol
+Asthma,Cough,Levothyroxine
+Influenza,Weight Loss,Cetirizine
+Bronchitis,Chest Pain,Cetirizine
+Chronic Kidney Disease,Nausea,Propranolol
+Hepatitis,Muscle Weakness,Paracetamol
+Epilepsy,Muscle Weakness,Paracetamol
+Typhoid,Blurred Vision,Amoxicillin
+Asthma,Swollen Lymph Nodes,Terbinafine
+Hypertension,Red Eyes,Chloroquine
+Chronic Kidney Disease,Blurred Vision,Ciprofloxacin
+Fungal Infection,Ear Pain,Ciprofloxacin
+Tuberculosis,Swollen Lymph Nodes,Chloroquine
+Multiple Sclerosis,Loss of Appetite,Cetirizine
+COVID-19,Abdominal Pain,Levothyroxine
+Lung Cancer,Numbness,Loratadine
+Asthma,Back Pain,Loperamide
+Zika Virus,High Blood Pressure,Loperamide
+Tuberculosis,Abdominal Pain,Sumatriptan
+Dengue,Night Sweats,Calamine Lotion
+Osteoporosis,Swollen Lymph Nodes,Chloroquine
+Eczema,Itching,Sumatriptan
+Glaucoma,Fatigue,Glibenclamide
+Multiple Sclerosis,High Blood Pressure,Doxycycline
+Vertigo,Abdominal Pain,Adalimumab
+Malaria,Weight Loss,Sildenafil
+Glaucoma,Skin Rash,Azithromycin
+Typhoid,Chest Pain,Sildenafil
+Arthritis,Weight Loss,Glibenclamide
+Acne,Headache,Levothyroxine
+Chronic Kidney Disease,Fatigue,Loratadine
+Urinary Tract Infection,Ear Pain,Paracetamol
+Eczema,Night Sweats,Loratadine
+Pneumonia,Chest Pain,Sumatriptan
+Typhoid,Sore Throat,Terbinafine
+COVID-19,Fever,Calamine Lotion
+Pneumonia,Weight Loss,Propranolol
+Hepatitis,Cough,Terbinafine
+Epilepsy,Diarrhea,Calamine Lotion
+COVID-19,Cough,Hydrocortisone
+Multiple Sclerosis,Shortness of breath,Budesonide
+Asthma,Runny Nose,Calamine Lotion
+Fungal Infection,Rapid Heartbeat,Adalimumab
+Psoriasis,Nausea,Glibenclamide
+Lung Cancer,Abdominal Pain,Calamine Lotion
+Vertigo,Swelling,Propranolol
+Migraine,High Blood Pressure,Ciprofloxacin
+Asthma,Muscle Weakness,Chloroquine
+Lung Cancer,Ear Pain,Budesonide
+Fungal Infection,Fever,Paracetamol
+Asthma,Blurred Vision,Rifampin
+Jaundice,Runny Nose,Ranitidine
+Psoriasis,Blurred Vision,Losartan
+Malaria,Chest Pain,Sildenafil
+Gastroenteritis,Swollen Lymph Nodes,Adalimumab
+Chickenpox,Numbness,Glibenclamide
+Lung Cancer,Night Sweats,Paracetamol
+Vertigo,Back Pain,Ibuprofen
+Arthritis,Tremors,Rifampin
+Bronchitis,Blurred Vision,Hydrocortisone
+Migraine,Rapid Heartbeat,Loratadine
+Typhoid,Itching,Levothyroxine
+Ulcerative Colitis,Cough,Levothyroxine
+Bronchitis,Shortness of breath,Hydrocortisone
+Jaundice,Chest Pain,Sildenafil
+Gastroenteritis,Cough,Sumatriptan
+Fungal Infection,Dizziness,Metformin
+Whooping Cough,Ear Pain,Cetirizine
+Urinary Tract Infection,Dizziness,Levothyroxine
+Asthma,Cough,Loperamide
+Pneumonia,Abdominal Pain,Metformin
+Sinusitis,Shortness of breath,Isoniazid
+Common Cold,Chest Pain,Azithromycin
+Tuberculosis,Night Sweats,Isoniazid
+Pneumonia,Diarrhea,Adalimumab
+Ulcerative Colitis,Weight Loss,Doxycycline
+Migraine,Loss of Appetite,Amoxicillin
+Psoriasis,Diarrhea,Losartan
+Multiple Sclerosis,Swollen Lymph Nodes,Omeprazole
+Psoriasis,Joint Pain,Ondansetron
+Peptic Ulcer,Red Eyes,Amoxicillin
+Heart Disease,Cough,Losartan
+Diabetes,Diarrhea,Azithromycin
+Influenza,Weight Loss,Losartan
+Pneumonia,Back Pain,Sumatriptan
+Pneumonia,Back Pain,Cetirizine
+Glaucoma,Rapid Heartbeat,Omeprazole
+Fungal Infection,Red Eyes,Topiramate
+Pneumonia,Blurred Vision,Paracetamol
+Whooping Cough,Muscle Weakness,Ranitidine
+Ulcerative Colitis,Diarrhea,Aspirin
+Tuberculosis,Sore Throat,Amoxicillin
+Arthritis,Shortness of breath,Calamine Lotion
+Dengue,Ear Pain,Aspirin
+COVID-19,Abdominal Pain,Prednisone
+Migraine,Weight Loss,Prednisone
+Migraine,Chest Pain,Sildenafil
+Psoriasis,Night Sweats,Propranolol
+Malaria,Night Sweats,Loperamide
+Osteoporosis,Back Pain,Loratadine
+Epilepsy,Weight Loss,Aspirin
+Eczema,Diarrhea,Propranolol
+Ulcerative Colitis,Runny Nose,Aspirin
+Typhoid,Red Eyes,Hydrocortisone
+Allergy,Rapid Heartbeat,Adalimumab
+Sinusitis,Rapid Heartbeat,Paracetamol
+Whooping Cough,Back Pain,Levothyroxine
+Jaundice,Numbness,Budesonide
+Hypertension,Vomiting,Adalimumab
+Vertigo,Ear Pain,Adalimumab
+Heart Disease,Fatigue,Cetirizine
+Dengue,Joint Pain,Budesonide
+Epilepsy,Vomiting,Rifampin
+Diabetes,Shortness of breath,Losartan
+Psoriasis,Fatigue,Glibenclamide
+Bronchitis,Night Sweats,Rifampin
+Bronchitis,Red Eyes,Prednisone
+Psoriasis,Diarrhea,Rifampin
+Heart Disease,Chest Pain,Azithromycin
+Peptic Ulcer,Itching,Metformin
+Jaundice,Runny Nose,Omeprazole
+Zika Virus,Shortness of breath,Levothyroxine
+Arthritis,Chest Pain,Chloroquine
+Multiple Sclerosis,Numbness,Loratadine
+Gastroenteritis,Skin Rash,Hydrocortisone
+Asthma,Rapid Heartbeat,Topiramate
+Sinusitis,Headache,Sildenafil
+Acne,Abdominal Pain,Loratadine
+Chickenpox,Weight Loss,Ondansetron
+Chickenpox,Diarrhea,Glibenclamide
+Chickenpox,Rapid Heartbeat,Budesonide
+Eczema,Nausea,Chloroquine
+Peptic Ulcer,Nausea,Doxycycline
+Dengue,Runny Nose,Calamine Lotion
+Peptic Ulcer,Dizziness,Loperamide
+Hepatitis,Abdominal Pain,Loratadine
+Hepatitis,High Blood Pressure,Loratadine
+Eczema,High Blood Pressure,Ciprofloxacin
+Influenza,Diarrhea,Terbinafine
+COVID-19,Night Sweats,Ciprofloxacin
+Gastroenteritis,Rapid Heartbeat,Topiramate
+Hepatitis,Cough,Ranitidine
+Zika Virus,Shortness of breath,Adalimumab
+Ulcerative Colitis,Muscle Weakness,Levothyroxine
+Vertigo,Muscle Weakness,Sumatriptan
+Chickenpox,Blurred Vision,Amoxicillin
+Asthma,Diarrhea,Budesonide
+Dengue,Cough,Topiramate
+Eczema,Shortness of breath,Topiramate
+Acne,Dizziness,Ciprofloxacin
+Chickenpox,Dizziness,Calamine Lotion
+Epilepsy,Vomiting,Paracetamol
+Glaucoma,Swollen Lymph Nodes,Cetirizine
+Peptic Ulcer,Ear Pain,Ibuprofen
+Chronic Kidney Disease,Night Sweats,Sildenafil
+Common Cold,Diarrhea,Calamine Lotion
+Vertigo,Muscle Weakness,Topiramate
+Chickenpox,Fever,Sumatriptan
+Eczema,Skin Rash,Metformin
+Arthritis,Joint Pain,Azithromycin
+Tuberculosis,Skin Rash,Cetirizine
+Migraine,Blurred Vision,Ciprofloxacin
+Arthritis,Ear Pain,Paracetamol
+Arthritis,Muscle Weakness,Ibuprofen
+Urinary Tract Infection,Fever,Metformin
+Gastroenteritis,Sore Throat,Isoniazid
+COVID-19,Dizziness,Omeprazole
+Pneumonia,Ear Pain,Paracetamol
+COVID-19,Loss of Appetite,Cetirizine
+Zika Virus,Skin Rash,Loperamide
+Urinary Tract Infection,Itching,Aspirin
+Lung Cancer,Fever,Rifampin
+Asthma,Diarrhea,Cetirizine
+Psoriasis,Weight Loss,Calamine Lotion
+Jaundice,Numbness,Isoniazid
+Malaria,Shortness of breath,Hydrocortisone
+Jaundice,Fatigue,Cetirizine
+Acne,Vomiting,Azithromycin
+Multiple Sclerosis,Swelling,Propranolol
+Common Cold,Night Sweats,Levothyroxine
+Lung Cancer,High Blood Pressure,Calamine Lotion
+Jaundice,Tremors,Ondansetron
+Arthritis,Cough,Adalimumab
+Vertigo,Loss of Appetite,Loperamide
+Gastroenteritis,Rapid Heartbeat,Ondansetron
+Osteoporosis,Shortness of breath,Azithromycin
+Ulcerative Colitis,Rapid Heartbeat,Adalimumab
+Migraine,Sore Throat,Ciprofloxacin
+Chickenpox,Numbness,Amoxicillin
+Common Cold,Joint Pain,Sumatriptan
+Arthritis,Abdominal Pain,Loperamide
+Dengue,Ear Pain,Azithromycin
+Eczema,Runny Nose,Cetirizine
+Sinusitis,Back Pain,Metformin
+Zika Virus,Itching,Adalimumab
+Pneumonia,Cough,Glibenclamide
+Tuberculosis,Skin Rash,Ondansetron
+Whooping Cough,Back Pain,Doxycycline
+Migraine,Numbness,Levothyroxine
+Gastroenteritis,Swelling,Doxycycline
+Eczema,Muscle Weakness,Ondansetron
+Zika Virus,Diarrhea,Isoniazid
+Urinary Tract Infection,Numbness,Ondansetron
+Eczema,Ear Pain,Ranitidine
+Diabetes,Runny Nose,Rifampin
+Urinary Tract Infection,Loss of Appetite,Azithromycin
+Influenza,Loss of Appetite,Hydrocortisone
+Allergy,Blurred Vision,Propranolol
+Common Cold,Red Eyes,Glibenclamide
+Lung Cancer,Headache,Prednisone
+Chickenpox,Cough,Chloroquine
+Gastroenteritis,Night Sweats,Prednisone
+Multiple Sclerosis,Fatigue,Levothyroxine
+Psoriasis,Loss of Appetite,Ciprofloxacin
+Asthma,Fever,Ciprofloxacin
+Vertigo,Swelling,Isoniazid
+Peptic Ulcer,Blurred Vision,Levothyroxine
+Hypertension,Itching,Ondansetron
+Jaundice,Rapid Heartbeat,Ranitidine
+Asthma,Shortness of breath,Loratadine
+Psoriasis,Red Eyes,Rifampin
+Jaundice,Ear Pain,Prednisone
+Influenza,Dizziness,Ibuprofen
+COVID-19,High Blood Pressure,Propranolol
+Dengue,Shortness of breath,Glibenclamide
+Chronic Kidney Disease,Swelling,Prednisone
+Tuberculosis,Fever,Budesonide
+Multiple Sclerosis,Diarrhea,Ondansetron
+Osteoporosis,Vomiting,Losartan
+Glaucoma,Runny Nose,Ciprofloxacin
+Acne,Joint Pain,Isoniazid
+Eczema,Abdominal Pain,Glibenclamide
+Acne,Fatigue,Propranolol
+Tuberculosis,Swollen Lymph Nodes,Cetirizine
+Asthma,Dizziness,Rifampin
+Epilepsy,Loss of Appetite,Isoniazid
+Ulcerative Colitis,Skin Rash,Loperamide
+Glaucoma,Swelling,Sildenafil
+Hepatitis,Cough,Terbinafine
+Eczema,Loss of Appetite,Chloroquine
+Hypertension,Sore Throat,Budesonide
+Gastroenteritis,Runny Nose,Prednisone
+Gastroenteritis,Nausea,Rifampin
+Urinary Tract Infection,Muscle Weakness,Loperamide
+Hypertension,Cough,Prednisone
+Bronchitis,Swelling,Propranolol
+Dengue,Chest Pain,Adalimumab
+Vertigo,Numbness,Paracetamol
+Diabetes,Runny Nose,Sildenafil
+Pneumonia,Weight Loss,Amoxicillin
+Psoriasis,Vomiting,Loperamide
+Chronic Kidney Disease,Dizziness,Metformin
+Eczema,Back Pain,Topiramate
+Arthritis,Vomiting,Loratadine
+Typhoid,Nausea,Azithromycin
+Typhoid,Itching,Adalimumab
+Allergy,Night Sweats,Hydrocortisone
+Urinary Tract Infection,Ear Pain,Isoniazid
+Pneumonia,Ear Pain,Ranitidine
+Heart Disease,Rapid Heartbeat,Rifampin
+Allergy,Abdominal Pain,Calamine Lotion
+Hepatitis,Blurred Vision,Levothyroxine
+Psoriasis,Rapid Heartbeat,Calamine Lotion
+Dengue,Fatigue,Hydrocortisone
+Typhoid,Itching,Aspirin
+Typhoid,Cough,Ciprofloxacin
+Asthma,Vomiting,Loratadine
+Zika Virus,Swollen Lymph Nodes,Metformin
+Allergy,Fatigue,Azithromycin
+Acne,Fatigue,Loratadine
+Fungal Infection,Chest Pain,Propranolol
+Typhoid,Runny Nose,Omeprazole
+Tuberculosis,Nausea,Metformin
+Glaucoma,Chest Pain,Budesonide
+Bronchitis,Nausea,Prednisone
+Sinusitis,Diarrhea,Propranolol
+Heart Disease,Tremors,Doxycycline
+Peptic Ulcer,Sore Throat,Rifampin
+Asthma,Weight Loss,Isoniazid
+Zika Virus,Nausea,Calamine Lotion
+Hepatitis,Sore Throat,Omeprazole
+Arthritis,Blurred Vision,Loperamide
+Chronic Kidney Disease,Rapid Heartbeat,Sildenafil
+Fungal Infection,Cough,Paracetamol
+Osteoporosis,Fatigue,Losartan
+Urinary Tract Infection,Cough,Loperamide
+Chronic Kidney Disease,Night Sweats,Paracetamol
+Chronic Kidney Disease,Abdominal Pain,Adalimumab
+Glaucoma,Skin Rash,Cetirizine
+Hepatitis,Headache,Prednisone
+Epilepsy,Ear Pain,Aspirin
+Migraine,Weight Loss,Levothyroxine
+Gastroenteritis,Itching,Loperamide
+Osteoporosis,Blurred Vision,Paracetamol
+Chickenpox,Blurred Vision,Paracetamol
+Ulcerative Colitis,Red Eyes,Ranitidine
+Multiple Sclerosis,Swollen Lymph Nodes,Glibenclamide
+Peptic Ulcer,Muscle Weakness,Ciprofloxacin
+Gastroenteritis,Swelling,Metformin
+Acne,Cough,Sumatriptan
+Lung Cancer,Abdominal Pain,Amoxicillin
+Zika Virus,Cough,Ranitidine
+Malaria,Abdominal Pain,Aspirin
+Fungal Infection,High Blood Pressure,Cetirizine
+Lung Cancer,Joint Pain,Ranitidine
+Multiple Sclerosis,Shortness of breath,Aspirin
+Heart Disease,Sore Throat,Azithromycin
+Malaria,Sore Throat,Aspirin
+Bronchitis,Shortness of breath,Terbinafine
+Sinusitis,Muscle Weakness,Ibuprofen
+Hepatitis,Swelling,Metformin
+Hypertension,Swelling,Ibuprofen
+Arthritis,Swollen Lymph Nodes,Ranitidine
+Diabetes,Shortness of breath,Propranolol
+Whooping Cough,Numbness,Doxycycline
+Peptic Ulcer,High Blood Pressure,Prednisone
+Ulcerative Colitis,Chest Pain,Adalimumab
+Whooping Cough,Tremors,Isoniazid
+Pneumonia,Red Eyes,Prednisone
+Hypertension,Swollen Lymph Nodes,Rifampin
+Acne,Fever,Sildenafil
+Osteoporosis,Cough,Hydrocortisone
+Dengue,Swollen Lymph Nodes,Budesonide
+Pneumonia,Back Pain,Ibuprofen
+Hepatitis,Chest Pain,Sildenafil
+Acne,Diarrhea,Ranitidine
+Hypertension,Blurred Vision,Ciprofloxacin
+Allergy,Swelling,Doxycycline
+Zika Virus,Chest Pain,Glibenclamide
+Hepatitis,Night Sweats,Ciprofloxacin
+Fungal Infection,Fever,Hydrocortisone
+Hepatitis,Back Pain,Sildenafil
+Migraine,Weight Loss,Losartan
+Eczema,Chest Pain,Chloroquine
+Hepatitis,High Blood Pressure,Ciprofloxacin
+Zika Virus,Red Eyes,Ibuprofen
+Fungal Infection,Dizziness,Budesonide
+Glaucoma,Muscle Weakness,Topiramate
+Typhoid,Back Pain,Hydrocortisone
+Bronchitis,Chest Pain,Doxycycline
+Asthma,High Blood Pressure,Propranolol
+Multiple Sclerosis,Skin Rash,Ranitidine
+Asthma,Dizziness,Terbinafine
+Hypertension,Muscle Weakness,Topiramate
+Asthma,Rapid Heartbeat,Loratadine
+Hypertension,Nausea,Topiramate
+Heart Disease,Joint Pain,Sumatriptan
+Glaucoma,Fatigue,Budesonide
+Epilepsy,Skin Rash,Topiramate
+Fungal Infection,High Blood Pressure,Azithromycin
+COVID-19,Muscle Weakness,Prednisone
+COVID-19,Rapid Heartbeat,Glibenclamide
+Epilepsy,Numbness,Prednisone
+Malaria,Ear Pain,Aspirin
+Vertigo,Abdominal Pain,Doxycycline
+Glaucoma,Fever,Adalimumab
+Lung Cancer,Shortness of breath,Propranolol
+Malaria,Tremors,Ranitidine
+Heart Disease,Abdominal Pain,Ondansetron
+Acne,Muscle Weakness,Hydrocortisone
+Bronchitis,Vomiting,Chloroquine
+Hypertension,High Blood Pressure,Terbinafine
+Arthritis,Skin Rash,Ibuprofen
+Diabetes,Sore Throat,Amoxicillin
+COVID-19,Weight Loss,Omeprazole
+Psoriasis,Joint Pain,Ranitidine
+Diabetes,Cough,Sildenafil
+Multiple Sclerosis,Nausea,Metformin
+Glaucoma,Sore Throat,Paracetamol
+Dengue,Skin Rash,Ranitidine
+Common Cold,Runny Nose,Amoxicillin
+Zika Virus,Diarrhea,Losartan
+Peptic Ulcer,Fever,Ciprofloxacin
+Chronic Kidney Disease,Runny Nose,Levothyroxine
+Ulcerative Colitis,Muscle Weakness,Ranitidine
+Vertigo,Back Pain,Paracetamol
+Hepatitis,Swelling,Aspirin
+Epilepsy,Numbness,Budesonide
+Epilepsy,Itching,Ibuprofen
+Typhoid,Nausea,Sildenafil
+Psoriasis,Vomiting,Ondansetron
+Hepatitis,Blurred Vision,Aspirin
+Eczema,Fever,Ibuprofen
+Vertigo,Red Eyes,Sildenafil
+Arthritis,Night Sweats,Ondansetron
+Ulcerative Colitis,Weight Loss,Sildenafil
+Malaria,Skin Rash,Losartan
+Hepatitis,High Blood Pressure,Propranolol
+Asthma,Tremors,Propranolol
+Chickenpox,Loss of Appetite,Prednisone
+Lung Cancer,Rapid Heartbeat,Cetirizine
+Allergy,Swelling,Cetirizine
+Tuberculosis,High Blood Pressure,Hydrocortisone
+Glaucoma,Fever,Topiramate
+Whooping Cough,Shortness of breath,Terbinafine
+Ulcerative Colitis,High Blood Pressure,Adalimumab
+Fungal Infection,Weight Loss,Chloroquine
+Epilepsy,Dizziness,Chloroquine
+Pneumonia,Shortness of breath,Amoxicillin
+Gastroenteritis,Sore Throat,Levothyroxine
+Chickenpox,Weight Loss,Doxycycline
+Pneumonia,Blurred Vision,Loperamide
+Arthritis,High Blood Pressure,Losartan
+COVID-19,Joint Pain,Losartan
+Pneumonia,Headache,Sumatriptan
+Eczema,Headache,Loratadine
+Diabetes,Shortness of breath,Topiramate
+Tuberculosis,Tremors,Levothyroxine
+Fungal Infection,Weight Loss,Isoniazid
+Lung Cancer,Skin Rash,Topiramate
+Eczema,Loss of Appetite,Chloroquine
+Allergy,Swollen Lymph Nodes,Isoniazid
+Hypertension,Abdominal Pain,Loratadine
+Pneumonia,Vomiting,Sumatriptan
+Whooping Cough,Fever,Amoxicillin
+Epilepsy,Itching,Ciprofloxacin
+Asthma,Abdominal Pain,Ciprofloxacin
+Vertigo,Tremors,Topiramate
+Sinusitis,Swollen Lymph Nodes,Omeprazole
+COVID-19,Headache,Aspirin
+Ulcerative Colitis,Night Sweats,Budesonide
+Vertigo,Sore Throat,Ranitidine
+Diabetes,Muscle Weakness,Omeprazole
+Peptic Ulcer,Ear Pain,Budesonide
+Osteoporosis,Red Eyes,Doxycycline
+Sinusitis,Nausea,Calamine Lotion
+Zika Virus,Dizziness,Adalimumab
+Bronchitis,High Blood Pressure,Cetirizine
+Heart Disease,Red Eyes,Terbinafine
+Allergy,Nausea,Ciprofloxacin
+Epilepsy,Runny Nose,Ibuprofen
+Urinary Tract Infection,Sore Throat,Doxycycline
+Chronic Kidney Disease,Back Pain,Ciprofloxacin
+Fungal Infection,Joint Pain,Glibenclamide
+Common Cold,Muscle Weakness,Sumatriptan
+Dengue,Chest Pain,Topiramate
+Jaundice,Fatigue,Ibuprofen
+Vertigo,Diarrhea,Doxycycline
+Jaundice,Shortness of breath,Losartan
+Allergy,Shortness of breath,Hydrocortisone
+Typhoid,Swollen Lymph Nodes,Ranitidine
+Psoriasis,Dizziness,Sumatriptan
+Glaucoma,Red Eyes,Aspirin
+Multiple Sclerosis,Back Pain,Hydrocortisone
+Vertigo,Dizziness,Adalimumab
+Heart Disease,Joint Pain,Ranitidine
+Arthritis,Fatigue,Sildenafil
+Asthma,Nausea,Ranitidine
+Gastroenteritis,High Blood Pressure,Topiramate
+Vertigo,Shortness of breath,Aspirin
+Psoriasis,Chest Pain,Ondansetron
+Vertigo,Headache,Sumatriptan
+Epilepsy,Headache,Sildenafil
+Pneumonia,Red Eyes,Ibuprofen
+Migraine,Headache,Rifampin
+Dengue,Tremors,Topiramate
+Fungal Infection,Dizziness,Sildenafil
+Bronchitis,Night Sweats,Adalimumab
+Common Cold,Muscle Weakness,Propranolol
+Psoriasis,Chest Pain,Glibenclamide
+Malaria,Swelling,Azithromycin
+Glaucoma,Nausea,Cetirizine
+Fungal Infection,Tremors,Glibenclamide
+Vertigo,Dizziness,Omeprazole
+Sinusitis,Red Eyes,Levothyroxine
+Common Cold,Fever,Terbinafine
+Diabetes,Numbness,Hydrocortisone
+Chickenpox,Chest Pain,Levothyroxine
+Glaucoma,Back Pain,Isoniazid
+Common Cold,Red Eyes,Terbinafine
+Epilepsy,Ear Pain,Rifampin
+Peptic Ulcer,Diarrhea,Propranolol
+Asthma,High Blood Pressure,Loratadine
+Ulcerative Colitis,Chest Pain,Sildenafil
+Migraine,Joint Pain,Propranolol
+Diabetes,Muscle Weakness,Loratadine
+Whooping Cough,Skin Rash,Ibuprofen
+Glaucoma,Abdominal Pain,Hydrocortisone
+Sinusitis,Nausea,Isoniazid
+Chickenpox,Diarrhea,Budesonide
+Sinusitis,Back Pain,Topiramate
+Influenza,Shortness of breath,Glibenclamide
+Chronic Kidney Disease,Abdominal Pain,Prednisone
+Acne,Swollen Lymph Nodes,Glibenclamide
+Psoriasis,Weight Loss,Topiramate
+Heart Disease,Ear Pain,Omeprazole
+Diabetes,Red Eyes,Hydrocortisone
+Chickenpox,Ear Pain,Calamine Lotion
+Allergy,Headache,Doxycycline
+Psoriasis,Cough,Ondansetron
+Typhoid,Runny Nose,Losartan
+Eczema,Shortness of breath,Loratadine
+Malaria,Tremors,Ranitidine
+Psoriasis,Fatigue,Hydrocortisone
+Migraine,Fatigue,Amoxicillin
+Hypertension,Runny Nose,Sildenafil
+Influenza,Cough,Levothyroxine
+Heart Disease,Cough,Ondansetron
+Acne,Fever,Propranolol
+Jaundice,Dizziness,Losartan
+Psoriasis,Swollen Lymph Nodes,Metformin
+Fungal Infection,Nausea,Ciprofloxacin
+Pneumonia,Nausea,Paracetamol
+Glaucoma,Dizziness,Budesonide
+Glaucoma,Numbness,Metformin
+Typhoid,Night Sweats,Prednisone
+Lung Cancer,Shortness of breath,Doxycycline
+Eczema,Swelling,Adalimumab
+Jaundice,Sore Throat,Rifampin
+Diabetes,Loss of Appetite,Aspirin
+Influenza,Shortness of breath,Cetirizine
+Eczema,Numbness,Loperamide
+Peptic Ulcer,Runny Nose,Rifampin
+Heart Disease,Nausea,Ondansetron
+Typhoid,Weight Loss,Cetirizine
+Ulcerative Colitis,Abdominal Pain,Adalimumab
+Chickenpox,Diarrhea,Sildenafil
+Arthritis,Swollen Lymph Nodes,Calamine Lotion
+Asthma,Tremors,Ciprofloxacin
+Sinusitis,High Blood Pressure,Calamine Lotion
+Eczema,Skin Rash,Ciprofloxacin
+Epilepsy,Rapid Heartbeat,Prednisone
+Bronchitis,High Blood Pressure,Metformin
+Influenza,Weight Loss,Paracetamol
+Influenza,Swelling,Omeprazole
+Typhoid,Sore Throat,Glibenclamide
+Asthma,Dizziness,Prednisone
+Acne,Loss of Appetite,Losartan
+Common Cold,Numbness,Ondansetron
+Pneumonia,Runny Nose,Ranitidine
+Allergy,Swelling,Levothyroxine
+Ulcerative Colitis,Abdominal Pain,Ibuprofen
+Bronchitis,Numbness,Ondansetron
+Chickenpox,Numbness,Calamine Lotion
+Jaundice,Joint Pain,Budesonide
+Chronic Kidney Disease,Night Sweats,Loperamide
+Arthritis,Back Pain,Omeprazole
+Zika Virus,Shortness of breath,Cetirizine
+Ulcerative Colitis,Muscle Weakness,Loratadine
+Pneumonia,Loss of Appetite,Chloroquine
+Malaria,Abdominal Pain,Adalimumab
+Hepatitis,High Blood Pressure,Isoniazid
+Tuberculosis,Tremors,Azithromycin
+Heart Disease,Weight Loss,Loperamide
+Migraine,Weight Loss,Terbinafine
+COVID-19,Itching,Hydrocortisone
+Gastroenteritis,Blurred Vision,Topiramate
+Pneumonia,Fever,Levothyroxine
+Bronchitis,High Blood Pressure,Omeprazole
+Zika Virus,Back Pain,Cetirizine
+Multiple Sclerosis,Runny Nose,Ondansetron
+Peptic Ulcer,Swollen Lymph Nodes,Chloroquine
+Peptic Ulcer,Fever,Chloroquine
+Common Cold,Shortness of breath,Levothyroxine
+Glaucoma,Joint Pain,Propranolol
+Osteoporosis,Muscle Weakness,Paracetamol
+Hypertension,Itching,Ibuprofen
+Heart Disease,Sore Throat,Chloroquine
+Hypertension,Nausea,Cetirizine
+Fungal Infection,Red Eyes,Azithromycin
+Pneumonia,Diarrhea,Losartan
+Hepatitis,Red Eyes,Paracetamol
+Chickenpox,High Blood Pressure,Ranitidine
+Migraine,Fatigue,Rifampin
+Influenza,Red Eyes,Topiramate
+Malaria,Chest Pain,Levothyroxine
+Hypertension,Rapid Heartbeat,Budesonide
+Lung Cancer,Fatigue,Ondansetron
+Psoriasis,Skin Rash,Amoxicillin
+Bronchitis,Red Eyes,Chloroquine
+Hepatitis,Red Eyes,Cetirizine
+Tuberculosis,High Blood Pressure,Doxycycline
+Sinusitis,Night Sweats,Ondansetron
+Arthritis,Nausea,Chloroquine
+Psoriasis,Skin Rash,Cetirizine
+Tuberculosis,Dizziness,Loperamide
+Dengue,Chest Pain,Propranolol
+Hypertension,Fatigue,Rifampin
+Heart Disease,Back Pain,Ciprofloxacin
+Psoriasis,Headache,Prednisone
+Chronic Kidney Disease,Back Pain,Doxycycline
+Pneumonia,Cough,Aspirin
+Arthritis,Nausea,Azithromycin
+Psoriasis,Itching,Hydrocortisone
+Osteoporosis,Dizziness,Cetirizine
+Fungal Infection,Fever,Loratadine
+Eczema,Cough,Propranolol
+Multiple Sclerosis,Shortness of breath,Ciprofloxacin
+Migraine,Joint Pain,Amoxicillin
+Ulcerative Colitis,Vomiting,Loratadine
+Migraine,Abdominal Pain,Amoxicillin
+Bronchitis,Numbness,Sildenafil
+Psoriasis,Muscle Weakness,Sildenafil
+Allergy,Diarrhea,Ondansetron
+Multiple Sclerosis,Sore Throat,Omeprazole
+Psoriasis,Back Pain,Hydrocortisone
+Common Cold,Swollen Lymph Nodes,Metformin
+Glaucoma,Headache,Ondansetron
+Eczema,Nausea,Terbinafine
+Fungal Infection,Swollen Lymph Nodes,Loratadine
+Lung Cancer,Rapid Heartbeat,Levothyroxine
+Glaucoma,Vomiting,Adalimumab
+Jaundice,Skin Rash,Levothyroxine
+Fungal Infection,Runny Nose,Rifampin
+Influenza,Night Sweats,Sumatriptan
+Vertigo,Diarrhea,Calamine Lotion
+Whooping Cough,Runny Nose,Prednisone
+Glaucoma,Swelling,Budesonide
+Psoriasis,Skin Rash,Sumatriptan
+Lung Cancer,Weight Loss,Metformin
+Ulcerative Colitis,Night Sweats,Doxycycline
+Eczema,Cough,Ciprofloxacin
+Allergy,Abdominal Pain,Calamine Lotion
+Asthma,Numbness,Sildenafil
+Peptic Ulcer,Itching,Losartan
+Pneumonia,Chest Pain,Sumatriptan
+Migraine,Rapid Heartbeat,Metformin
+Pneumonia,Swollen Lymph Nodes,Loperamide
+Bronchitis,Weight Loss,Levothyroxine
+Sinusitis,Dizziness,Budesonide
+Gastroenteritis,Headache,Ibuprofen
+Dengue,Rapid Heartbeat,Levothyroxine
+Bronchitis,Muscle Weakness,Levothyroxine
+Zika Virus,Ear Pain,Aspirin
+Acne,Itching,Paracetamol
+Jaundice,Headache,Hydrocortisone
+Ulcerative Colitis,Shortness of breath,Hydrocortisone
+Influenza,Back Pain,Ciprofloxacin
+Tuberculosis,Diarrhea,Topiramate
+Acne,Red Eyes,Chloroquine
+Dengue,Rapid Heartbeat,Prednisone
+Hypertension,Back Pain,Azithromycin
+Migraine,Swollen Lymph Nodes,Sildenafil
+Ulcerative Colitis,Loss of Appetite,Glibenclamide
+Typhoid,Red Eyes,Loratadine
+Chickenpox,Fatigue,Ondansetron
+Common Cold,Swollen Lymph Nodes,Terbinafine
+Zika Virus,Red Eyes,Loratadine
+Ulcerative Colitis,Rapid Heartbeat,Rifampin
+Lung Cancer,Joint Pain,Adalimumab
+Gastroenteritis,Headache,Cetirizine
+Heart Disease,Cough,Sildenafil
+Bronchitis,Cough,Loratadine
+Urinary Tract Infection,Vomiting,Aspirin
+Arthritis,Back Pain,Ondansetron
+Ulcerative Colitis,Runny Nose,Rifampin
+Chickenpox,Dizziness,Paracetamol
+Chickenpox,Red Eyes,Azithromycin
+Acne,Skin Rash,Rifampin
+Dengue,Fever,Doxycycline
+Fungal Infection,Muscle Weakness,Ondansetron
+Fungal Infection,Loss of Appetite,Isoniazid
+Epilepsy,Ear Pain,Omeprazole
+Psoriasis,Runny Nose,Sumatriptan
+Bronchitis,High Blood Pressure,Levothyroxine
+Peptic Ulcer,Cough,Ciprofloxacin
+Asthma,Runny Nose,Glibenclamide
+Chronic Kidney Disease,Weight Loss,Ondansetron
+Eczema,Tremors,Chloroquine
+Epilepsy,Weight Loss,Paracetamol
+Sinusitis,Weight Loss,Loperamide
+Psoriasis,Vomiting,Sumatriptan
+Acne,Nausea,Ibuprofen
+Pneumonia,Sore Throat,Sildenafil
+Common Cold,Swelling,Doxycycline
+Arthritis,Sore Throat,Sildenafil
+Pneumonia,Numbness,Aspirin
+Malaria,Abdominal Pain,Loperamide
+Zika Virus,Weight Loss,Ciprofloxacin
+Urinary Tract Infection,Fever,Adalimumab
+Hepatitis,Itching,Budesonide
+Bronchitis,Ear Pain,Loperamide
+Asthma,Nausea,Loperamide
+Arthritis,Swollen Lymph Nodes,Cetirizine
+Multiple Sclerosis,Blurred Vision,Propranolol
+Influenza,Numbness,Isoniazid
+Whooping Cough,Runny Nose,Topiramate
+Jaundice,Diarrhea,Ondansetron
+Tuberculosis,Blurred Vision,Ibuprofen
+Whooping Cough,Runny Nose,Ciprofloxacin
+Allergy,Muscle Weakness,Propranolol
+Gastroenteritis,Diarrhea,Amoxicillin
+Osteoporosis,Loss of Appetite,Terbinafine
+Urinary Tract Infection,Rapid Heartbeat,Omeprazole
+Peptic Ulcer,Abdominal Pain,Terbinafine
+Urinary Tract Infection,Swelling,Ranitidine
+Fungal Infection,Muscle Weakness,Losartan
+Glaucoma,Headache,Losartan
+Whooping Cough,Nausea,Loratadine
+Vertigo,Night Sweats,Ciprofloxacin
+Influenza,Numbness,Rifampin
+Urinary Tract Infection,Skin Rash,Omeprazole
+COVID-19,Dizziness,Sumatriptan
+Pneumonia,Numbness,Budesonide
+Jaundice,Nausea,Loratadine
+Bronchitis,Runny Nose,Paracetamol
+Chronic Kidney Disease,Numbness,Loperamide
+Lung Cancer,Tremors,Omeprazole
+Migraine,Sore Throat,Ciprofloxacin
+Common Cold,Itching,Prednisone
+Urinary Tract Infection,Diarrhea,Metformin
+Tuberculosis,Weight Loss,Loratadine
+Hypertension,Fatigue,Adalimumab
+Migraine,Joint Pain,Doxycycline
+Ulcerative Colitis,Sore Throat,Metformin
+Whooping Cough,Swollen Lymph Nodes,Calamine Lotion
+Heart Disease,Swelling,Terbinafine
+Eczema,Rapid Heartbeat,Terbinafine
+Peptic Ulcer,Abdominal Pain,Ibuprofen
+Sinusitis,Abdominal Pain,Sildenafil
+Arthritis,Itching,Omeprazole
+Tuberculosis,Chest Pain,Omeprazole
+Lung Cancer,Skin Rash,Isoniazid
+Chickenpox,Night Sweats,Omeprazole
+Lung Cancer,Nausea,Topiramate
+Common Cold,Tremors,Prednisone
+Diabetes,Rapid Heartbeat,Omeprazole
+Pneumonia,Swollen Lymph Nodes,Prednisone
+Urinary Tract Infection,Headache,Cetirizine
+Zika Virus,Runny Nose,Ibuprofen
+Bronchitis,Itching,Sildenafil
+Hepatitis,Fever,Chloroquine
+Ulcerative Colitis,Cough,Prednisone
+Acne,Chest Pain,Adalimumab
+Chickenpox,High Blood Pressure,Prednisone
+Heart Disease,Swollen Lymph Nodes,Topiramate
+Malaria,Diarrhea,Ondansetron
+Zika Virus,Diarrhea,Metformin
+Osteoporosis,Blurred Vision,Loratadine
+Glaucoma,Red Eyes,Rifampin
+Vertigo,Swelling,Prednisone
+Migraine,Sore Throat,Loratadine
+Bronchitis,Swollen Lymph Nodes,Cetirizine
+Chickenpox,Ear Pain,Paracetamol
+Heart Disease,Vomiting,Paracetamol
+Multiple Sclerosis,Ear Pain,Glibenclamide
+Hepatitis,Red Eyes,Losartan
+Heart Disease,Rapid Heartbeat,Azithromycin
+Pneumonia,Numbness,Doxycycline
+Acne,Runny Nose,Loratadine
+Influenza,Sore Throat,Ibuprofen
+Tuberculosis,Night Sweats,Ranitidine
+Glaucoma,Vomiting,Levothyroxine
+Tuberculosis,Dizziness,Ondansetron
